@@ -1,0 +1,68 @@
+{
+  "name": "india-reforms",
+  "version": "0.1.0",
+  "description": "The website for the India Reforms.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CSIS-iLab/india-reforms.git"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@threespot/freeze-scroll": "^1.0.3",
+    "antd": "^3.18.1",
+    "isotope-layout": "^3.0.6",
+    "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.0",
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.0.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.1",
+    "smooth-scroll": "^15.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "bundle exec ruby write.rb && react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "cssnano": "^4.1.10",
+    "gray-matter": "^4.0.2",
+    "node-sass": "^4.11.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^2.0.0",
+    "react-app-rewired": "^2.1.1",
+    "sass-loader": "^7.1.0",
+    "stylelint": "^9.6.0",
+    "stylelint-config-sass-guidelines": "^5.3.0",
+    "stylelint-order": "^1.0.0",
+    "stylelint-scss": "^3.3.2",
+    "stylelint-webpack-plugin": "^0.10.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "Firefox ESR",
+    "ie >= 11"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  }
+}

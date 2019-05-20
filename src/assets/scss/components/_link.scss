@@ -1,0 +1,176 @@
+a:not(.ui) {
+  text-decoration: none;
+  background-repeat: repeat-x;
+  background-position: 0 87.5%;
+
+  &:focus {
+    @extend %focus;
+    padding: 0 0.125rem;
+    background-position: 0 87.5%;
+  }
+
+  &.backward {
+    text-transform: uppercase;
+  }
+
+  &.forward {
+    text-transform: uppercase;
+  }
+
+  &.profile {
+    @include breakpoint('large') {
+      @include button-dark;
+      padding: 0.75rem;
+    }
+  }
+
+  &.apply {
+    display: inline-block;
+    min-width: 180px;
+    padding: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    @include button-dark;
+    @include font-size(15px);
+
+    .job-content__body & {
+      margin-bottom: 4.5rem;
+
+      @include breakpoint($break: 'medium', $dir: 'max-width') {
+        display: none;
+      }
+    }
+
+    .job-content__about & {
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  &.large {
+    font-weight: bold;
+    @include breakpoint('medium') {
+      @include font-size(22px);
+    }
+
+    &,
+    &::after,
+    &::before {
+      @include font-size(20px);
+    }
+  }
+
+  &::before,
+  &::after {
+    @extend %icon-pseudo-element;
+  }
+
+  &::after {
+    margin-left: 0.25rem;
+  }
+
+  &::before {
+    margin-right: 0.25rem;
+  }
+
+  main & {
+    // main section:not(#test) & {
+    &:not(.dark) {
+      @extend %link-dark;
+    }
+
+    &.dark:not(.btn) {
+      @extend %link-light;
+    }
+  }
+
+  main & {
+    background-size: 1px 1px;
+
+    &:hover,
+    &:focus {
+      background-size: 1px 0;
+    }
+
+    &[class] {
+      background-size: 1px 0;
+
+      &.external {
+        &:hover,
+        &:focus {
+          background-size: 1px 1px;
+        }
+      }
+    }
+  }
+
+  &.profile::before {
+    content: '\e80d';
+  }
+
+  &.external::after {
+    content: '\e802';
+  }
+
+  &.backward::before {
+    content: '\e805';
+  }
+
+  &.forward::after {
+    content: '\e807';
+  }
+
+  &.menu-item__link {
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    @include font-size(16px);
+    @extend %link-gray;
+
+    @include breakpoint('large', 'max-width') {
+      padding: 1.75rem;
+      border-left: 6px solid transparent;
+
+      &:hover,
+      &:focus {
+        border-left: 6px solid $color__blue;
+      }
+    }
+
+    @include breakpoint('large') {
+      text-align: center;
+    }
+
+    &:not(.profile) {
+      @include breakpoint('large') {
+        padding: 0.25rem 0.5rem;
+      }
+    }
+  }
+}
+
+#about p + div {
+  @include breakpoint('medium') {
+    display: block;
+    text-align: right;
+  }
+}
+
+#listing a:visited {
+  color: $color__blue-medium;
+}
+
+#test {
+  ul,
+  li {
+    margin-top: 0;
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  a.large:visited {
+    color: $color__blue-medium;
+  }
+}

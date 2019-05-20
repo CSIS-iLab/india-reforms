@@ -1,0 +1,45 @@
+input[type='submit'],
+button {
+  padding: 0;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  // @include font-size(15px);
+
+  &:focus {
+    @extend %focus;
+  }
+
+  &.block {
+    display: block;
+  }
+
+  &.clear-all {
+    @extend %link-gray;
+    font-weight: bold;
+  }
+
+  &::before,
+  &::after {
+    @extend %icon-pseudo-element;
+  }
+
+  &::after {
+    margin-left: 0.25rem;
+  }
+
+  &::before {
+    margin-right: 0.25rem;
+  }
+
+  &.btn {
+    &.dark {
+      @include button-dark;
+    }
+
+    &.light {
+      @include button-light;
+    }
+  }
+}

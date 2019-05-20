@@ -1,0 +1,242 @@
+// Rem output with px fallback
+@mixin font-size($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculate-rem($size);
+}
+
+@mixin button-dark {
+  #filters & {
+    // margin: 0 0.2rem;
+    padding: 0.78571429em 1.5em;
+  }
+  color: $color__white;
+  background-color: $color__blue;
+  border-radius: 3px;
+
+  &:hover,
+  &:focus {
+    color: $color__white;
+    background-color: $color__blue-dark;
+  }
+}
+
+@mixin button-light {
+  #filters & {
+    // margin: 0 0.2rem;
+    padding: 0.78571429em 1.5em;
+  }
+  color: $color__black;
+  font-weight: bold;
+  background-color: $color__blue-light;
+  border-radius: 3px;
+
+  &:hover,
+  &:focus {
+    @extend %link-gray;
+    background-color: $color__white;
+  }
+}
+
+@mixin grid-gap {
+  @each $size in $sizes__desktop {
+    @include breakpoint($size) {
+      $gap: return-map-value($size__grid-gap, $size);
+      grid-column-gap: $gap;
+    }
+  }
+}
+// Center block
+@mixin center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+  content: '';
+  display: table;
+  table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+  clear: both;
+}
+
+// Breakpoints
+// Breakpoints
+// $break: Breakpoint to use
+// $dir: 'min-width' or 'max-width'
+// $until: Maximum width
+// @include breakpoint('medium');
+// @include breakpoint($break: 'medium', $until: 'large');
+// @include breakpoint($break: 'medium', $dir: 'max-width');
+@mixin breakpoint(
+  $break,
+  $dir: 'min-width',
+  $until: null,
+  $breakpoints-map: $breakpoints
+) {
+  @if not map-has-key($breakpoints-map, $break) {
+    $break: $break;
+  } @else {
+    $break: map-get($breakpoints-map, $break);
+  }
+
+  @if $break and $until {
+    @if not map-has-key($breakpoints-map, $until) {
+      $until: $until;
+    } @else {
+      $until: map-get($breakpoints-map, $until);
+    }
+
+    @media screen and (min-width: $break) and (max-width: $until) {
+      @content;
+    }
+  } @else {
+    @media screen and ($dir: $break) {
+      @content;
+    }
+  }
+}
+
+// Box Shadow
+/* @include box-shadow(1px,1px,1px,0, #fff, true); */
+
+@mixin box-shadow($top, $left, $blur, $size, $color, $inset: false) {
+  @if $inset {
+    box-shadow: inset $top $left $blur $size $color;
+  } @else {
+    box-shadow: $top $left $blur $size $color;
+  }
+}
+
+// Extend Background to full width of window
+@mixin full-width-background(
+  $background,
+  $direction: '',
+  $excludeMargin: false
+) {
+  $width_forumula: calc((100vw - 100%) / 2);
+  position: relative;
+
+  @if $excludeMargin != true {
+    margin: 0 auto;
+  }
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    display: block;
+    width: $width_forumula;
+    height: 100%;
+    background-color: $background;
+    content: '';
+  }
+
+  &::before {
+    right: 100%;
+  }
+
+  &::after {
+    left: 100%;
+  }
+
+  @if $direction == left {
+    // &::before {
+    //   width: calc(#{$width_forumula} - 50%);
+    // }
+
+    &::after {
+      display: none;
+    }
+  } @else if $direction == right {
+    // &::after {
+    //   width: calc(#{$width_forumula} - 50%);
+    // }
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+// Returns a property: value pair for each breakpoint
+/* @include structure($size__container-max-width, 'max-width'); */
+@mixin structure($map, $property, $sizes: $sizes__default) {
+  @each $size in $sizes {
+    $value: return-map-value($map, $size);
+    @if $size == 'small' {
+      @include structure-property($property, $value);
+    } @else {
+      @include breakpoint($size) {
+        @include structure-property($property, $value);
+      }
+    }
+  }
+}
+
+// Used exclusively by the structure mixin to return property-left/property-right/property depending on the type of property.
+@mixin structure-property($property, $value) {
+  @if $property == 'padding' or $property == 'margin' {
+    $right: nth($value, 1);
+    $left: nth($value, 1);
+    @if length($value) == 2 {
+      $left: nth($value, 2);
+    }
+    #{$property}-right: $right;
+    #{$property}-left: $left;
+  } @else {
+    #{$property}: $value;
+  }
+}
+
+@mixin site-header-white() {
+  background-color: $color__white;
+  background-image: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 1px -1px rgba(0, 0, 0, 0.12),
+    0 1px 1px 0 rgba(0, 0, 0, 0.14);
+}
+
+//- Mixin: Fluid Type
+///
+/// Magic calc + vh to allow text to be fluid between minimum
+/// and maximum breakpoints.
+///
+/// @group typography
+/// @param {variable} $min-font-size [12px] - Minimum font size
+/// @param {variable} $max-font-size [24px] - Maximum font size
+/// @param {variable} $lower-range [420px] - Stop scaling font smaller at this screen resolution
+/// @param {variable} $upper-range [900px] - Stop scaling font larger at this screen resolution
+/// @example
+///   h1 {
+///     @include responsive-type(20px, 48px);
+///   }
+/// @site https://madebymike.com.au/writing/precise-control-responsive-typography/
+
+@mixin fluid-type(
+  $min-font-size: 12px,
+  $max-font-size: 21px,
+  $lower-range: 420px,
+  $upper-range: 900px
+) {
+  font-size: calc(
+    #{$min-font-size} + #{(
+      ($max-font-size / ($max-font-size * 0 + 1)) -
+      ($min-font-size / ($min-font-size * 0 + 1))
+    )} * ((100vw - #{$lower-range}) / #{(
+      ($upper-range / ($upper-range * 0 + 1)) -
+      ($lower-range / ($lower-range * 0 + 1))
+    )})
+  );
+
+  @media screen and (max-width: $lower-range) {
+    @include font-size($min-font-size);
+  }
+  @media screen and (min-width: $upper-range) {
+    @include font-size($max-font-size);
+  }
+}

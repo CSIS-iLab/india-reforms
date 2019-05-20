@@ -1,0 +1,55 @@
+.job {
+  &__location {
+    @include font-size(16px);
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  &-meta {
+    @include font-size(16px);
+    display: inline-grid;
+    grid-column-gap: 24px;
+    grid-template-columns: 1fr;
+    line-height: 1.5;
+
+    @include breakpoint($break: 'medium', $until: 'large') {
+      grid-template-columns: auto auto;
+      grid-template-rows: 1fr auto;
+    }
+
+    @include breakpoint('large') {
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 1fr auto;
+    }
+
+    &__label {
+      font-weight: bold;
+    }
+  }
+}
+
+.job__details {
+  display: flex;
+  flex-wrap: wrap;
+  white-space: nowrap;
+
+  @include breakpoint('xlarge') {
+    flex-wrap: nowrap;
+  }
+
+  > *:last-child {
+    @include breakpoint($break: 'large', $until: 'xlarge') {
+      flex-basis: 100%;
+    }
+
+    @include breakpoint('xlarge') {
+      flex-basis: auto;
+    }
+  }
+
+  .job-header & {
+    @include breakpoint('xlarge') {
+      justify-content: space-between;
+    }
+  }
+}

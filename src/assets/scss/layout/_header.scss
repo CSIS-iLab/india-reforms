@@ -1,0 +1,45 @@
+.site-header {
+  position: relative;
+  width: 100vw;
+  background-color: $color__gray-lighter;
+  border-bottom: 2px solid $color__gray-darker;
+  transition: all 0.2s ease-in-out;
+  @each $size in $sizes__default {
+    @include breakpoint($size) {
+      $height: return-map-value($size__header-height, $size);
+      height: $height;
+    }
+  }
+
+  &--hidden {
+    opacity: 0;
+  }
+
+  &--minimal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .site-logo {
+    display: inline-block;
+    min-width: 50%;
+    margin: auto;
+    padding: 0 0.125rem;
+    line-height: 0;
+
+    &:not(:focus) {
+      outline: 2px solid transparent;
+    }
+
+    &__icon {
+      max-height: 2rem;
+
+      @include breakpoint('large') {
+        max-height: 50px;
+      }
+    }
+  }
+}

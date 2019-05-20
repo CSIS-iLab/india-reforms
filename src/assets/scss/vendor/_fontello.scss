@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'careerportal';
+  font-weight: normal;
+  font-style: normal;
+  src: url('#{$font__fontello_url}careerportal.eot?98056089');
+  src: url('#{$font__fontello_url}careerportal.eot?98056089#iefix')
+    format('embedded-opentype'),
+    url('#{$font__fontello_url}careerportal.woff2?98056089') format('woff2'),
+    url('#{$font__fontello_url}careerportal.woff?98056089') format('woff'),
+    url('#{$font__fontello_url}careerportal.ttf?98056089') format('truetype'),
+    url('#{$font__fontello_url}careerportal.svg?98056089#careerportal')
+    format('svg');
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'careerportal';
+    src: url('#{$font__fontello_url}careerportal.svg?98056089#careerportal') format('svg');
+  }
+}
+*/
+[class^='icon-']::before,
+[class*=' icon-']::before {
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.2em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em;
+  font-family: 'careerportal';
+  font-weight: normal;
+  font-style: normal;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  text-align: center;
+  text-transform: none;
+  text-decoration: inherit;
+  speak: none;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-clear::before {
+  content: '\e800';
+} /* '' */
+.icon-close::before {
+  content: '\e801';
+} /* '' */
+.icon-link-external::before {
+  content: '\e802';
+} /* '' */
+.icon-share::before {
+  content: '\e803';
+} /* '' */
+.icon-email::before {
+  content: '\e804';
+} /* '' */
+.icon-arrow-back::before {
+  content: '\e805';
+} /* '' */
+.icon-search::before {
+  content: '\e806';
+} /* '' */
+.icon-arrow-forward::before {
+  content: '\e807';
+} /* '' */
+.icon-instagram::before {
+  content: '\e808';
+} /* '' */
+.icon-linkedin::before {
+  content: '\e809';
+} /* '' */
+.icon-youtube::before {
+  content: '\e80a';
+} /* '' */
+.icon-twitter::before {
+  content: '\e80b';
+} /* '' */
+.icon-facebook::before {
+  content: '\e80c';
+} /* '' */
+.icon-profile-avatar::before {
+  content: '\e80d';
+} /* '' */
+.icon-printer::before {
+  content: '\e80e';
+} /* '' */
+.icon-copy-link::before {
+  content: '\e80f';
+} /* '' */
+.icon-back-to-top::before {
+  content: '\e810';
+} /* '' */
+.icon-arrow-down::before {
+  content: '\e811';
+} /* '' */
+.icon-checkbox-checked::before {
+  content: '\e812';
+} /* '' */
+.icon-checkbox-base::before {
+  content: '\e813';
+} /* '' */

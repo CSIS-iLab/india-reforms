@@ -1,0 +1,122 @@
+/*====================================
+=            Placeholders            =
+====================================*/
+
+%filters-label {
+  @include font-size(16px);
+  color: $color__gray-darker;
+}
+
+%figcaption {
+  color: $color__gray-darker;
+  font-family: $font__sans-serif;
+  @include font-size(16px);
+  line-height: 1.25;
+}
+
+%focus {
+  outline: 2px solid $color__blue-soft;
+}
+
+%link-gray {
+  color: $color__gray-darker;
+
+  &:hover,
+  &:focus {
+    color: $color__black;
+  }
+}
+
+%link-light {
+  color: $color__blue-light;
+
+  background-image: linear-gradient(
+    to bottom,
+    $color__blue-light 0,
+    $color__blue-light 100%
+  );
+
+  &::before,
+  &::after {
+    color: $color__blue-light;
+  }
+
+  &:hover,
+  &:focus {
+    color: $color__white;
+
+    &::before,
+    &::after {
+      color: $color__white;
+    }
+  }
+}
+
+%link-dark {
+  color: $color__blue;
+
+  background-image: linear-gradient(
+    to bottom,
+    $color__blue 0,
+    $color__blue 100%
+  );
+
+  &:hover,
+  &:focus {
+    color: $color__blue-dark;
+
+    &::before,
+    &::after {
+      color: $color__blue-dark;
+    }
+  }
+
+  &::before,
+  &::after {
+    color: $color__blue;
+  }
+}
+
+%icon-pseudo-element {
+  position: relative;
+  top: -0.05rem;
+  display: inline-block;
+  font-family: $font__fontello;
+  font-weight: normal;
+  line-height: 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  @include font-size(14px);
+}
+
+%mobile-margin {
+  @for $i from 1 through length($sizes__mobile) {
+    $size_name: nth($sizes__mobile, $i);
+
+    $size_index: index($sizes__default, $size_name);
+
+    $size: nth($sizes__default, $size_index - 1);
+    $size_up: nth($sizes__default, $size_index);
+
+    $margin: return-map-value($size__container-padding, $size) * -1;
+
+    @include breakpoint(
+      $break: return-map-value($breakpoints, $size),
+      $until: return-map-value($breakpoints, $size_up)
+    ) {
+      margin-right: $margin;
+      margin-left: $margin;
+    }
+  }
+}
+
+%negative-margin {
+  @each $size in $sizes__default {
+    @include breakpoint($size) {
+      $margin: return-map-value($size__container-padding, $size) * -1;
+      margin: 0 $margin;
+    }
+  }
+}

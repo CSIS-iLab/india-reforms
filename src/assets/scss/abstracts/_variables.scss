@@ -1,0 +1,86 @@
+@import url('https://use.typekit.net/zyg0duc.css');
+
+/*=================================
+=            Variables            =
+=================================*/
+
+/*----------  Colors  ----------*/
+
+$color__test: #f5a623;
+
+$color__blue-light: #d4efff;
+$color__blue-soft: #54b7f4;
+$color__blue-medium: #4793c2;
+$color__blue: #0065a4;
+$color__blue-dark: #00497a;
+$color__white: #fff;
+$color__gray-lighter: #f3f3f3;
+$color__gray-light: #eaeaea;
+$color__gray: #d3d3d3; //CCC
+$color__gray-dark: #999;
+$color__gray-darker: #666; //#bebebe
+$color__gray-medium: #444;
+$color__black: #000;
+
+$color__text-screen: $color__black;
+$color__text-input: $color__black;
+$color__text-input-focus: $color__black;
+$color__link: $color__black;
+$color__link-visited: $color__black;
+$color__link-hover: $color__black;
+$color__text-main: $color__black;
+
+$color__border-input: $color__black;
+
+/*----------  Typography  ----------*/
+
+$font__serif: expo-serif-pro, 'Palatino Linotype', Georgia, serif;
+$font__sans-serif: Source-sans-pro, Helvetica, Arial, sans-serif;
+$font__fontello: 'careerportal';
+$font__fontello_url: '../fonts/';
+
+$font__line-height-body: 1.56;
+
+/*----------  Structure  ----------*/
+
+$sizes__default: ('small', 'medium', 'large', 'xlarge');
+
+$sizes__mobile: ('medium', 'large');
+$sizes__desktop: ('large', 'xlarge');
+
+$breakpoints: (
+  'small': 0,
+  'medium': 48em,
+  'large': 63em,
+  'xlarge': 90em
+);
+
+$size__container-padding: (
+  'small': 20px,
+  'medium': 4vw,
+  'large': 4vw,
+  'xlarge': 4vw
+);
+
+$size__post-body-max-width: 700px;
+
+$size__header-height: (
+  'small': 48px,
+  'medium': 48px,
+  'large': 94px,
+  'xlarge': 94px
+);
+
+$size__grid-gap: (
+  'small': 0,
+  'medium': 24px,
+  'large': 48px,
+  'xlarge': 72px
+);
+
+$size__footer-padding-top: (
+  'small': 32px,
+  'medium': 40px,
+  'large': 48px,
+  'xlarge': 72px
+);

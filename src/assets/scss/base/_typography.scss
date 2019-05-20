@@ -1,0 +1,122 @@
+// html {
+// }
+
+body,
+button,
+input,
+select,
+textarea {
+  color: $color__gray-medium;
+  font-family: $font__sans-serif;
+}
+
+/*================================
+=            Headings            =
+================================*/
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    margin: 0 0 0.5rem;
+    color: $color__black;
+    font-family: $font__sans-serif;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+h1 {
+  line-height: 1.06;
+  @include fluid-type(36px, 53px);
+}
+
+h2 {
+  @include fluid-type(32px, 35.2px);
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  @include fluid-type(24px, 26px);
+}
+
+h4 {
+  @include fluid-type(20px, 22px);
+}
+
+h5,
+.ui.label {
+  @include fluid-type(16px, 18px);
+}
+/*============================
+=            Copy            =
+============================*/
+
+p {
+  section & {
+    @include font-size(18px);
+    margin: 0.25rem 0 1rem;
+    line-height: $font__line-height-body;
+  }
+
+  .header__intro & {
+    @include fluid-type(18px, 20px);
+    margin-bottom: 2rem;
+    font-family: $font__serif;
+  }
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 1rem;
+  // list-style-type: none;
+
+  section & {
+    @include font-size(18px);
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  .cantilever &,
+  .column & {
+    padding-left: 2rem;
+    list-style-type: disc;
+
+    li {
+      padding-left: 1rem;
+      line-height: 1.33;
+    }
+  }
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0 0 0.5rem;
+
+  &,
+  p {
+    color: $color__black;
+    font-family: $font__serif;
+    line-height: 1.5;
+    @include font-size(20px);
+
+    cite {
+      color: $color__gray_darker;
+      font-family: $font__sans-serif;
+      font-style: normal;
+      @include font-size(16px);
+    }
+  }
+}
+
+address {
+  margin: 0 0 0.75rem;
+  font-style: normal;
+}

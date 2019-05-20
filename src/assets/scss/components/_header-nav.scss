@@ -1,0 +1,114 @@
+.site-header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+  &-trigger {
+    position: relative;
+    display: block;
+    width: 24px;
+    height: 24px;
+    padding: 0.125rem;
+
+    @include breakpoint('large') {
+      display: none;
+    }
+
+    .site-header--hidden & {
+      display: none;
+    }
+
+    .line {
+      position: absolute;
+      left: 50%;
+      display: block;
+      width: 100%;
+      max-width: 18px;
+      height: 2px;
+      background: $color__black;
+      border-radius: 9px;
+      transform: translateX(-50%) rotate(0deg);
+      transform-origin: -5%;
+      transition: 0.25s ease-in-out;
+
+      &:nth-child(1) {
+        top: 15%;
+      }
+
+      &:nth-child(2) {
+        top: 45%;
+      }
+
+      &:nth-child(3) {
+        top: 75%;
+      }
+    }
+
+    &:hover .line,
+    &:focus .line {
+      background-color: $color__blue-medium;
+    }
+
+    &.is-active .line {
+      &:nth-child(2) {
+        top: 50%;
+        left: 25%;
+        width: 0%;
+      }
+
+      &:nth-child(1) {
+        transform: translateX(-33%) rotate(45deg);
+      }
+
+      &:nth-child(3) {
+        transform: translateX(-33%) rotate(-45deg);
+      }
+    }
+
+    &.is-active:hover .line {
+      background-color: $color__blue-medium;
+    }
+  }
+
+  &-menu {
+    margin: 0;
+    padding: 0;
+    transition: transform 0.5s linear, opacity 0s linear 0.3s;
+
+    @include breakpoint('large', 'max-width') {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: -1;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background-color: $color__white;
+      transform: translateY(-150%);
+      opacity: 0;
+    }
+
+    @include breakpoint('large') {
+      display: grid;
+      grid-column-gap: 2.5rem;
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: 1fr;
+    }
+
+    &.is-active {
+      transform: translateY(2px);
+      opacity: 1;
+    }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0;
+
+      @include breakpoint('large', 'max-width') {
+        border-bottom: 1px solid $color__gray-darker;
+      }
+    }
+  }
+}

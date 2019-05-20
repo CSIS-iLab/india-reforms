@@ -1,0 +1,45 @@
+.js-transition--slide {
+  &.js-transition--slide-root {
+    transform: translateX(50px);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* easeOutQuad */
+
+    &.js-transition--active {
+      transform: none;
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  &.js-transition--slide-child {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* easeOutQuad */
+
+    > * {
+      transform: translateX(50px);
+      transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* easeOutQuad */
+
+      &.post-block__header {
+        transition-delay: 0.15s;
+        transition-duration: 0.8s;
+      }
+      
+      &.post-block__content,
+      &.post-block__footer {
+        transition-delay: 0.3s;
+        transition-duration: 0.8s;
+      }
+    }
+
+    &.js-transition--active {
+      visibility: visible;
+      opacity: 1;
+
+      > * {
+        transform: none;
+      }
+    }
+  }
+}
