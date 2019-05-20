@@ -7,7 +7,6 @@ sections:
 - type: document
   path: public/reforms.json
   label: REFORM DATA
-  match: "**/*"
 upload_dir: src/forestry/uploads
 public_path: "/uploads"
 front_matter_path: ''
