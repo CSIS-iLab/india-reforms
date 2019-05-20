@@ -1,7 +1,6 @@
 [
   {
     "name": "Fake Simplify GST rates to two rates Fake",
-    "key": 0,
     "steps": {
       "not_started": "There are currently five rates under the Goods and Services Tax",
       "incomplete": "* Reduced to 4 rates\n* Reduced to 3 rates\n",
@@ -19,7 +18,6 @@
   },
   {
     "name": "Fake Allow more than 50% foreign investment in insurance",
-    "key": 1,
     "steps": {
       "not_started": "Only 49% foreign investment is currently allowed, with minority ownership for the foreign firm",
       "incomplete": "If amendments to Insurance Act are passed by Parliament that more than 50%, but minority ownership regulations are not lifted",
@@ -37,7 +35,6 @@
   },
   {
     "name": "Fake Institute a Mandatory 30-day \"Notice and Comment\" period for proposed regulations",
-    "key": 2,
     "steps": {
       "not_started": "Regulations are implemented without a 30-day notice and comment period",
       "incomplete": "Ministry of Law and Justice or Cabinet issues note calling on government agencies to honor a 30-day notification period",
@@ -55,7 +52,6 @@
   },
   {
     "name": "Fake Create a bankruptcy resolution process for financial firms",
-    "key": 3,
     "steps": {
       "not_started": "Financial institutions have been kept out of the Insolvency and Bankruptcy Code's purview",
       "incomplete": "5/20/2019: A financial resolution bill is approved by Parliament, but underlying regulations are not issued or contain critical weaknesses",
@@ -73,7 +69,6 @@
   },
   {
     "name": "Fake Stop forcing banks to lend to \"priority sectors\"",
-    "key": 4,
     "steps": {
       "not_started": "The Reserve Bank of India currently forces bank to allocate 40% of their credit to priority sectors",
       "incomplete": "5/15/2020: The RBI reduces the stipulation to below 40%, but stops short of abolishing the practice entirely, or allows more flexibility in the discharge of these obligations",
@@ -90,7 +85,6 @@
   },
   {
     "name": "Simplify GST rates to two rates ",
-    "key": 5,
     "steps": {
       "not_started": "There are currently five rates under the Goods and Services Tax",
       "incomplete": "* Reduced to 4 rates\n* Reduced to 3 rates\n",
@@ -107,7 +101,6 @@
   },
   {
     "name": "Allow more than 50% foreign investment in insurance",
-    "key": 6,
     "steps": {
       "not_started": "Only 49% foreign investment is currently allowed, with minority ownership for the foreign firm",
       "incomplete": "If amendments to Insurance Act are passed by Parliament that more than 50%, but minority ownership regulations are not lifted",
@@ -124,7 +117,6 @@
   },
   {
     "name": "Institute a Mandatory 30-day \"Notice and Comment\" period for proposed regulations",
-    "key": 7,
     "steps": {
       "not_started": "Regulations are implemented without a 30-day notice and comment period",
       "incomplete": "Ministry of Law and Justice or Cabinet issues note calling on government agencies to honor a 30-day notification period",
@@ -141,7 +133,6 @@
   },
   {
     "name": "Create a bankruptcy resolution process for financial firms",
-    "key": 8,
     "steps": {
       "not_started": "Financial institutions have been kept out of the Insolvency and Bankruptcy Code's purview",
       "incomplete": "A financial resolution bill is approved by Parliament, but underlying regulations are not issued or contain critical weaknesses",
@@ -158,7 +149,6 @@
   },
   {
     "name": "Stop forcing banks to lend to \"priority sectors\"",
-    "key": 9,
     "steps": {
       "not_started": "The Reserve Bank of India currently forces bank to allocate 40% of their credit to priority sectors",
       "incomplete": "The RBI reduces the stipulation to below 40%, but stops short of abolishing the practice entirely, or allows more flexibility in the discharge of these obligations",

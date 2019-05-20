@@ -155,7 +155,7 @@ class Page extends React.Component {
     setTimeout(
       () =>
         this.state.cards.arrange({
-          filter: card => card.dataset.key === value
+          filter: card => card.dataset.name === value
         }),
       100
     )
@@ -180,8 +180,8 @@ class Page extends React.Component {
               selection
               options={sheetData.map(r => {
                 return {
-                  key: r.key,
-                  value: r.key.toString(),
+                  key: r.name,
+                  value: r.name.toString(),
                   text: r.name
                 }
               })}
@@ -255,44 +255,44 @@ class Page extends React.Component {
               : { boxShadow: 'none', border: 0 }
           }
         >
-        {window.innerWidth > 1080 ? (
-           <Rail
-             style={window.innerWidth > 1080 ? { width: "250px" } : ""}
-             dividing
-             position="left"
-           >
-             <div
-               style={{
-                 position: "sticky",
-                 top: 12
-               }}
-             >
-               {Controls()}
-             </div>
-           </Rail>
-         ) : (
-           <div
-             style={{
-               position: "sticky",
-               top: 0,
-               zIndex: 1,
-               backgroundColor: "white",
-               margin: "0 -20px",
-               padding: "1rem",
-               boxShadow: "0 46px 53px -34px rgba(0, 0, 0, 0.18)"
-             }}
-           >
-             {Controls()}
-           </div>
-         )}
+          {window.innerWidth > 1080 ? (
+            <Rail
+              style={window.innerWidth > 1080 ? { width: '250px' } : ''}
+              dividing
+              position="left"
+            >
+              <div
+                style={{
+                  position: 'sticky',
+                  top: 12
+                }}
+              >
+                {Controls()}
+              </div>
+            </Rail>
+          ) : (
+            <div
+              style={{
+                position: 'sticky',
+                top: 0,
+                zIndex: 1,
+                backgroundColor: 'white',
+                margin: '0 -20px',
+                padding: '1rem',
+                boxShadow: '0 46px 53px -34px rgba(0, 0, 0, 0.18)'
+              }}
+            >
+              {Controls()}
+            </div>
+          )}
 
           <section id="cards" attached="bottom">
             {sheetData && sheetData.length
               ? sheetData.map(d => (
                   <Card
                     raised
-                    key={d.key}
-                    data-key={d.key}
+                    key={d.name}
+                    data-key={d.name}
                     data-sectors={d.sectors}
                     data-name={d.name}
                     data-status={d.status}
