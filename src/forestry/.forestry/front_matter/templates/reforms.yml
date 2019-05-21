@@ -13,30 +13,48 @@ fields:
     name: steps
     label: steps
     fields:
-    - type: text
+    - type: textarea
       name: not_started
       label: not_started
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
     - type: text
+      name: not_started_link
+      label: not_started_link
+    - type: textarea
       name: incomplete
       label: incomplete
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
     - type: text
+      name: incomplete_link
+      label: incomplete_link
+    - type: textarea
       name: completed
       label: completed
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+    - type: text
+      name: completed_link
+      label: completed_link
   - type: text
     name: status
     label: status
   - type: text
     name: difficulty
     label: difficulty
-  - type: text
-    name: not_started_link
-    label: not_started_link
-  - type: text
-    name: incomplete_link
-    label: incomplete_link
-  - type: text
-    name: completed_link
-    label: completed_link
   - type: list
     name: sectors
     label: sectors

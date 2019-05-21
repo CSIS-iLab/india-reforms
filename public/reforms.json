@@ -3,14 +3,14 @@
     "name": "",
     "steps": {
       "not_started": "",
+      "not_started_link": "",
       "incomplete": "",
-      "completed": ""
+      "incomplete_link": "",
+      "completed": "",
+      "completed_link": ""
     },
     "status": "",
     "difficulty": "",
-    "not_started_link": "",
-    "incomplete_link": "",
-    "completed_link": "",
     "sectors": [
 
     ],
@@ -20,14 +20,14 @@
     "name": "Fake Simplify GST rates to two rates Fake",
     "steps": {
       "not_started": "There are currently five rates under the Goods and Services Tax",
+      "not_started_link": "",
       "incomplete": "* Reduced to 4 rates\n* Reduced to 3 rates\n",
-      "completed": "Reduced to 2 rates"
+      "incomplete_link": "",
+      "completed": "Reduced to 2 rates",
+      "completed_link": ""
     },
     "status": "not_started",
     "difficulty": "high",
-    "not_started_link": "",
-    "incomplete_link": "",
-    "completed_link": "",
     "sectors": [
       "agriculture",
       "defense"
@@ -38,14 +38,14 @@
     "name": "Fake Allow more than 50% foreign investment in insurance",
     "steps": {
       "not_started": "Only 49% foreign investment is currently allowed, with minority ownership for the foreign firm",
+      "not_started_link": "",
       "incomplete": "If amendments to Insurance Act are passed by Parliament that more than 50%, but minority ownership regulations are not lifted",
-      "completed": "Amendments to Insurance Act passed by Parliament allowing majority foreign ownership without management and control restrictions"
+      "incomplete_link": "",
+      "completed": "Amendments to Insurance Act passed by Parliament allowing majority foreign ownership without management and control restrictions",
+      "completed_link": ""
     },
     "status": "not_started",
     "difficulty": "high",
-    "not_started_link": "",
-    "incomplete_link": "",
-    "completed_link": "",
     "sectors": [
       "defense",
       "energy"
@@ -56,14 +56,14 @@
     "name": "Fake Institute a Mandatory 30-day \"Notice and Comment\" period for proposed regulations",
     "steps": {
       "not_started": "Regulations are implemented without a 30-day notice and comment period",
+      "not_started_link": "",
       "incomplete": "Ministry of Law and Justice or Cabinet issues note calling on government agencies to honor a 30-day notification period",
-      "completed": "Parliament passes statutes amending the laws governing India’s financial regulators, mandating a 30-day notice and comment period for proposed regulation"
+      "incomplete_link": "",
+      "completed": "Parliament passes statutes amending the laws governing India’s financial regulators, mandating a 30-day notice and comment period for proposed regulation",
+      "completed_link": ""
     },
     "status": "not_started",
     "difficulty": "medium",
-    "not_started_link": "",
-    "incomplete_link": "",
-    "completed_link": "",
     "sectors": [
       "energy",
       "retail"
@@ -74,14 +74,14 @@
     "name": "Fake Create a bankruptcy resolution process for financial firms",
     "steps": {
       "not_started": "Financial institutions have been kept out of the Insolvency and Bankruptcy Code's purview",
+      "not_started_link": "",
       "incomplete": "5/20/2019: A financial resolution bill is approved by Parliament, but underlying regulations are not issued or contain critical weaknesses",
-      "completed": "5/5/2020: The law is passed in Parliament and signed into law by the President of India, and related regulations are issued5"
+      "incomplete_link": "http://google.com",
+      "completed": "5/5/2020: The law is passed in Parliament and signed into law by the President of India, and related regulations are issued5",
+      "completed_link": "htp://google.com",
     },
     "status": "completed",
     "difficulty": "medium",
-    "not_started_link": "",
-    "incomplete_link": "http://google.com",
-    "completed_link": "http://google.com",
     "sectors": [
       "retail",
       "services"
@@ -92,14 +92,14 @@
     "name": "Fake Stop forcing banks to lend to \"priority sectors\"",
     "steps": {
       "not_started": "The Reserve Bank of India currently forces bank to allocate 40% of their credit to priority sectors",
+      "not_started_link": "",
       "incomplete": "5/15/2020: The RBI reduces the stipulation to below 40%, but stops short of abolishing the practice entirely, or allows more flexibility in the discharge of these obligations",
-      "completed": "The RBI removes its stipulation that banks should allocate a certain percentage to priority sectors."
+      "incomplete_link": "",
+      "completed": "The RBI removes its stipulation that banks should allocate a certain percentage to priority sectors.",
+      "completed_link": "htp://google.com",
     },
     "status": "incomplete",
     "difficulty": "high",
-    "not_started_link": "",
-    "incomplete_link": "",
-    "completed_link": "http://google.com",
     "sectors": [
       "services"
     ],
@@ -109,14 +109,14 @@
     "name": "Simplify GST rates to two rates ",
     "steps": {
       "not_started": "There are currently five rates under the Goods and Services Tax",
+      "not_started_link": "",
       "incomplete": "* Reduced to 4 rates\n* Reduced to 3 rates\n",
-      "completed": "Reduced to 2 rates"
+      "incomplete_link": "",
+      "completed": "Reduced to 2 rates",
+      "completed_link": ""
     },
     "status": "not_started",
     "difficulty": "high",
-    "not_started_link": "",
-    "incomplete_link": "",
-    "completed_link": "",
     "sectors": [
 
     ],
@@ -126,14 +126,14 @@
     "name": "Allow more than 50% foreign investment in insurance",
     "steps": {
       "not_started": "Only 49% foreign investment is currently allowed, with minority ownership for the foreign firm",
+      "not_started_link": "",
       "incomplete": "If amendments to Insurance Act are passed by Parliament that more than 50%, but minority ownership regulations are not lifted",
-      "completed": "Amendments to Insurance Act passed by Parliament allowing majority foreign ownership without management and control restrictions"
+      "incomplete_link": "",
+      "completed": "Amendments to Insurance Act passed by Parliament allowing majority foreign ownership without management and control restrictions",
+      "completed_link": ""
     },
     "status": "not_started",
     "difficulty": "high",
-    "not_started_link": "",
-    "incomplete_link": "",
-    "completed_link": "",
     "sectors": [
 
     ],
@@ -143,14 +143,14 @@
     "name": "Institute a Mandatory 30-day \"Notice and Comment\" period for proposed regulations",
     "steps": {
       "not_started": "Regulations are implemented without a 30-day notice and comment period",
+      "not_started_link": "",
       "incomplete": "Ministry of Law and Justice or Cabinet issues note calling on government agencies to honor a 30-day notification period",
-      "completed": "Parliament passes statutes amending the laws governing India’s financial regulators, mandating a 30-day notice and comment period for proposed regulation"
+      "incomplete_link": "",
+      "completed": "Parliament passes statutes amending the laws governing India’s financial regulators, mandating a 30-day notice and comment period for proposed regulation",
+      "completed_link": ""
     },
     "status": "not_started",
     "difficulty": "medium",
-    "not_started_link": "",
-    "incomplete_link": "",
-    "completed_link": "",
     "sectors": [
 
     ],
@@ -160,14 +160,14 @@
     "name": "Create a bankruptcy resolution process for financial firms",
     "steps": {
       "not_started": "Financial institutions have been kept out of the Insolvency and Bankruptcy Code's purview",
+      "not_started_link": "",
       "incomplete": "A financial resolution bill is approved by Parliament, but underlying regulations are not issued or contain critical weaknesses",
-      "completed": "The law is passed in Parliament and signed into law by the President of India, and related regulations are issued"
+      "incomplete_link": "",
+      "completed": "The law is passed in Parliament and signed into law by the President of India, and related regulations are issued",
+      "completed_link": ""
     },
     "status": "not_started",
     "difficulty": "medium",
-    "not_started_link": "",
-    "incomplete_link": "",
-    "completed_link": "",
     "sectors": [
 
     ],
@@ -177,14 +177,14 @@
     "name": "Stop forcing banks to lend to \"priority sectors\"",
     "steps": {
       "not_started": "The Reserve Bank of India currently forces bank to allocate 40% of their credit to priority sectors",
+      "not_started_link": "",
       "incomplete": "The RBI reduces the stipulation to below 40%, but stops short of abolishing the practice entirely, or allows more flexibility in the discharge of these obligations",
-      "completed": "The RBI removes its stipulation that banks should allocate a certain percentage to priority sectors."
+      "incomplete_link": "",
+      "completed": "The RBI removes its stipulation that banks should allocate a certain percentage to priority sectors.",
+      "completed_link": ""
     },
     "status": "not_started",
     "difficulty": "high",
-    "not_started_link": "",
-    "incomplete_link": "",
-    "completed_link": "",
     "sectors": [
 
     ],
