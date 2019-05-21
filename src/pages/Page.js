@@ -245,10 +245,10 @@ class Page extends React.Component {
       )
     }
     return (
-      <main innerRef={this.mainRef} className={page}>
+      <main innerref={this.mainRef} className={page}>
         {MarkdownToSections(pageContent)}
         <Segment
-          innerRef={this.cardRef}
+          innerref={this.cardRef}
           style={
             window.innerWidth > 1080
               ? { boxShadow: 'none', border: 0, marginLeft: '300px' }
@@ -288,46 +288,48 @@ class Page extends React.Component {
 
           <section id="cards" attached="bottom">
             {sheetData && sheetData.length
-              ? sheetData.map(d => (
-                  <Card
-                    raised
-                    key={d.name}
-                    data-key={d.name}
-                    data-sectors={d.sectors}
-                    data-name={d.name}
-                    data-status={d.status}
-                    data-difficulty={d.difficulty}
-                  >
-                    <Card.Content>
-                      <Card.Header>
-                        <Label as="span" color={colorKey[d.status]} ribbon>
-                          {d.status.replace(/_/g, ' ').toUpperCase()}
-                        </Label>
-                        <h3>{d.name}</h3>
-                      </Card.Header>
-                      <Card.Meta>
-                        <strong>{'difficulty'.toUpperCase()}:</strong>{' '}
-                        {d.difficulty.toUpperCase()}
-                      </Card.Meta>
-                    </Card.Content>
-                    <Card.Content>
-                      <Card.Description>
-                        <p>{d.steps[d.status]}</p>
-                      </Card.Description>
-                    </Card.Content>
-                    <Card.Content extra>
-                      <div className="ui two buttons">
-                        <Button
-                          basic
-                          color="green"
-                          onClick={this.show(true, d)}
-                        >
-                          <Icon name="hand point right" /> STEPS
-                        </Button>
-                      </div>
-                    </Card.Content>
-                  </Card>
-                ))
+              ? sheetData.map(d => {
+                  return (
+                    <Card
+                      raised
+                      key={d.name}
+                      data-key={d.name}
+                      data-sectors={d.sectors}
+                      data-name={d.name}
+                      data-status={d.status}
+                      data-difficulty={d.difficulty}
+                    >
+                      <Card.Content>
+                        <Card.Header>
+                          <Label as="span" color={colorKey[d.status]} ribbon>
+                            {d.steps[d.status].status}
+                          </Label>
+                          <h3>{d.name}</h3>
+                        </Card.Header>
+                        <Card.Meta>
+                          <strong>{'difficulty'.toUpperCase()}:</strong>{' '}
+                          {d.difficulty.toUpperCase()}
+                        </Card.Meta>
+                      </Card.Content>
+                      <Card.Content>
+                        <Card.Description>
+                          <p>{d.steps[d.status].description}</p>
+                        </Card.Description>
+                      </Card.Content>
+                      <Card.Content extra>
+                        <div className="ui two buttons">
+                          <Button
+                            basic
+                            color="green"
+                            onClick={this.show(true, d)}
+                          >
+                            <Icon name="hand point right" /> STEPS
+                          </Button>
+                        </div>
+                      </Card.Content>
+                    </Card>
+                  )
+                })
               : ''}
           </section>
         </Segment>
@@ -349,7 +351,6 @@ class Page extends React.Component {
                       dot={
                         checked ? (
                           <Ant
-                            twoTone
                             type="check-circle-o"
                             style={{ fontSize: '18px' }}
                           />
@@ -365,12 +366,12 @@ class Page extends React.Component {
                       <h5
                         style={{ color: index === number ? 'black' : 'grey' }}
                       >
-                        {step.toUpperCase().replace(/_/g, ' ')}
+                        {active.steps[step].status}
                       </h5>
-                      {ValueToJSX(active.steps[step])}
+                      {ValueToJSX(active.steps[step].description)}
                       {checked && index !== 0 ? (
                         <p className="source">
-                          <a href={active.steps[`${step}_link`]}>
+                          <a href={active.steps[step].link}>
                             Source <Icon name="external alternate" />
                           </a>
                         </p>
