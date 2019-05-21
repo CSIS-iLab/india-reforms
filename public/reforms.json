@@ -1,5 +1,38 @@
 [
   {
+    "name": "test",
+    "steps": {
+      "not_started": "",
+      "not_started_link": "",
+      "incomplete": "",
+      "incomplete_link": "",
+      "completed": "",
+      "completed_link": ""
+    },
+    "status": "",
+    "difficulty": "",
+    "sectors": [
+
+    ],
+    "steps2": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "complete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    }
+  },
+  {
     "name": "Fake Simplify GST rates to two rates Fake",
     "steps": {
       "not_started": "There are currently five rates under the Goods and Services Tax",
@@ -18,7 +51,22 @@
     "steps2": {
       "step": [
 
-      ]
+      ],
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "complete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
     }
   },
   {
@@ -40,7 +88,22 @@
     "steps2": {
       "step": [
 
-      ]
+      ],
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "complete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
     }
   },
   {
@@ -62,7 +125,22 @@
     "steps2": {
       "step": [
 
-      ]
+      ],
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "complete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
     }
   },
   {
@@ -84,7 +162,22 @@
     "steps2": {
       "step": [
 
-      ]
+      ],
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "complete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
     }
   },
   {
@@ -105,7 +198,22 @@
     "steps2": {
       "step": [
 
-      ]
+      ],
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "complete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
     }
   },
   {
@@ -126,7 +234,22 @@
     "steps2": {
       "step": [
 
-      ]
+      ],
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "complete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
     }
   },
   {
@@ -147,7 +270,22 @@
     "steps2": {
       "step": [
 
-      ]
+      ],
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "complete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
     }
   },
   {
@@ -168,7 +306,22 @@
     "steps2": {
       "step": [
 
-      ]
+      ],
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "complete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
     }
   },
   {
@@ -189,7 +342,22 @@
     "steps2": {
       "step": [
 
-      ]
+      ],
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "complete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
     }
   },
   {
@@ -210,7 +378,22 @@
     "steps2": {
       "step": [
 
-      ]
+      ],
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "complete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
     }
   }
 ]
