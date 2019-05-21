@@ -8,7 +8,7 @@ sections:
   path: public/reforms.json
   label: REFORM DATA
 - type: document
-  path: src/forestry/sectors.yml
+  path: src/forestry/sector.yml
   label: Sectors
 upload_dir: src/forestry/uploads
 public_path: "/uploads"
