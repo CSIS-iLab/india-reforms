@@ -93,6 +93,54 @@ fields:
           required: false
         label: link
       label: Not Started
+    - name: incomplete
+      type: field_group
+      config: {}
+      fields:
+      - name: status
+        type: text
+        config:
+          required: false
+        label: status
+      - name: description
+        type: textarea
+        default: ''
+        config:
+          required: false
+          wysiwyg: false
+          schema:
+            format: markdown
+        label: description
+      - name: link
+        type: text
+        config:
+          required: false
+        label: link
+      label: Incomplete
+    - name: complete
+      type: field_group
+      config: {}
+      fields:
+      - name: status
+        type: text
+        config:
+          required: false
+        label: status
+      - name: description
+        type: textarea
+        default: ''
+        config:
+          required: false
+          wysiwyg: false
+          schema:
+            format: markdown
+        label: description
+      - name: link
+        type: text
+        config:
+          required: false
+        label: link
+      label: Complete
     label: steps2
 pages:
 - public/reforms.json
