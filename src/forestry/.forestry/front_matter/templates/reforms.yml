@@ -49,3 +49,5 @@ fields:
       schema:
         format: markdown
     label: test
+pages:
+- public/reforms.json

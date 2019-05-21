@@ -1,5 +1,22 @@
 [
   {
+    "name": "",
+    "steps": {
+      "not_started": "",
+      "incomplete": "",
+      "completed": ""
+    },
+    "status": "",
+    "difficulty": "",
+    "not_started_link": "",
+    "incomplete_link": "",
+    "completed_link": "",
+    "sectors": [
+
+    ],
+    "test": "adasd\nasdasd\nasdasd\nasdasd"
+  },
+  {
     "name": "Fake Simplify GST rates to two rates Fake",
     "steps": {
       "not_started": "There are currently five rates under the Goods and Services Tax",
@@ -14,7 +31,8 @@
     "sectors": [
       "agriculture",
       "defense"
-    ]
+    ],
+    "test": ""
   },
   {
     "name": "Fake Allow more than 50% foreign investment in insurance",
@@ -31,7 +49,8 @@
     "sectors": [
       "defense",
       "energy"
-    ]
+    ],
+    "test": ""
   },
   {
     "name": "Fake Institute a Mandatory 30-day \"Notice and Comment\" period for proposed regulations",
@@ -48,7 +67,8 @@
     "sectors": [
       "energy",
       "retail"
-    ]
+    ],
+    "test": ""
   },
   {
     "name": "Fake Create a bankruptcy resolution process for financial firms",
@@ -65,7 +85,8 @@
     "sectors": [
       "retail",
       "services"
-    ]
+    ],
+    "test": ""
   },
   {
     "name": "Fake Stop forcing banks to lend to \"priority sectors\"",
@@ -81,7 +102,8 @@
     "completed_link": "http://google.com",
     "sectors": [
       "services"
-    ]
+    ],
+    "test": ""
   },
   {
     "name": "Simplify GST rates to two rates ",
@@ -97,7 +119,8 @@
     "completed_link": "",
     "sectors": [
 
-    ]
+    ],
+    "test": ""
   },
   {
     "name": "Allow more than 50% foreign investment in insurance",
@@ -113,7 +136,8 @@
     "completed_link": "",
     "sectors": [
 
-    ]
+    ],
+    "test": ""
   },
   {
     "name": "Institute a Mandatory 30-day \"Notice and Comment\" period for proposed regulations",
@@ -129,7 +153,8 @@
     "completed_link": "",
     "sectors": [
 
-    ]
+    ],
+    "test": ""
   },
   {
     "name": "Create a bankruptcy resolution process for financial firms",
@@ -145,7 +170,8 @@
     "completed_link": "",
     "sectors": [
 
-    ]
+    ],
+    "test": ""
   },
   {
     "name": "Stop forcing banks to lend to \"priority sectors\"",
@@ -161,6 +187,7 @@
     "completed_link": "",
     "sectors": [
 
-    ]
+    ],
+    "test": ""
   }
 ]
