@@ -58,5 +58,10 @@ fields:
   - type: list
     name: sectors
     label: sectors
+    config:
+      use_select: true
+      source:
+        type: pages
+        section: sectors
 pages:
 - public/reforms.json
