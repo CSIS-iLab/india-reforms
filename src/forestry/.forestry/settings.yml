@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/forestry/sectors.yml
   label: Sectors
-  match: "**/*"
 - type: document
   path: public/reforms.json
   label: REFORM DATA
