@@ -58,14 +58,5 @@ fields:
   - type: list
     name: sectors
     label: sectors
-  - name: test
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: test
 pages:
 - public/reforms.json
