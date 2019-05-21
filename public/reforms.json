@@ -1,21 +1,5 @@
 [
   {
-    "name": "",
-    "steps": {
-      "not_started": "",
-      "not_started_link": "",
-      "incomplete": "",
-      "incomplete_link": "",
-      "completed": "",
-      "completed_link": ""
-    },
-    "status": "",
-    "difficulty": "",
-    "sectors": [
-
-    ]
-  },
-  {
     "name": "Fake Simplify GST rates to two rates Fake",
     "steps": {
       "not_started": "There are currently five rates under the Goods and Services Tax",
@@ -30,7 +14,12 @@
     "sectors": [
       "agriculture",
       "defense"
-    ]
+    ],
+    "steps2": {
+      "step": [
+
+      ]
+    }
   },
   {
     "name": "Fake Allow more than 50% foreign investment in insurance",
@@ -47,7 +36,12 @@
     "sectors": [
       "defense",
       "energy"
-    ]
+    ],
+    "steps2": {
+      "step": [
+
+      ]
+    }
   },
   {
     "name": "Fake Institute a Mandatory 30-day \"Notice and Comment\" period for proposed regulations",
@@ -64,7 +58,12 @@
     "sectors": [
       "energy",
       "retail"
-    ]
+    ],
+    "steps2": {
+      "step": [
+
+      ]
+    }
   },
   {
     "name": "Fake Create a bankruptcy resolution process for financial firms",
@@ -81,7 +80,12 @@
     "sectors": [
       "retail",
       "services"
-    ]
+    ],
+    "steps2": {
+      "step": [
+
+      ]
+    }
   },
   {
     "name": "Fake Stop forcing banks to lend to \"priority sectors\"",
@@ -97,7 +101,12 @@
     "difficulty": "high",
     "sectors": [
       "services"
-    ]
+    ],
+    "steps2": {
+      "step": [
+
+      ]
+    }
   },
   {
     "name": "Simplify GST rates to two rates ",
@@ -113,7 +122,12 @@
     "difficulty": "high",
     "sectors": [
 
-    ]
+    ],
+    "steps2": {
+      "step": [
+
+      ]
+    }
   },
   {
     "name": "Allow more than 50% foreign investment in insurance",
@@ -129,7 +143,12 @@
     "difficulty": "high",
     "sectors": [
 
-    ]
+    ],
+    "steps2": {
+      "step": [
+
+      ]
+    }
   },
   {
     "name": "Institute a Mandatory 30-day \"Notice and Comment\" period for proposed regulations",
@@ -145,7 +164,12 @@
     "difficulty": "medium",
     "sectors": [
 
-    ]
+    ],
+    "steps2": {
+      "step": [
+
+      ]
+    }
   },
   {
     "name": "Create a bankruptcy resolution process for financial firms",
@@ -161,7 +185,12 @@
     "difficulty": "medium",
     "sectors": [
 
-    ]
+    ],
+    "steps2": {
+      "step": [
+
+      ]
+    }
   },
   {
     "name": "Stop forcing banks to lend to \"priority sectors\"",
@@ -177,6 +206,11 @@
     "difficulty": "high",
     "sectors": [
 
-    ]
+    ],
+    "steps2": {
+      "step": [
+
+      ]
+    }
   }
 ]
