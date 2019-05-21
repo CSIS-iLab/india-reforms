@@ -89,12 +89,28 @@ fields:
         label: link
       label: Complete
     label: steps
-  - type: text
+  - type: select
     name: status
-    label: status
-  - type: text
+    label: difficulty
+    config:
+      source:
+        type: status
+        file: ''
+      options:
+      - not_started
+      - incomplete
+      - completed
+  - type: select
     name: difficulty
     label: difficulty
+    config:
+      source:
+        type: simple
+        file: ''
+      options:
+      - low
+      - medium
+      - high
   - type: list
     name: sectors
     label: sectors
@@ -104,6 +120,6 @@ fields:
         type: documents
         section: sectors
         path: Sectors
-        file: src/forestry/sectors.yml
+        file: src/forestry/sector.yml
 pages:
 - public/reforms.json
