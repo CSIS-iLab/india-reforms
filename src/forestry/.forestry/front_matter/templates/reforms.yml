@@ -69,15 +69,15 @@ fields:
     type: field_group
     config: {}
     fields:
-    - name: step
-      type: field_group_list
+    - name: not_started
+      type: field_group
+      config: {}
       fields:
       - name: status
         type: text
         config:
           required: false
         label: status
-        default: Not Started
       - name: description
         type: textarea
         default: ''
@@ -92,11 +92,7 @@ fields:
         config:
           required: false
         label: link
-      config:
-        min: 
-        max: 
-        labelField: status
-      label: step
+      label: Not Started
     label: steps2
 pages:
 - public/reforms.json
