@@ -61,7 +61,9 @@ fields:
     config:
       use_select: true
       source:
-        type: pages
+        type: documents
         section: sectors
+        path: Sectors
+        file: src/forestry/sectors.yml
 pages:
 - public/reforms.json
