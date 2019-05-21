@@ -22,6 +22,7 @@ fields:
         config:
           required: false
         label: status
+        default: Not Started
       - name: description
         type: textarea
         default: ''
@@ -46,6 +47,7 @@ fields:
         config:
           required: false
         label: status
+        default: Incomplete
       - name: description
         type: textarea
         default: ''
@@ -70,6 +72,7 @@ fields:
         config:
           required: false
         label: status
+        default: Complete
       - name: description
         type: textarea
         default: ''
