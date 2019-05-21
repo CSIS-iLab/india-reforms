@@ -5,11 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: src/forestry/sectors.yml
-  label: Sectors
-- type: document
   path: public/reforms.json
   label: REFORM DATA
+- type: document
+  path: src/forestry/sectors.yml
+  label: Sectors
 upload_dir: src/forestry/uploads
 public_path: "/uploads"
 front_matter_path: ''
