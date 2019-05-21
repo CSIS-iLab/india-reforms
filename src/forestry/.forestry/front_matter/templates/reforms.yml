@@ -65,5 +65,24 @@ fields:
         section: sectors
         path: Sectors
         file: src/forestry/sectors.yml
+  - name: steps2
+    type: field_group
+    config: {}
+    fields:
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: description
+    - name: link
+      type: text
+      config:
+        required: false
+      label: link
+    label: steps2
 pages:
 - public/reforms.json
