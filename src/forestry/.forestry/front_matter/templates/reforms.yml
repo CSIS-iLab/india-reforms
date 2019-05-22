@@ -91,7 +91,7 @@ fields:
     label: steps
   - type: select
     name: status
-    label: difficulty
+    label: status
     config:
       source:
         type: status
@@ -100,6 +100,7 @@ fields:
       - not_started
       - incomplete
       - completed
+    default: not_started
   - type: select
     name: difficulty
     label: difficulty
