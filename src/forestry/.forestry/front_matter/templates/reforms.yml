@@ -18,12 +18,16 @@ fields:
       config: {}
       fields:
       - name: status
-        type: text
+        type: select
         config:
           required: false
         label: status
         default: Not Started
         hidden: true
+        options:
+        - not_started
+        - incomplete
+        - completed
       - name: description
         type: textarea
         default: ''
@@ -44,12 +48,16 @@ fields:
       config: {}
       fields:
       - name: status
-        type: text
+        type: select
         config:
           required: false
         label: status
         default: Incomplete
         hidden: true
+        options:
+        - not_started
+        - incomplete
+        - completed
       - name: description
         type: textarea
         default: ''
@@ -70,12 +78,16 @@ fields:
       config: {}
       fields:
       - name: status
-        type: text
+        type: select
         config:
           required: false
         label: status
         default: Completed
         hidden: true
+        options:
+        - not_started
+        - incomplete
+        - completed
       - name: description
         type: textarea
         default: ''
