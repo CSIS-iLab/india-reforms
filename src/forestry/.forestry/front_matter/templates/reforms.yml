@@ -45,9 +45,10 @@ fields:
       - name: status
         type: text
         config:
-          required: false
+          required: true
         label: status
         default: Incomplete
+        hidden: true
       - name: description
         type: textarea
         default: ''
@@ -73,6 +74,7 @@ fields:
           required: false
         label: status
         default: Completed
+        hidden: true
       - name: description
         type: textarea
         default: ''
