@@ -20,7 +20,7 @@ fields:
       - name: status
         type: text
         config:
-          required: true
+          required: false
         label: status
         default: Not Started
         hidden: true
@@ -46,7 +46,7 @@ fields:
       - name: status
         type: text
         config:
-          required: true
+          required: false
         label: status
         default: Incomplete
         hidden: true
@@ -72,7 +72,7 @@ fields:
       - name: status
         type: text
         config:
-          required: true
+          required: false
         label: status
         default: Completed
         hidden: true
