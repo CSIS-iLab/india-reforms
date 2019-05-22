@@ -1,5 +1,30 @@
 [
   {
+    "name": "test",
+    "steps": {
+      "not_started": {
+        "description": "tes",
+        "link": "test",
+        "status": ""
+      },
+      "incomplete": {
+        "description": "test",
+        "link": "test",
+        "status": ""
+      },
+      "completed": {
+        "description": "test",
+        "link": "test",
+        "status": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "low",
+    "sectors": [
+      "services"
+    ]
+  },
+  {
     "name": "Fake Simplify GST rates to two rates Fake",
     "steps": {
       "not_started": {
