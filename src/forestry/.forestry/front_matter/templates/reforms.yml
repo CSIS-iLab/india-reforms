@@ -20,9 +20,10 @@ fields:
       - name: status
         type: text
         config:
-          required: false
+          required: true
         label: status
         default: Not Started
+        hidden: true
       - name: description
         type: textarea
         default: ''
@@ -71,7 +72,7 @@ fields:
       - name: status
         type: text
         config:
-          required: false
+          required: true
         label: status
         default: Completed
         hidden: true
