@@ -123,7 +123,7 @@ fields:
       source:
         type: documents
         section: sectors
-        path: Sectors
+        path: Sector
         file: src/forestry/sector.yml
 pages:
 - public/reforms.json
