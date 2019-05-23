@@ -20,7 +20,7 @@ fields:
       - name: status
         type: select
         config:
-          required: true
+          required: false
           source:
             type: simple
           options:
