@@ -21,9 +21,15 @@ fields:
         type: select
         config:
           required: false
+          source:
+            type: simple
+          options:
+          - Not Started
+          - Incomplete
+          - Completed
         label: status
         default: Not Started
-        hidden: true
+        hidden: false
         options:
         - not_started
         - incomplete
@@ -51,9 +57,14 @@ fields:
         type: select
         config:
           required: false
+          source:
+            type: simple
+          options:
+          - Not Started
+          - Incomplete
         label: status
         default: Incomplete
-        hidden: true
+        hidden: false
         options:
         - not_started
         - incomplete
@@ -81,9 +92,15 @@ fields:
         type: select
         config:
           required: false
+          source:
+            type: simple
+          options:
+          - Not Started
+          - Incomplete
+          - Completed
         label: status
         default: Completed
-        hidden: true
+        hidden: false
         options:
         - not_started
         - incomplete
@@ -102,7 +119,7 @@ fields:
         config:
           required: false
         label: link
-      label: Complete
+      label: Completed
     label: steps
   - type: select
     name: status
