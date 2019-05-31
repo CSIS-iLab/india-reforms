@@ -1,9 +1,9 @@
 main.post {
   .job-header {
-    @include full-width-background($color__gray-lighter);
     margin-bottom: 2rem;
     padding: 2.5rem 0 2rem;
     background-color: $color__gray-lighter;
+    @include full-width-background($color__gray-lighter);
 
     @include breakpoint('medium') {
       padding-bottom: 2rem;
@@ -11,19 +11,18 @@ main.post {
   }
 
   .job-content {
-    @include breakpoint('medium') {
-      display: grid;
-      grid-column-gap: 88px;
-      $max: calc(1200px - 88px - 375px);
-      grid-template-columns: minmax(240px, $max) minmax(240px, 375px);
-      grid-template-rows: 1fr;
-      max-width: 1200px;
-    }
-
     &__body {
       position: relative;
       min-height: 350px;
       overflow: hidden;
+    }
+    @include breakpoint('medium') {
+      $max: calc(1200px - 88px - 375px);
+      display: grid;
+      grid-column-gap: 88px;
+      grid-template-columns: minmax(240px, $max) minmax(240px, 375px);
+      grid-template-rows: 1fr;
+      max-width: 1200px;
     }
   }
 

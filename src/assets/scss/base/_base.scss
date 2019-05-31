@@ -9,12 +9,12 @@ html {
 }
 
 body {
+
+  --breakpoint: 'xsmall';
   position: relative;
   margin: 0;
   overflow-x: hidden;
   background: $color__white;
-
-  --breakpoint: 'xsmall';
 
   @include breakpoint('small') {
     --breakpoint: 'small';

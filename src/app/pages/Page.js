@@ -88,8 +88,8 @@ class Page extends React.Component {
     value === '*'
       ? this.state.cards.arrange({ filter: value })
       : this.state.cards.arrange({
-          filter: card => card.dataset.sectors.indexOf(value) > -1
-        })
+        filter: card => card.dataset.sectors.indexOf(value) > -1
+      })
     this.resetControl(e.target, true)
     this.toggle(e.target)
   }
@@ -289,47 +289,47 @@ class Page extends React.Component {
           <section id="cards" attached="bottom">
             {sheetData && sheetData.length
               ? sheetData.map(d => {
-                  return (
-                    <Card
-                      raised
-                      key={d.name}
-                      data-key={d.name}
-                      data-sectors={d.sectors}
-                      data-name={d.name}
-                      data-status={d.status}
-                      data-difficulty={d.difficulty}
-                    >
-                      <Card.Content>
-                        <Card.Header>
-                          <Label as="span" color={colorKey[d.status]} ribbon>
-                            {d.steps[d.status].status}
-                          </Label>
-                          <h3>{d.name}</h3>
-                        </Card.Header>
-                        <Card.Meta>
-                          <strong>{'difficulty'.toUpperCase()}:</strong>{' '}
-                          {d.difficulty.toUpperCase()}
-                        </Card.Meta>
-                      </Card.Content>
-                      <Card.Content>
-                        <Card.Description>
-                          <p>{d.steps[d.status].description}</p>
-                        </Card.Description>
-                      </Card.Content>
-                      <Card.Content extra>
-                        <div className="ui two buttons">
-                          <Button
-                            basic
-                            color="green"
-                            onClick={this.show(true, d)}
-                          >
-                            <Icon name="hand point right" /> STEPS
-                          </Button>
-                        </div>
-                      </Card.Content>
-                    </Card>
-                  )
-                })
+                return (
+                  <Card
+                    raised
+                    key={d.name}
+                    data-key={d.name}
+                    data-sectors={d.sectors}
+                    data-name={d.name}
+                    data-status={d.status}
+                    data-difficulty={d.difficulty}
+                  >
+                    <Card.Content>
+                      <Card.Header>
+                        <Label as="span" color={colorKey[d.status]} ribbon>
+                          {d.steps[d.status].status}
+                        </Label>
+                        <h3>{d.name}</h3>
+                      </Card.Header>
+                      <Card.Meta>
+                        <strong>{'difficulty'.toUpperCase()}:</strong>{' '}
+                        {d.difficulty.toUpperCase()}
+                      </Card.Meta>
+                    </Card.Content>
+                    <Card.Content>
+                      <Card.Description>
+                        <p>{d.steps[d.status].description}</p>
+                      </Card.Description>
+                    </Card.Content>
+                    <Card.Content extra>
+                      <div className="ui two buttons">
+                        <Button
+                          basic
+                          color="green"
+                          onClick={this.show(true, d)}
+                        >
+                          <Icon name="hand point right" /> STEPS
+                        </Button>
+                      </div>
+                    </Card.Content>
+                  </Card>
+                )
+              })
               : ''}
           </section>
         </Segment>

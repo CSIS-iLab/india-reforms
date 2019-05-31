@@ -9,6 +9,10 @@ input[type='checkbox'] {
 }
 
 input[type='search'] {
+
+  background-color: transparent;
+  border: 0;
+
   &::-webkit-search-decoration,
   &::-webkit-search-cancel-button,
   &::-webkit-search-results-button,
@@ -18,11 +22,6 @@ input[type='search'] {
     /* stylelint-enable */
   }
 
-  background-color: transparent;
-  border: 0;
-
-  @include font-size(18px);
-
   &:focus {
     @extend %focus;
   }
@@ -30,4 +29,6 @@ input[type='search'] {
   &::placeholder {
     color: $color__gray-dark;
   }
+
+  @include font-size(18px);
 }

@@ -18,8 +18,7 @@
       "custom-properties",
       "dollar-variables",
       "declarations",
-      "rules",
-      "less-mixins"
+      "rules"
     ],
     "order/properties-alphabetical-order": null,
     "order/properties-order": [

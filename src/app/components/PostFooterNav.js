@@ -1,28 +1,28 @@
-import React from "react";
-import SocialShare from "../components/SocialShare";
-import CloseMenu from "../helpers/CloseMenu";
+import React from 'react'
+import SocialShare from '../components/SocialShare'
+import CloseMenu from '../helpers/CloseMenu'
 
 export default class PostFooterNav extends React.Component {
   componentDidMount() {
-    const triggers = Array.from(document.querySelectorAll(".menu-trigger"));
+    const triggers = Array.from(document.querySelectorAll('.menu-trigger'))
 
     triggers.forEach(trigger => {
-      const target = document.querySelector(trigger.dataset.target);
+      const target = document.querySelector(trigger.dataset.target)
 
-      trigger.addEventListener("click", function() {
-        if (target.classList.contains("is-active")) {
-          CloseMenu(trigger, target);
+      trigger.addEventListener('click', function() {
+        if (target.classList.contains('is-active')) {
+          CloseMenu(trigger, target)
         } else {
-          target.classList.add("is-active");
-          this.setAttribute("aria-expanded", "true");
-          this.classList.add("is-active");
+          target.classList.add('is-active')
+          this.setAttribute('aria-expanded', 'true')
+          this.classList.add('is-active')
         }
-      });
-    });
+      })
+    })
   }
 
   render() {
-    const { job } = this.props;
+    const { job } = this.props
 
     return (
       <div className="post-footer">
@@ -45,13 +45,13 @@ export default class PostFooterNav extends React.Component {
           onClick={() =>
             window.scrollTo({
               top: 0,
-              behavior: "smooth"
+              behavior: 'smooth'
             })
           }
         >
           <span className="visually-hidden">Back to Top</span>
         </button>
       </div>
-    );
+    )
   }
 }

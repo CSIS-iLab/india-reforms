@@ -5,13 +5,14 @@
 }
 
 @mixin button-dark {
+  color: $color__white;
+  background-color: $color__blue;
+  border-radius: 3px;
+
   #filters & {
     // margin: 0 0.2rem;
     padding: 0.78571429em 1.5em;
   }
-  color: $color__white;
-  background-color: $color__blue;
-  border-radius: 3px;
 
   &:hover,
   &:focus {
@@ -21,19 +22,20 @@
 }
 
 @mixin button-light {
-  #filters & {
-    // margin: 0 0.2rem;
-    padding: 0.78571429em 1.5em;
-  }
   color: $color__black;
   font-weight: bold;
   background-color: $color__blue-light;
   border-radius: 3px;
 
+  #filters & {
+    // margin: 0 0.2rem;
+    padding: 0.78571429em 1.5em;
+  }
+
   &:hover,
   &:focus {
-    @extend %link-gray;
     background-color: $color__white;
+    @extend %link-gray;
   }
 }
 
@@ -121,10 +123,6 @@
   $width_forumula: calc((100vw - 100%) / 2);
   position: relative;
 
-  @if $excludeMargin != true {
-    margin: 0 auto;
-  }
-
   &::before,
   &::after {
     position: absolute;
@@ -143,6 +141,10 @@
 
   &::after {
     left: 100%;
+  }
+
+  @if $excludeMargin != true {
+    margin: 0 auto;
   }
 
   @if $direction == left {

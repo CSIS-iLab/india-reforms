@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
 export default class SocialShare extends React.Component {
   render() {
-    const { job, location } = this.props;
+    const { job, location } = this.props
 
     return (
-      <ul className={location === "footer" ? "post-footer__nav-menu" : ""}>
+      <ul className={location === 'footer' ? 'post-footer__nav-menu' : ''}>
         <li>
           <a
             className="icon icon-facebook"
@@ -37,7 +37,7 @@ export default class SocialShare extends React.Component {
             className="icon icon-linkedin"
             href={`https://www.linkedin.com/shareArticle?mini=true&amp;url=${
               window.location.href
-            }&amp;summary=${job.title["#cdata-section"]}&amp;source=CSIS`}
+            }&amp;summary=${job.title['#cdata-section']}&amp;source=CSIS`}
             rel="noopener noreferrer"
             target="_blank"
             title="Share on Linkedin"
@@ -49,7 +49,7 @@ export default class SocialShare extends React.Component {
           <i
             tabIndex="0"
             className="icon icon-email"
-            href={`mailto:?subject=${job.title["#cdata-section"]}&amp;body=${
+            href={`mailto:?subject=${job.title['#cdata-section']}&amp;body=${
               window.location.href
             }`}
             title="Email"
@@ -80,6 +80,6 @@ export default class SocialShare extends React.Component {
           <span className="copy-text">Copied!</span>
         </li>
       </ul>
-    );
+    )
   }
 }

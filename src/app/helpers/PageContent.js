@@ -1,28 +1,28 @@
 const getMarkdownContent = (siteStructure, activePage, pageData) => {
   if (pageData) {
     if (pageData.sections) {
-      let pageStructure = {};
+      let pageStructure = {}
 
       Object.keys(pageData.sections).forEach(section => {
-        pageStructure[section] = {};
+        pageStructure[section] = {}
 
         Object.keys(pageData.sections[section]).forEach(component => {
-          pageStructure[section][component] = {};
+          pageStructure[section][component] = {}
 
           pageStructure[section][component] =
-            pageData.sections[section][component];
-        });
-      });
+            pageData.sections[section][component]
+        })
+      })
 
-      siteStructure[activePage].content = pageStructure;
+      siteStructure[activePage].content = pageStructure
     }
   }
 
-  return siteStructure;
-};
+  return siteStructure
+}
 
 const sortPageContent = (siteStructure, activePage, pageData) => {
-  siteStructure = getMarkdownContent(siteStructure, activePage, pageData);
+  siteStructure = getMarkdownContent(siteStructure, activePage, pageData)
 
   if (siteStructure[activePage].content) {
     const indices = Object.keys(siteStructure[activePage].content).sort(
@@ -30,22 +30,22 @@ const sortPageContent = (siteStructure, activePage, pageData) => {
         return (
           siteStructure[activePage].content[a].index -
           siteStructure[activePage].content[b].index
-        );
+        )
       }
-    );
+    )
 
     const orderedPageStructure = indices.map(index => {
-      return { ...siteStructure[activePage].content[index], key: index };
-    });
+      return { ...siteStructure[activePage].content[index], key: index }
+    })
 
-    siteStructure[activePage].content = orderedPageStructure;
+    siteStructure[activePage].content = orderedPageStructure
   }
 
-  return siteStructure;
-};
+  return siteStructure
+}
 
 export default function PageContent(siteStructure, page, pageData) {
-  const siteContent = sortPageContent(siteStructure, page, pageData);
+  const siteContent = sortPageContent(siteStructure, page, pageData)
 
-  return siteContent[page].content || [];
+  return siteContent[page].content || []
 }

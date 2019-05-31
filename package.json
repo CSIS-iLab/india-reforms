@@ -7,23 +7,19 @@
     "url": "https://github.com/CSIS-iLab/india-reforms.git"
   },
   "dependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/polyfill": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "@babel/preset-react": "^7.0.0",
     "@threespot/freeze-scroll": "^1.0.3",
-    "antd": "^3.18.1",
-    "isotope-layout": "^3.0.6",
     "react": "^16.8.6",
     "react-app-polyfill": "^1.0.0",
     "react-dom": "^16.8.6",
     "react-markdown": "^4.0.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
+    "smooth-scroll": "^15.0.0",
+    "antd": "^3.18.1",
+    "isotope-layout": "^3.0.6",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.87.1",
-    "smooth-scroll": "^15.0.0"
+    "semantic-ui-react": "^0.87.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -53,16 +49,6 @@
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "Firefox ESR",
-    "ie >= 11"
-  ],
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-class-properties"
-    ]
-  }
+    "Firefox ESR"
+  ]
 }

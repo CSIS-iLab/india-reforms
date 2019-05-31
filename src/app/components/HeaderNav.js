@@ -1,13 +1,13 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import logo from "../assets/images/csis_logo_black.svg";
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import logo from '../../assets/images/csis_logo_black.svg'
 
 export default function HeaderNav(obj) {
-  const { siteStructure } = obj;
+  const { siteStructure } = obj
 
   const orderedSiteStructure = Object.keys(siteStructure)
     .filter(page => siteStructure[page].menu !== false)
-    .sort((a, b) => siteStructure[a].index - siteStructure[b].index);
+    .sort((a, b) => siteStructure[a].index - siteStructure[b].index)
 
   return (
     <nav className="site-header__nav" role="navigation">
@@ -17,8 +17,7 @@ export default function HeaderNav(obj) {
           src={logo}
           alt="CSIS | Careers"
           title="CSIS | Careers"
-        />{" "}
-        
+        />{' '}
       </NavLink>
       <button
         className="site-header__nav-trigger menu-trigger"
@@ -43,9 +42,9 @@ export default function HeaderNav(obj) {
                 {siteStructure[page].header_title}
               </NavLink>
             </li>
-          );
+          )
         })}
       </ul>
     </nav>
-  );
+  )
 }
