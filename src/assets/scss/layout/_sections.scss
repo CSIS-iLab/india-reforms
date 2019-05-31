@@ -1,5 +1,5 @@
 section.row {
-  &:not(#disclaimer) {
+  &:not(#disclaimer):not(#job_alerts):not(#testimonials):not(#intern_eligibility) {
     &:not(:first-of-type) {
       &::before {
         position: relative;
@@ -14,7 +14,7 @@ section.row {
     }
   }
 
-  &:not(#disclaimer) {
+  &:not(#disclaimer):not(#job_alerts):not(#testimonials) {
     margin-bottom: 3.5rem;
   }
 }
@@ -24,7 +24,7 @@ section.row {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 
-  main:not(.data) & {
+  main:not(.opportunities) & {
     @include breakpoint('large') {
       grid-column-gap: return-map-value($size__grid-gap, 'large');
       grid-template-columns: 1fr 1fr;
@@ -110,28 +110,16 @@ main:not(.faq) {
 }
 
 .columns {
-  display: grid;
-  grid-row-gap: 1.5rem;
-
   @include breakpoint('large') {
+    display: grid;
+    grid-row-gap: 1.5rem;
     grid-template-columns: 1fr 1fr;
-
     grid-template-rows: 1fr;
   }
 }
 
-.report {
-  > div {
-    display: grid;
-
-    grid-row-gap: 1.5rem;
-
-    @include breakpoint('large') {
-      grid-template-columns: 1fr 0.5fr;
-
-      grid-template-rows: 1fr;
-    }
-  }
+.job-post__content {
+  min-height: 100vh;
 }
 
 .homepage {
@@ -143,21 +131,38 @@ main:not(.faq) {
   }
 }
 
-.about {
-  .header {
-    ul {
-      @include breakpoint('medium', 'max-width') {
-        grid-column-gap: 2rem;
-      }
+.opportunities {
+  #job_alerts {
+    @include full-width-background($color__gray-lighter);
+    padding: 2.5rem 0 4rem;
+    background-color: $color__gray-lighter;
+  }
+}
 
-      @include breakpoint($break: 'medium', $until: 'large') {
-        grid-column-gap: 3rem;
+.internships {
+  #testimonials {
+    @include full-width-background($color__gray-lighter);
+    margin-bottom: 1rem;
+    padding: 2.5rem 0 4rem;
+    background-color: $color__gray-lighter;
+  }
+}
+
+.faq {
+  .header {
+    li:not(:last-of-type) {
+      @include breakpoint('medium', 'max-width') {
+        margin-right: 2rem;
       }
+      @include breakpoint($break: 'medium', $until: 'large') {
+        margin-right: 3rem;
+      }
+    }
+
+    ul {
       @include breakpoint('large', 'max-width') {
-        display: grid;
-        grid-template-columns: repeat(3, auto);
-        grid-template-rows: 1fr;
-        justify-content: start;
+        display: flex;
+        flex-wrap: wrap;
       }
     }
   }

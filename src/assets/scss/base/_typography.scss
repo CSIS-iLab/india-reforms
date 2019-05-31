@@ -7,7 +7,7 @@ input,
 select,
 textarea {
   color: $color__gray-medium;
-  font-family: $font__sans-serif;
+  @extend %sans-serif;
 }
 
 /*================================
@@ -18,7 +18,7 @@ textarea {
   h#{$i} {
     margin: 0 0 0.5rem;
     color: $color__black;
-    font-family: $font__sans-serif;
+    @extend %sans-serif;
     font-weight: 600;
     -webkit-font-smoothing: antialiased;
   }
@@ -41,11 +41,6 @@ h3 {
 h4 {
   @include fluid-type(20px, 22px);
 }
-
-h5,
-.ui.label {
-  @include fluid-type(16px, 18px);
-}
 /*============================
 =            Copy            =
 ============================*/
@@ -60,14 +55,14 @@ p {
   .header__intro & {
     @include fluid-type(18px, 20px);
     margin-bottom: 2rem;
-    font-family: $font__serif;
+    @extend %serif;
   }
 }
 
 ul {
   margin-top: 0;
-  padding-left: 1rem;
-  // list-style-type: none;
+  padding-left: 0;
+  list-style-type: none;
 
   section & {
     @include font-size(18px);
@@ -103,13 +98,13 @@ blockquote {
   &,
   p {
     color: $color__black;
-    font-family: $font__serif;
+    @extend %serif;
     line-height: 1.5;
     @include font-size(20px);
 
     cite {
       color: $color__gray_darker;
-      font-family: $font__sans-serif;
+      @extend %sans-serif;
       font-style: normal;
       @include font-size(16px);
     }

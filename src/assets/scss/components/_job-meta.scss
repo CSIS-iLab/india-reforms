@@ -10,6 +10,7 @@
     display: inline-grid;
     grid-column-gap: 24px;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
     line-height: 1.5;
 
     @include breakpoint($break: 'medium', $until: 'large') {
@@ -50,6 +51,7 @@
   .job-header & {
     @include breakpoint('xlarge') {
       justify-content: space-between;
+      align-items: center;
     }
   }
 }

@@ -1,4 +1,4 @@
-a:not(.ui) {
+a {
   text-decoration: none;
   background-repeat: repeat-x;
   background-position: 0 87.5%;
@@ -74,8 +74,8 @@ a:not(.ui) {
     margin-right: 0.25rem;
   }
 
-  main & {
-    // main section:not(#test) & {
+  main &:not(.icon),
+  .site-footer &:not(.icon) {
     &:not(.dark) {
       @extend %link-dark;
     }
@@ -85,7 +85,8 @@ a:not(.ui) {
     }
   }
 
-  main & {
+  main &:not(.icon),
+  .site-footer &:not(.icon) {
     background-size: 1px 1px;
 
     &:hover,

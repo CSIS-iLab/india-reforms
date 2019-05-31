@@ -2,6 +2,21 @@
 =            Placeholders            =
 ====================================*/
 
+%sans-serif {
+  font-family: $font__sans-serif;
+  font-display: swap;
+}
+
+%serif {
+  font-family: $font__serif;
+  font-display: swap;
+}
+
+%fontello {
+  font-family: $font__fontello;
+  font-display: swap;
+}
+
 %filters-label {
   @include font-size(16px);
   color: $color__gray-darker;
@@ -9,7 +24,7 @@
 
 %figcaption {
   color: $color__gray-darker;
-  font-family: $font__sans-serif;
+  @extend %sans-serif;
   @include font-size(16px);
   line-height: 1.25;
 }
@@ -81,7 +96,7 @@
   position: relative;
   top: -0.05rem;
   display: inline-block;
-  font-family: $font__fontello;
+  @extend %fontello;
   font-weight: normal;
   line-height: 1em;
   text-align: center;

@@ -123,6 +123,10 @@
   $width_forumula: calc((100vw - 100%) / 2);
   position: relative;
 
+  @if $excludeMargin != true {
+    margin: 0 auto;
+  }
+
   &::before,
   &::after {
     position: absolute;
@@ -141,10 +145,6 @@
 
   &::after {
     left: 100%;
-  }
-
-  @if $excludeMargin != true {
-    margin: 0 auto;
   }
 
   @if $direction == left {

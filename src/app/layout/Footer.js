@@ -29,6 +29,7 @@ export default class Footer extends React.Component {
             <a
               href="https://www.csis.org/programs/dracopoulos-ideas-lab"
               target="_blank"
+              rel="noreferrer noopener"
             >
               Andreas C. Dracopoulos iDeas Lab
             </a>, the in-house digital, multimedia, and design agency at the
@@ -41,7 +42,7 @@ export default class Footer extends React.Component {
             <a
               href="https://www.csis.org/privacy-policy"
               target="_blank"
-              rel="nofollow"
+              rel="noreferrer noopener"
             >
               Privacy Policy
             </a>

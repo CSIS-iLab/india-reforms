@@ -4,7 +4,7 @@
 <metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
 <defs>
 <font id="careerportal" horiz-adv-x="1000" >
-<font-face font-family="careerportal" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<font-face font-family="careerportal" font-display="swap" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
 <missing-glyph horiz-adv-x="1000" />
 <glyph glyph-name="clear" unicode="&#xe800;" d="M416 767q173 0 295-122t123-295-123-294-295-122-294 122-122 294 122 295 294 122z m194-537l-120 120 120 120q15 15 15 37t-15 36-37 15-37-15l-120-119-118 119q-15 15-37 15t-37-15-15-36 15-37l119-120-119-120q-15-15-15-36t15-36q16-16 36-16 21 0 38 16l118 119 120-119q17-16 37-16 21 0 37 16 15 15 15 36t-15 36z" horiz-adv-x="834" />
 

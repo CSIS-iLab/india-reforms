@@ -172,8 +172,12 @@ class Page extends React.Component {
     const Controls = () => {
       return (
         <section id="controls">
+          <label htmlFor="reform-search" class="visually-hidden">
+            Search
+          </label>
           {sheetData.length ? (
             <Dropdown
+              id="reform-search"
               clearable
               fluid
               search
@@ -394,6 +398,7 @@ class Page extends React.Component {
         )}
 
         <Button
+          aria-label="back to top"
           circular
           color="green"
           icon="angle double up"
