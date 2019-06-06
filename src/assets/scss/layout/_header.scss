@@ -25,6 +25,7 @@
 
   .site-logo {
     display: inline-block;
+    margin: auto;
     padding: 0 0.125rem;
     line-height: 0;
 
@@ -33,11 +34,7 @@
     }
 
     &__icon {
-      max-height: 2rem;
-
-      @include breakpoint('large') {
-        max-height: 50px;
-      }
+      height: 50px;
     }
   }
 }
