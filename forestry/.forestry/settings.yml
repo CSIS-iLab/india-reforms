@@ -1,16 +1,16 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
 - type: document
-  path: public/reforms.json
+  path: src/app/reforms.json
   label: REFORM DATA
 - type: document
-  path: src/forestry/sector.yml
+  path: forestry/sector.yml
   label: Sectors
-upload_dir: src/forestry/uploads
+upload_dir: src/assets/images
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
