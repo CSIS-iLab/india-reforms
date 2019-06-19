@@ -154,3 +154,5 @@ fields:
         section: sectors
         path: Sector
         file: src/forestry/sector.yml
+pages:
+- src/app/reforms.json
