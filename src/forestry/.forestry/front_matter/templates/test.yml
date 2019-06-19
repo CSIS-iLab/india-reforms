@@ -1,4 +1,9 @@
 ---
 label: test
 hide_body: false
-fields: []
+fields:
+- name: dasd
+  type: text
+  config:
+    required: false
+  label: dasd
