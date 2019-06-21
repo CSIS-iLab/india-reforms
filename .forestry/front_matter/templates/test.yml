@@ -12,6 +12,10 @@ fields:
   - type: textarea
     name: Transparency_Requirement
     label: Transparency_Requirement
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: text
     name: Transparency_Timeline
     label: Transparency_Timeline
@@ -54,3 +58,12 @@ fields:
   - type: text
     name: Privacy by Design
     label: Privacy by Design
+  - name: reference
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: reference
