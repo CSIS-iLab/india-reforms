@@ -1,6 +1,6 @@
 [
   {
-    "": "EU GDPR (2018)",
+    "framework": "EU GDPR (2018)",
     "Transparency_Requirement": "Controllers should provide:\nIdentity and contact details of data controller;\nContact details of the data protection officer;\nPurpose of processing;\nLegal basis for processing;\nPossible recipients of personal data;\nIntention to transfer data to a third country;\nPeriod of storage;\nWhether providing data is a statutory or contractual requirement;\nConsequences of failure to provide data;\nExistence of automated decision-making;\nLogic and consequences of automate decision-making",
     "Transparency_Timeline": "Information to be provided at time of collection",
     "Data Quality": "Data must be accurate;\nData must be up-to-date",
@@ -18,7 +18,7 @@
     "Privacy by Design": "Protections must be incorporated into systems by design"
   },
   {
-    "": "EU GDPR (2018)_language",
+    "framework": "EU GDPR (2018)_language",
     "Transparency_Requirement": "(Article 7) Personal data shall be: processed lawfully, fairly and in a transparent manner in relation to the data subject (‘lawfulness, fairness and transparency’);\n\n(Article 12) The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 and any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child. The information shall be provided in writing, or by other means, including, where appropriate, by electronic means. When requested by the data subject, the information may be provided orally, provided that the identity of the data subject is proven by other means.\n\n(Article 13) Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:\nthe identity and the contact details of the controller and, where applicable, of the controller’s representative;\nthe contact details of the data protection officer, where applicable;\nthe purposes of the processing for which the personal data are intended as well as the legal basis for the processing;\nwhere the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;\nthe recipients or categories of recipients of the personal data, if any;\nwhere applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available.\nIn addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing:\nthe period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;\n...\nwhether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract, as well as whether the data subject is obliged to provide the personal data and of the possible consequences of failure to provide such data;\nthe existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.\n\n(Recital 60) The principles of fair and transparent processing require that the data subject be informed of the existence of the processing operation and its purposes. 2The controller should provide the data subject with any further information necessary to ensure fair and transparent processing taking into account the specific circumstances and context in which the personal data are processed. 3Furthermore, the data subject should be informed of the existence of profiling and the consequences of such profiling. 4Where the personal data are collected from the data subject, the data subject should also be informed whether he or she is obliged to provide the personal data and of the consequences, where he or she does not provide such data. 5That information may be provided in combination with standardised icons in order to give in an easily visible, intelligible and clearly legible manner, a meaningful overview of the intended processing. 6Where the icons are presented electronically, they should be machine-readable.",
     "Transparency_Timeline": "(Article 13) Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information:\nthe identity and the contact details of the controller and, where applicable, of the controller’s representative;\nthe contact details of the data protection officer, where applicable;\nthe purposes of the processing for which the personal data are intended as well as the legal basis for the processing;\nwhere the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;\nthe recipients or categories of recipients of the personal data, if any;\nwhere applicable, the fact that the controller intends to transfer personal data to a third country or international organisation and the existence or absence of an adequacy decision by the Commission, or in the case of transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or suitable safeguards and the means by which to obtain a copy of them or where they have been made available.\nIn addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing:\nthe period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;\n...\nwhether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract, as well as whether the data subject is obliged to provide the personal data and of the possible consequences of failure to provide such data;\nthe existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.\n\n(Recital 61) The information in relation to the processing of personal data relating to the data subject should be given to him or her at the time of collection from the data subject, or, where the personal data are obtained from another source, within a reasonable period, depending on the circumstances of the case. 2Where personal data can be legitimately disclosed to another recipient, the data subject should be informed when the personal data are first disclosed to the recipient. 3Where the controller intends to process the personal data for a purpose other than that for which they were collected, the controller should provide the data subject prior to that further processing with information on that other purpose and other necessary information. 4Where the origin of the personal data cannot be provided to the data subject because various sources have been used, general information should be provided.",
     "Data Quality": "(Article 5) Personal data shall be: accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (‘accuracy’);",
@@ -36,7 +36,7 @@
     "Privacy by Design": "(Article 25) Taking into account the state of the art, the cost of implementation and the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for rights and freedoms of natural persons posed by the processing, the controller shall, both at the time of the determination of the means for processing and at the time of the processing itself, implement appropriate technical and organisational measures, such as pseudonymisation, which are designed to implement data-protection principles, such as data minimisation, in an effective manner and to integrate the necessary safeguards into the processing in order to meet the requirements of this Regulation and protect the rights of data subjects.\n1The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. 2That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and their accessibility. 3In particular, such measures shall ensure that by default personal data are not made accessible without the individual’s intervention to an indefinite number of natural persons."
   },
   {
-    "": "OECD Privacy Framework (2013)",
+    "framework": "OECD Privacy Framework (2013)",
     "Transparency_Requirement": "Controllers should provide:\nIdentity and contact details of data controller;\nInformation on the existence and nature of personal data;\nPurpose of processing",
     "Transparency_Timeline": "Information should be readily available",
     "Data Quality": "Data must be accurate;\nData must be complete;\nData must be up-to-date",
@@ -54,7 +54,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "OECD Privacy Framework (2013)_language",
+    "framework": "OECD Privacy Framework (2013)_language",
     "Transparency_Requirement": "(Paragraph 12) There should be a general policy of openness about developments,\npractices and policies with respect to personal data. Means should be readily\navailable of establishing the existence and nature of personal data, and the\nmain purposes of their use, as well as the identity and usual residence of the\ndata controller.",
     "Transparency_Timeline": "(Paragraph 12) There should be a general policy of openness about developments,\npractices and policies with respect to personal data. Means should be readily\navailable of establishing the existence and nature of personal data, and the\nmain purposes of their use, as well as the identity and usual residence of the\ndata controller. \n\n(Paragraph 12 Commentary) Regular information from data\ncontrollers on a voluntary basis, publication in official registers of\ndescriptions of activities concerned with the processing of personal data, and\nregistration with public bodies are some, though not all, of the ways by\nwhich this may be brought about. The reference to means which are “readily\navailable” implies that individuals should be able to obtain information\nwithout unreasonable effort as to time, advance knowledge, travelling, and\nso forth, and without unreasonable cost.",
     "Data Quality": "(Paragraph 8) Personal data should be relevant to the purposes for which they are to\nbe used, and, to the extent necessary for those purposes, should be accurate,\ncomplete and kept up-to-date.",
@@ -72,7 +72,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "APEC Privacy Framework (2015)",
+    "framework": "APEC Privacy Framework (2015)",
     "Transparency_Requirement": "Controllers should provide:\nIdentity and contact details of data controller;\nNotice that personal data is being collected;\nPurpose of processing;\nPossible recipients of personal data",
     "Transparency_Timeline": "Information to be provided at time of collection or as soon as practicable",
     "Data Quality": "Data must be accurate;\nData must be complete;\nData must be up-to-date",
@@ -90,7 +90,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "APEC Privacy Framework (2015)_language",
+    "framework": "APEC Privacy Framework (2015)_language",
     "Transparency_Requirement": "(Principle II)  Personal information controllers\nshould provide clear and easily\naccessible statements about their\npractices and policies with respect\nto personal information that should\ninclude:\na) the fact that personal information\nis being collected;\nb) the purposes for which personal\ninformation is collected;\nc) the types of persons or organizations to whom personal\ninformation might be disclosed;\nd) the identity and location of\nthe personal information\ncontroller, including information\non how to contact them about\ntheir practices and handling of\npersonal information;\ne) the choices and means the\npersonal information controller\noffers individuals for limiting the\nuse and disclosure of, and for\naccessing and correcting, their\npersonal information",
     "Transparency_Timeline": "(Principle II) All reasonably practicable steps\nshall be taken to ensure that such\nnotice is provided either before or\nat the time of collection of personal\ninformation. Otherwise, such notice\nshould be provided as soon after as\nis practicable.",
     "Data Quality": "(Principle 6) Personal information should be\naccurate, complete and kept up-to-date\nto the extent necessary for the purposes\nof use",
@@ -108,7 +108,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "AU Malabo Convention (2014)",
+    "framework": "AU Malabo Convention (2014)",
     "Transparency_Requirement": "Controllers should provide:\nIdentity and contact details of data controller;\nData to be processed;\nPurpose of processing;\nPossible recipients of personal data;\nIntention to transfer data to a third country;\nPeriod of storage",
     "Transparency_Timeline": "Information to be provided at time of collection",
     "Data Quality": "Data must be accurate;\nData must be complete;\nData must be up-to-date",
@@ -126,7 +126,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "AU Malabo Convention (2014)_language",
+    "framework": "AU Malabo Convention (2014)_language",
     "Transparency_Requirement": "(Article 16) The data controller shall provide the natural person whose data are to be processed with\nthe following information, no later than the time when the data are collected, and\nregardless of the means and facilities used, with the following information:\na) His/her identity and of his/her representative, if any;\nb) The purposes of the processing for which the data are intended;\nc) Categories of data involved;\nd) Recipient(s) to which the data might be disclosed;\ne) The capacity to request to be removed from the file;\nf) Existence of the right of access to and the right to rectify the data\nconcerning him/her;\ng) Period for which data are stored;\nh) Proposed transfers of data to third countries.",
     "Transparency_Timeline": "(Article 16) The data controller shall provide the natural person whose data are to be processed with\nthe following information, no later than the time when the data are collected, and\nregardless of the means and facilities used, with the following information:\na) His/her identity and of his/her representative, if any;\nb) The purposes of the processing for which the data are intended;\nc) Categories of data involved;\nd) Recipient(s) to which the data might be disclosed;\ne) The capacity to request to be removed from the file;\nf) Existence of the right of access to and the right to rectify the data\nconcerning him/her;\ng) Period for which data are stored;\nh) Proposed transfers of data to third countries.",
     "Data Quality": "(Principle 4) Data collected shall be accurate and, where necessary, kept up to date. Every\nreasonable step must be taken to ensure that data which are inaccurate or incomplete,\nhaving regard to the purposes for which they were collected or for which they are further\nprocessed, are erased or rectified",
@@ -144,7 +144,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "ASEAN Framework on Personal Data Protection (2016)",
+    "framework": "ASEAN Framework on Personal Data Protection (2016)",
     "Transparency_Requirement": "Controllers should provide:\nThe purpose of processing",
     "Transparency_Timeline": "Information to be provided at time of collection",
     "Data Quality": "Data must be accurate;\nData must be complete",
@@ -162,7 +162,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "ASEAN Framework on Personal Data Protection (2016)_language",
+    "framework": "ASEAN Framework on Personal Data Protection (2016)_language",
     "Transparency_Requirement": "(Paragraph 6) An organisation should not collect, use or disclose personal data\nabout an individual unless:\n(i) the individual has been notified of and given consent to the\npurpose(s) of the collection, use or disclosure of his/her\npersonal data; or",
     "Transparency_Timeline": "(Paragraph 6) An organisation should not collect, use or disclose personal data\nabout an individual unless:\n(i) the individual has been notified of and given consent to the\npurpose(s) of the collection, use or disclosure of his/her\npersonal data; or",
     "Data Quality": "(Paragraph 6) The personal data should be accurate and complete to the extent\nnecessary for the purpose(s) for which the personal data is to be\nused or disclosed.",
@@ -180,7 +180,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "OAS Principles on Privacy and Data Protection (2015)",
+    "framework": "OAS Principles on Privacy and Data Protection (2015)",
     "Transparency_Requirement": "Controllers should provide:\nPurpose of processing;\nPractices and policies of the controller\n\nControllers may need to provide:\nIdentity and contact details of data controller;\nLegal basis for processing;\nHow data will be stored and processed;\nIntention to transfer data",
     "Transparency_Timeline": "Information to be provided at time of collection",
     "Data Quality": "Data must be accurate;\nData must be complete;\nData must be up-to-date",
@@ -198,7 +198,7 @@
     "Privacy by Design": "Protections should be incorporated into systems by design"
   },
   {
-    "": "OAS Principles on Privacy and Data Protection (2015)_language",
+    "framework": "OAS Principles on Privacy and Data Protection (2015)_language",
     "Transparency_Requirement": "(Second Principle) As a rule, the purposes for which personal data is collected should be specified clearly at the\ntime the data is collected. In addition, individuals should be informed about the practices and\npolicies of the entities or persons collecting the personal data so they are able to make an informed\ndecision about providing that data. Without clarity, the individual’s agreement to collection cannot\nbe meaningful.\nIn order to permit individuals to make informed decisions as to whom and for what reason\nthey will provide their personal data, more information may be needed than just the purposes of the\ncollection and handling of those data. It can also be important for the individuals to be informed\nabout the legal basis for such collection, how their personal data will be stored and processed, the\nidentity and contact information of the personal responsible for handling them, any data transfers\nthat may be involved, and the means at their disposal for exercising their rights in respect of their\npersonal data.",
     "Transparency_Timeline": "(Second Principle) As a rule, the purposes for which personal data is collected should be specified clearly at the\ntime the data is collected.",
     "Data Quality": "(Seventh Principle) Personal data should be kept accurate and up-to-date to the extent necessary for the\npurposes of use...  the data controller or data controller should adopt appropriate\nmechanisms – reasonable in light of the purpose for which the date was collected and is used – to\nmake sure that the data remains accurate, complete, correct and up-to-date",
@@ -216,7 +216,7 @@
     "Privacy by Design": "(Tenth Principle) One effective contemporary approach is to require data controllers to build privacy\nprotection into the design and architecture of their information technology systems and business\npractices. Privacy and security considerations should be incorporated into every stage of product\ndesign.\nData controllers should be prepared to demonstrate their privacy management programs\nwhen asked, in particular at the request of a competent privacy enforcement authority or another\nentity responsible for promoting adherence to a code of conduct. National enforcement authorities\ncan only leverage internal accountability mechanisms if data controllers are willing and able to\ndemonstrate to them what those mechanisms are and how well they are functioning."
   },
   {
-    "": "UN Personal Data Protection and Privacy Principles (2018)",
+    "framework": "UN Personal Data Protection and Privacy Principles (2018)",
     "Transparency_Requirement": "Controllers should provide information about the processing of personal data",
     "Transparency_Timeline": "Information to be provided as appropriate and whenever possible",
     "Data Quality": "Data must be accurate;\nData must be up-to-date",
@@ -234,7 +234,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "UN Personal Data Protection and Privacy Principles (2018)_language",
+    "framework": "UN Personal Data Protection and Privacy Principles (2018)_language",
     "Transparency_Requirement": "(Principle 8) Processing of personal data should be carried out with transparency\nto the data subjects, as appropriate and whenever possible. This\nshould include, for example, provision of information about the\nprocessing of their personal data as well as information on how to\nrequest access, verification, rectification, and/or deletion of that\npersonal data, insofar as the specified purpose for which personal\ndata is processed is not frustrated.",
     "Transparency_Timeline": "(Principle 8) Processing of personal data should be carried out with transparency\nto the data subjects, as appropriate and whenever possible. This\nshould include, for example, provision of information about the\nprocessing of their personal data as well as information on how to\nrequest access, verification, rectification, and/or deletion of that\npersonal data, insofar as the specified purpose for which personal\ndata is processed is not frustrated.",
     "Data Quality": "(Principle 5) Personal data should be accurate and, where necessary, up to date to\nfulfill the specified purposes.",
@@ -252,7 +252,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "IAS",
+    "framework": "IAS",
     "Transparency_Requirement": "Controllers should provide:\nIdentity and contact details of data controller;\nPurpose of processing;\nPossible recipients of personal data",
     "Transparency_Timeline": "Information to be provided at time of collection",
     "Data Quality": "Data must be accurate;\nData must be complete;\nData must be up-to-date",
@@ -270,7 +270,7 @@
     "Privacy by Design": "Protections must be incorporated into systems by design"
   },
   {
-    "": "IAS_language",
+    "framework": "IAS_language",
     "Transparency_Requirement": "(Principle 16) The person responsible shall inform holder about the existence and main characteristics of the treatment to which its personal data shall be submitted, in order to make informed\ndecisions on this regard.\n16.2. The person responsible shall provide holder, at least the following information:\na. Its identity and contact information.\nb. The purposes of the treatment to which its personal data shall be submitted.\nc. The communications, whether national or international, of personal data that it intends to perform, including the recipients and the purposes that give rise to the performance thereof.\nd. The existence, form and mechanisms or procedures through which it may exercise\nthe access, correction, cancellation, opposition and portability rights.\ne. If applicable, the origin of the personal data when the person responsible did not\nobtain them directly from holder.\n16.3. The information provided to holder must be sufficient and easily accessible, as well\nas written and structured in a clear and simple language, easy for holders to whom it is addressed\nto understand, especially in the case of girls, boys and adolescents.\n16.4. Every person responsible shall have transparent policies for the treatment of the\npersonal data that it perform",
     "Transparency_Timeline": "(Principle 16) The person responsible shall inform holder about the existence and main characteristics of the treatment to which its personal data shall be submitted, in order to make informed\ndecisions on this regard.\n16.2. The person responsible shall provide holder, at least the following information:\na. Its identity and contact information.\nb. The purposes of the treatment to which its personal data shall be submitted.\nc. The communications, whether national or international, of personal data that it intends to perform, including the recipients and the purposes that give rise to the performance thereof.\nd. The existence, form and mechanisms or procedures through which it may exercise\nthe access, correction, cancellation, opposition and portability rights.\ne. If applicable, the origin of the personal data when the person responsible did not\nobtain them directly from holder.\n16.3. The information provided to holder must be sufficient and easily accessible, as well\nas written and structured in a clear and simple language, easy for holders to whom it is addressed\nto understand, especially in the case of girls, boys and adolescents.\n16.4. Every person responsible shall have transparent policies for the treatment of the\npersonal data that it perform",
     "Data Quality": "(Principle 19)  The person responsible shall adopt the necessary measures in order to keep the personal data in its possession accurate, complete and updated, in such way that the veracity thereof\nis not altered, as required for compliance with the purposes that gave rise to its treatment.",
@@ -288,7 +288,7 @@
     "Privacy by Design": "(Principle 38) The person responsible shall apply, from the design, in the determination of the\ntreatment means of personal data, during and before the collection of personal data, preventive\nmeasures of various natures that allow effectively applying the principles, rights and other obligations provided in the applicable national legislation of the Ibero-American State.\n38.2. The person responsible shall guarantee that its programs, services, computing systems or platforms, electronic applications or any other technology that implies a treatment of\npersonal data, comply by default or adapt to the principles, rights and other obligations provided\nin the applicable national legislation of the Ibero-American State. Specifically, with the purpose\nthat only a minimum of personal data is subject to treatment, and that the accessibility thereof is\nlimited, without holder’s intervention, to an undetermined number of persons"
   },
   {
-    "": "Convention 108",
+    "framework": "Convention 108",
     "Transparency_Requirement": "No Requirement",
     "Transparency_Timeline": "No Requirement",
     "Data Quality": "Data must be accurate;\nData must be up-to-date",
@@ -306,7 +306,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "Convention 108_language",
+    "framework": "Convention 108_language",
     "Transparency_Requirement": "No Requirement",
     "Transparency_Timeline": "No Requirement",
     "Data Quality": "(Article 5) Personal data undergoing automatic processing shall be: ... accurate and, where necessary, kept up to date;",
@@ -324,7 +324,7 @@
     "Privacy by Design": "No Requirement"
   },
   {
-    "": "Madrid Resolution",
+    "framework": "Madrid Resolution",
     "Transparency_Requirement": "Controllers should provide:\nIdentity and contact details of data controller;\nPurpose of processing;\nPossible recipients of personal data",
     "Transparency_Timeline": "Information to be provided at time of collection",
     "Data Quality": "Data must be accurate;\nData must be complete;\nData must be up-to-date",
@@ -342,7 +342,7 @@
     "Privacy by Design": "Protections are encouraged to be incorporated into systems by design"
   },
   {
-    "": "Madrid Resolution_language",
+    "framework": "Madrid Resolution_language",
     "Transparency_Requirement": "(Principle 10) The responsible person shall provide to the\ndata subjects, as a minimum, information about\nthe responsible person’s identity, the intended\npurpose of processing, the recipients to whom\ntheir personal data will be disclosed and how\ndata subjects may exercise the rights provided in\nthis Document, as well as any further information\nnecessary to guarantee fair processing of such\npersonal data.",
     "Transparency_Timeline": "(Principle 10) When personal data have been collected directly from the data subject, the information must\nbe provided at the time of collection, unless it has already been provided",
     "Data Quality": "(Principle 9) The responsible person should at all times ensure that personal data are accurate, as well as\nsufficient and kept up to date in such a way as to\nfulfil the purposes for which they are processed.",
