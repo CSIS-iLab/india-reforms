@@ -1,0 +1,56 @@
+---
+label: test
+hide_body: true
+fields:
+- type: field_group_list
+  name: Tech policy test
+  label: Tech policy test
+  fields:
+  - type: text
+    name: ''
+    label: ''
+  - type: textarea
+    name: Transparency_Requirement
+    label: Transparency_Requirement
+  - type: text
+    name: Transparency_Timeline
+    label: Transparency_Timeline
+  - type: text
+    name: Data Quality
+    label: Data Quality
+  - type: text
+    name: Security_Requirement
+    label: Security_Requirement
+  - type: text
+    name: Security_Types of Safeguards
+    label: Security_Types of Safeguards
+  - type: text
+    name: Security_Confidentiality
+    label: Security_Confidentiality
+  - type: text
+    name: Data Breach Notification_Data Subject
+    label: Data Breach Notification_Data Subject
+  - type: text
+    name: Data Breach Notification_Data Protection Authority
+    label: Data Breach Notification_Data Protection Authority
+  - type: text
+    name: Retention_Requirement
+    label: Retention_Requirement
+  - type: text
+    name: Retention_Anonymization
+    label: Retention_Anonymization
+  - type: textarea
+    name: Cross-Border Transfers_Adequacy of Third Country Protections
+    label: Cross-Border Transfers_Adequacy of Third Country Protections
+  - type: textarea
+    name: Cross-Border Transfers_Adequacy of Third Party Protections
+    label: Cross-Border Transfers_Adequacy of Third Party Protections
+  - type: text
+    name: Cross-Border Transfers_Prohibition on Unnecessary Restrictions
+    label: Cross-Border Transfers_Prohibition on Unnecessary Restrictions
+  - type: text
+    name: Accountability
+    label: Accountability
+  - type: text
+    name: Privacy by Design
+    label: Privacy by Design
