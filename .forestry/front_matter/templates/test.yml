@@ -9,11 +9,12 @@ fields:
   - type: text
     name: framework
     label: framework
+  - type: text
+    name: link
+    label: link
   - name: reference
     type: textarea
-    default: ''
     config:
-      required: false
       wysiwyg: true
       schema:
         format: markdown
@@ -25,45 +26,101 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-  - type: text
+  - type: textarea
     name: Transparency_Timeline
     label: Transparency_Timeline
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
     name: Data Quality
     label: Data Quality
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
     name: Security_Requirement
     label: Security_Requirement
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
     name: Security_Types of Safeguards
     label: Security_Types of Safeguards
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
     name: Security_Confidentiality
     label: Security_Confidentiality
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
     name: Data Breach Notification_Data Subject
     label: Data Breach Notification_Data Subject
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
     name: Data Breach Notification_Data Protection Authority
     label: Data Breach Notification_Data Protection Authority
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
     name: Retention_Requirement
     label: Retention_Requirement
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
     name: Retention_Anonymization
     label: Retention_Anonymization
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: textarea
     name: Cross-Border Transfers_Adequacy of Third Country Protections
     label: Cross-Border Transfers_Adequacy of Third Country Protections
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: textarea
     name: Cross-Border Transfers_Adequacy of Third Party Protections
     label: Cross-Border Transfers_Adequacy of Third Party Protections
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
     name: Cross-Border Transfers_Prohibition on Unnecessary Restrictions
     label: Cross-Border Transfers_Prohibition on Unnecessary Restrictions
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
     name: Accountability
     label: Accountability
-  - type: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
     name: Privacy by Design
     label: Privacy by Design
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
