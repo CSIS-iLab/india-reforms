@@ -9,6 +9,15 @@ fields:
   - type: text
     name: framework
     label: framework
+  - name: reference
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: reference
   - type: textarea
     name: Transparency_Requirement
     label: Transparency_Requirement
@@ -58,12 +67,3 @@ fields:
   - type: text
     name: Privacy by Design
     label: Privacy by Design
-  - name: reference
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: reference
