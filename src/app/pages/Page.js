@@ -120,6 +120,8 @@ class Page extends React.Component {
   }
 
   componentWillUnmount() {
+    delete require.cache[require.resolve('../../assets/scss/scorecard.scss')]
+    
     const triggers = Array.from(
       document.querySelectorAll('.menu-trigger.is-active')
     )
