@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
 import Page from './pages/Page'
+import Archive from './pages/Archive'
 import SiteMap from './SiteMap'
 import { Route } from 'react-router-dom'
 import SmoothScroll from 'smooth-scroll'
@@ -105,6 +106,11 @@ class App extends Component {
               page="homepage"
             />
           )}
+        />
+        <Route
+          exact
+          path="/2014reforms"
+          render={props => <Archive page="archive" />}
         />
         <Footer siteStructure={siteStructure} />
         <div className="content-overlay" />

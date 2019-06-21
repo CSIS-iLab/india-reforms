@@ -37,6 +37,8 @@ module.exports = function override(config, env) {
     ]
   })
 
+  config.module.rules.push({ test: /\.html$/, loader: 'html-loader' })
+
   config.plugins.push(new StyleLintPlugin({ fix: true }))
 
   return config

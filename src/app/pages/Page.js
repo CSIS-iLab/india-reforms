@@ -94,7 +94,9 @@ class Page extends React.Component {
     this.toggle(e.target)
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    require('../../assets/scss/scorecard.scss')
+  }
   componentDidUpdate() {
     if (!this.props.sheetData.length) return
 
@@ -172,7 +174,7 @@ class Page extends React.Component {
     const Controls = () => {
       return (
         <section id="controls">
-          <label htmlFor="reform-search" class="visually-hidden">
+          <label htmlFor="reform-search" className="visually-hidden">
             Search
           </label>
           {sheetData.length ? (
