@@ -152,8 +152,8 @@ fields:
       source:
         type: documents
         section: sectors
-        path: Sector
-        file: src/forestry/sector.yml
+        path: ''
+        file: ".forestry/sector.yml"
   config:
     labelField: name
 pages:
