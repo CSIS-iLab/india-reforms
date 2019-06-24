@@ -152,7 +152,7 @@ fields:
       source:
         type: documents
         section: sectors
-        path: ''
+        path: Sector
         file: ".forestry/sector.yml"
   config:
     labelField: name
