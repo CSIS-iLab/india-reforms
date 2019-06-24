@@ -10,9 +10,6 @@ sections:
 - type: document
   path: ".forestry/sector.yml"
   label: Sectors
-- type: document
-  path: src/app/tech_policy_test.json
-  label: TEST
 upload_dir: src/assets/images
 public_path: "/uploads"
 front_matter_path: ''

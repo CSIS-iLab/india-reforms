@@ -124,5 +124,3 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-pages:
-- src/app/tech_policy_test.json
