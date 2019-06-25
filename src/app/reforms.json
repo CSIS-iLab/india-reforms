@@ -1,6 +1,506 @@
 [
   {
-    "name": "Fake Fake Fake Simplify GST rates to two rates",
+    "name": "Raise the ceiling on foreign institutional investment in government bonds",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Reduce the government's stake in Air India to a minority share",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Create a structured and time-bound out-of-court restructuring process to prevent a bottleneck of the NCLT",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Improve the functioning of the NCLT by increasing the number of benches and increasing the timeline for resolution of cases to one year",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Fill all judicial vacancies in India's courts",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Release an annual report every year outlining the origin country and destination state of foreign investment into India",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Create a bankruptcy resolution process for financial firms",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Place control of pricing of electrical power in the hands of the central government",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Pass the Major Port Authorities Bill",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "End retrospective taxation of cross-border investments",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Reduce the corporate tax rate from 30 percent to 25 percent",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Stop forcing banks to lend to \"priority sectors\"",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Reduce restrictions on multi-brand retail",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Amend or replace the Fair Compensation in Land Acquisition, Rehabilitation, and Resettlement Act, 2013 that simplifies the time and cost required to acquire land in India",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Mandate regulatory bodies to issue cost/benefit analyses, as well as a 30-day notice and comment period, for all proposed regulation",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Deregulate Kerosene Pricing",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Deregulate Natural Gas Pricing",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Allow more than 50% investment in Insurance",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Allow more than 50% investment in direct retail e-commerce",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Allow more than 50% investment in Defense",
+    "steps": {
+      "not_started": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "incomplete": {
+        "status": "",
+        "description": "",
+        "link": ""
+      },
+      "completed": {
+        "status": "",
+        "description": "",
+        "link": ""
+      }
+    },
+    "status": "not_started",
+    "difficulty": "",
+    "sectors": [
+
+    ]
+  },
+  {
+    "name": "Simplify the Goods and Services Tax rates to three rates",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -21,12 +521,14 @@
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
+      "energy",
+      "retail",
       "agriculture",
       "defense"
     ]
   },
   {
-    "name": "Fake Allow more than 50% foreign investment in insurance",
+    "name": "Include electricity, oil and gas, real estate, and alcohol in the ambit of the GST",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -52,7 +554,7 @@
     ]
   },
   {
-    "name": "Fake Institute a Mandatory 30-day \"Notice and Comment\" period for proposed regulations",
+    "name": "Establish a 10-Year Reform Action Plan to privatize central and state-owned public sector enterprises",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -78,7 +580,7 @@
     ]
   },
   {
-    "name": "Fake Create a bankruptcy resolution process for financial firms",
+    "name": "Privatize India's public sector banks, and create an independent body that decides board appointments to these banks",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -121,7 +623,7 @@
         "link": "http://google.com"
       }
     },
-    "name": "Fake Stop forcing banks to lend to \"priority sectors\"",
+    "name": "Raise the ceiling on foreign institutional investment in Indian companies",
     "status": "incomplete",
     "difficulty": "high",
     "sectors": [
@@ -146,7 +648,7 @@
         "link": ""
       }
     },
-    "name": "Simplify GST rates to two rates ",
+    "name": "Establish the already-approved Rail Development Authority",
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
@@ -171,7 +673,7 @@
         "link": ""
       }
     },
-    "name": "Allow more than 50% foreign investment in insurance",
+    "name": "Establish a paperless court system to ensure speedy resolution of cases",
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
@@ -196,7 +698,7 @@
         "link": ""
       }
     },
-    "name": "Institute a Mandatory 30-day \"Notice and Comment\" period for proposed regulations",
+    "name": "Ensure that business owners can receive central government permits in 10 days or less",
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
@@ -221,7 +723,7 @@
         "link": ""
       }
     },
-    "name": "Create a bankruptcy resolution process for financial firms",
+    "name": "Make it easier to start a business by offering one-stop shopping for central government clearances",
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
@@ -246,7 +748,7 @@
         "link": ""
       }
     },
-    "name": "Stop forcing banks to lend to \"priority sectors\"",
+    "name": "Remove the requirement for government permission for layoffs in the Industrial Disputes Act",
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
