@@ -680,9 +680,13 @@
     },
     "name": "Establish a paperless court system to ensure speedy resolution of cases",
     "status": "not_started",
-    "difficulty": "high",
+    "difficulty": "medium",
     "sectors": [
-
+      "services",
+      "retail",
+      "industry",
+      "fiscal",
+      "communications"
     ]
   },
   {
