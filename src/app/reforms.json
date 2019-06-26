@@ -721,17 +721,17 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "Regulations are implemented without a 30-day notice and comment period",
+        "description": "According to the World Bank's Ease of Doing Busines Report 2019, it takes 17 days to start a business in India, more than the average of 13.7 days in South Asia",
         "link": ""
       },
       "incomplete": {
         "status": "Incomplete",
-        "description": "Ministry of Law and Justice or Cabinet issues note calling on government agencies to honor a 30-day notification period",
+        "description": "",
         "link": ""
       },
       "completed": {
         "status": "Completed",
-        "description": "Parliament passes statutes amending the laws governing India’s financial regulators, mandating a 30-day notice and comment period for proposed regulation",
+        "description": "The Department for Promotion of Industry and Internal Trade ensures central government permits are issued within 10 days for all sectors",
         "link": ""
       }
     },
@@ -739,12 +739,7 @@
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
-      "services",
-      "retail",
-      "market acces",
-      "energy/mining",
-      "defense",
-      "communications"
+
     ]
   },
   {
