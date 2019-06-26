@@ -28,7 +28,7 @@ export default class Nav extends React.Component {
         role="navigation"
       >
         <a href="/" className="link-home link-home--desktop">
-          <LogoLong class="link-home__logo-long" />
+          <LogoLong className="link-home__logo-long" />
         </a>
 
         <a href="/" className="link-home link-home--mobile">

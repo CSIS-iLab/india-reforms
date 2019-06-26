@@ -1,0 +1,87 @@
+#cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  min-height: 50vh;
+}
+
+.ui.card {
+  width: 100%;
+  max-width: unset;
+  height: 575px;
+  margin: 1rem 2rem 1rem 0;
+  background-color: $color__gray-medium;
+  border: 0;
+  box-shadow: none;
+  /* stylelint-disable */
+  -webkit-transition: unset;
+  transition: unset;
+  /* stylelint-enable */
+
+  @include breakpoint('medium') {
+    width: 500px;
+  }
+  @include breakpoint('large') {
+    width: 300px;
+  }
+  @include breakpoint('xlarge') {
+    width: 300px;
+  }
+
+  h2 {
+    margin: 1rem 0;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 2px rgba($color__white, 0.1);
+
+    > .header:not(.ui) {
+      font-size: 16px;
+    }
+
+    > .description {
+      p {
+        @extend %base;
+      }
+    }
+
+    &.extra {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .meta {
+    @extend %meta;
+    align-self: flex-end;
+  }
+
+  .ui.ribbon.label {
+    @include font-size(14px);
+
+    &.blue {
+      background-color: $color__blue !important;
+
+      &::after {
+        border-right-color: $color__blue-dark;
+      }
+    }
+
+    &.yellow {
+      background-color: $color__yellow !important;
+
+      &::after {
+        border-right-color: $color__yellow-dark;
+      }
+    }
+
+    &.green {
+      background-color: $color__green !important;
+
+      &::after {
+        border-right-color: $color__green-dark;
+      }
+    }
+  }
+}

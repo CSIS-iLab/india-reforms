@@ -1,0 +1,67 @@
+.ui.modal {
+  max-width: 500px;
+  background-color: $color__gray-light;
+  @extend %font-oxygen;
+  @include font-size(16px);
+
+  i.close.icon {
+    display: flex;
+    align-items: center;
+
+    &::after {
+      content: ' \F00D';
+    }
+
+    &::before {
+      @extend %font-oxygen;
+      @include font-size(12px);
+      margin-right: 0.5rem;
+      content: 'CLOSE';
+    }
+  }
+
+  h3 {
+    margin-bottom: 2rem;
+    padding: 1.25rem 1.5rem;
+    border-bottom: solid 2px rgba($color__white, 0.1);
+  }
+
+  .ant-timeline {
+    padding: 0 1.5rem 1.25rem;
+  }
+
+  .checked.ant-timeline-item {
+    color: rgba($color__white, 0.8);
+
+    .ant-timeline-item-head {
+      background-color: $color__red;
+      border-color: $color__red;
+    }
+  }
+
+  .ant-timeline-item:not(.checked) {
+    .ant-timeline-item-head {
+      background-color: $color__gray-light;
+      border-color: rgba($color__white, 0.5) !important;
+    }
+  }
+
+  .ant-timeline-item {
+    color: rgba($color__white, 0.5);
+    @include font-size(16px);
+
+    @include breakpoint('medium') {
+      @include font-size(18px);
+    }
+
+    .status {
+      font-weight: bold;
+      letter-spacing: 0.5;
+      text-transform: uppercase;
+    }
+
+    &-tail {
+      border-left: solid 2px rgba($color__white, 0.1);
+    }
+  }
+}

@@ -54,8 +54,7 @@ p {
 
   header &,
   main & {
-    @include font-size(18px);
-    line-height: 1.48;
+    @extend %base;
   }
 
   footer & {
