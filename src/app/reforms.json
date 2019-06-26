@@ -622,32 +622,31 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "Financial institutions have been kept out of the Insolvency and Bankruptcy Code's purview",
+        "description": "The government continues to hold a majority stake in public sector banks, and the Ministry of Finance makes all appointments to bank boards",
         "link": ""
       },
       "incomplete": {
         "status": "Incomplete",
-        "description": "5/20/2019: A financial resolution bill is approved by Parliament, but underlying regulations are not issued or contain critical weaknesses",
-        "link": "http://google.com"
+        "description": "The government begins steps to merge India's banks, or privatize certain banks, but falls short of complete privatization and independent appointments to bank boards",
+        "link": ""
       },
       "completed": {
         "status": "Completed",
-        "description": "5/5/2020: The law is passed in Parliament and signed into law by the President of India, and related regulations are issued5",
-        "link": "http://google.com"
+        "description": "The government reduces its stake in all public sector banks to a minority share, and shifts all power to appoint members of bank boards to the Banks Board Bureau",
+        "link": ""
       }
     },
     "status": "completed",
     "difficulty": "medium",
     "sectors": [
-      "retail",
-      "services"
+
     ]
   },
   {
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "The Reserve Bank of India currently forces bank to allocate 40% of their credit to priority sectors",
+        "description": "The long-standing 10% limit on single institutional investors hinders investment in high-growth Indian companies",
         "link": ""
       },
       "incomplete": {
@@ -657,7 +656,7 @@
       },
       "completed": {
         "status": "Completed",
-        "description": "The RBI removes its stipulation that banks should allocate a certain percentage to priority sectors.",
+        "description": "SEBI increases the ceiling on foreign institutional investment in Indian companies above 10 percent",
         "link": "http://google.com"
       }
     },
@@ -665,8 +664,7 @@
     "status": "not_started",
     "difficulty": "low",
     "sectors": [
-      "industry",
-      "fiscal"
+
     ]
   },
   {
