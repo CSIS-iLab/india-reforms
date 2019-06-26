@@ -597,25 +597,24 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "Regulations are implemented without a 30-day notice and comment period",
+        "description": "The government continues a piecemeal approach to privatization of government-owned companies with no deadline on completion",
         "link": ""
       },
       "incomplete": {
         "status": "Incomplete",
-        "description": "Ministry of Law and Justice or Cabinet issues note calling on government agencies to honor a 30-day notification period",
+        "description": "The government announces its intent to privatize government-owned companies within 10 years",
         "link": ""
       },
       "completed": {
         "status": "Completed",
-        "description": "Parliament passes statutes amending the laws governing India’s financial regulators, mandating a 30-day notice and comment period for proposed regulation",
+        "description": "The government releases a 10-Year Action Plan to privatize government-owned companies",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "industry",
-      "fiscal"
+
     ]
   },
   {
