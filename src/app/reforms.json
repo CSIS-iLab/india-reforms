@@ -711,7 +711,12 @@
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
-
+      "services",
+      "retail",
+      "market acces",
+      "energy/mining",
+      "defense",
+      "communications"
     ]
   },
   {
