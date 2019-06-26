@@ -319,9 +319,10 @@
       }
     },
     "status": "not_started",
-    "difficulty": "",
+    "difficulty": "medium",
     "sectors": [
-
+      "retail",
+      "market acces"
     ]
   },
   {
