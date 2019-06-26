@@ -494,7 +494,7 @@
     "name": "Allow more than 50% investment in direct retail e-commerce",
     "steps": {
       "not_started": {
-        "status": "",
+        "status": "Not Started",
         "description": "Foreign direct investment in direct retail e-commerce is restricted by government regulations",
         "link": ""
       },
@@ -504,8 +504,8 @@
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "The government issues a Press Note lifting the cap on FDI in the defense sector",
+        "status": "Completed",
+        "description": "The government issues a Press Note allowing more than 50% FDI in the retail e-commerce, and removes all restrictions on direct retail e-commerce companies",
         "link": ""
       }
     },
