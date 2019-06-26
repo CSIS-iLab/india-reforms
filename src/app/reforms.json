@@ -144,9 +144,11 @@
       }
     },
     "status": "not_started",
-    "difficulty": "",
+    "difficulty": "low",
     "sectors": [
-
+      "industry",
+      "market access",
+      "fiscal"
     ]
   },
   {
