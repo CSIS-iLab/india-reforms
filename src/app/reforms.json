@@ -3,26 +3,25 @@
     "name": "Raise the ceiling on foreign institutional investment in government bonds",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "For FY 2019-2020, the Reserve Bank of India set the limit on foreign institutional investment in government bonds to 6%, far lower than its emerging market counterparts",
         "link": ""
       },
       "incomplete": {
-        "status": "",
-        "description": "",
+        "status": "Incomplete",
+        "description": "The RBI increases the limit on foreign institutional investment in government bonds above 6%, but falls short of increasing it to 30%",
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "The government increases the limit on foreign institutional investment in government bonds to 30% in line with other emerging markets",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
-      "market access",
-      "fiscal"
+
     ]
   },
   {
