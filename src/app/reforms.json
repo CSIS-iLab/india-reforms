@@ -547,27 +547,24 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "There are currently five rates under the Goods and Services Tax",
+        "description": "The current rate structure of four rates, plus a separate tax rate for gold and a 0 percent rate, is overly complicated and should be simplified",
         "link": ""
       },
       "incomplete": {
         "status": "Incomplete",
-        "description": "* Reduced to 4 rates\n* Reduced to 3 rates\n",
+        "description": "* Reduced to 5 rates, including a 0 percent rate\n* Reduced to 4 rates, including a 0 percent rate",
         "link": ""
       },
       "completed": {
         "status": "Completed",
-        "description": "Reduced to 2 rates",
+        "description": "Reduced to 3 rates, including a 0 percent rate",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "industry",
-      "fiscal",
-      "retail",
-      "agriculture"
+
     ]
   },
   {
@@ -575,27 +572,24 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "Only 49% foreign investment is currently allowed, with minority ownership for the foreign firm",
+        "description": "While nearly 1300 goods and 500 services are covered by the GST, electricity, oil and gas, real estate, and alcohol are not currently in the ambit of the tax",
         "link": ""
       },
       "incomplete": {
         "status": "Incomplete",
-        "description": "If amendments to Insurance Act are passed by Parliament that more than 50%, but minority ownership regulations are not lifted",
+        "description": "Some of the listed products are added into the ambit of the GST, but not all are included",
         "link": ""
       },
       "completed": {
         "status": "Completed",
-        "description": "Amendments to Insurance Act passed by Parliament allowing majority foreign ownership without management and control restrictions",
+        "description": "All products listed above are included in the ambit of the GST",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "services",
-      "industry",
-      "retail",
-      "fiscal"
+
     ]
   },
   {
