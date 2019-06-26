@@ -369,9 +369,14 @@
       }
     },
     "status": "not_started",
-    "difficulty": "",
+    "difficulty": "high",
     "sectors": [
-
+      "services",
+      "retail",
+      "defense",
+      "communications",
+      "industry",
+      "fiscal"
     ]
   },
   {
