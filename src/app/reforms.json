@@ -521,7 +521,7 @@
     "steps": {
       "not_started": {
         "status": "",
-        "description": "",
+        "description": "FDI above 50% in defense is currently subject to approval from the government",
         "link": ""
       },
       "incomplete": {
@@ -531,15 +531,14 @@
       },
       "completed": {
         "status": "",
-        "description": "",
+        "description": "The government issues a Press Note lifting the cap on FDI in the defense sector",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
-      "market acces",
-      "defense"
+
     ]
   },
   {
