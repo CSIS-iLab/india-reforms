@@ -83,18 +83,18 @@
     "name": "Improve the functioning of the NCLT by increasing the number of benches and increasing the timeline for resolution of cases to one year",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "The NCLT is maintained at 11 benches around India, with a 180-day timeline for resolution of cases",
         "link": ""
       },
       "incomplete": {
-        "status": "",
-        "description": "",
+        "status": "Incomplete",
+        "description": "An act amending the Insolvency and Bankruptcy Code is introduced in Parliament increases the number of benches and changing the timeline for resolution of cases",
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "Parliament passes the amendment to the Insolvency and Bankruptcy Code, and it is signed into law by the President of India",
         "link": ""
       }
     },
