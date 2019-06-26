@@ -771,17 +771,17 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "The Reserve Bank of India currently forces bank to allocate 40% of their credit to priority sectors",
+        "description": "The Industrial Disputes Act sets a floor of 100 employees after which government permission is required to lay off workers.",
         "link": ""
       },
       "incomplete": {
         "status": "Incomplete",
-        "description": "The RBI reduces the stipulation to below 40%, but stops short of abolishing the practice entirely, or allows more flexibility in the discharge of these obligations",
+        "description": "An amendment to the Industrial Dipustes Act to increase the number from 100 is passed in Parliament, but the cap is not eliminated entirely",
         "link": ""
       },
       "completed": {
         "status": "Completed",
-        "description": "The RBI removes its stipulation that banks should allocate a certain percentage to priority sectors.",
+        "description": "An amendment to the Industrial Disputes Act to remove the cap is passed in Parliament and signed into law by the President of India",
         "link": ""
       }
     },
@@ -789,9 +789,7 @@
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "services",
-      "retail",
-      "industry"
+
     ]
   }
 ]
