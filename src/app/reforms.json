@@ -220,18 +220,18 @@
     "name": "Pass the Major Port Authorities Bill",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "Major ports currently face strict regulations from the government on rates, decision-making, and governance",
         "link": ""
       },
       "incomplete": {
         "status": "",
-        "description": "",
+        "description": "The Major Port Authorities bill is reintroduced in Parliament",
         "link": ""
       },
       "completed": {
         "status": "",
-        "description": "",
+        "description": "The Major Port Authorities Bill is passed in Parliament and signed into law by the President of India",
         "link": ""
       }
     },
