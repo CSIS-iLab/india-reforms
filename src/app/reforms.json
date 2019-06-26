@@ -110,29 +110,25 @@
     "name": "Fill all judicial vacancies in India's courts",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "Nearly 26 percent of judgeships in India's subordinate courts remain vacant, while 36 percent of judgeships in India's high courts are vacant.",
         "link": ""
       },
       "incomplete": {
-        "status": "",
-        "description": "",
+        "status": "Incomplete",
+        "description": "The government takes some measures to fill judicial vacancies, bringing the numbers lower, but falling short of filling all vacancies",
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "All vacancies in India's judicial system are filled with qualified personnel",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "retail",
-      "services",
-      "industry",
-      "defense",
-      "communications"
+
     ]
   },
   {
