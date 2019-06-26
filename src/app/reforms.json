@@ -328,8 +328,8 @@
     "name": "Reduce restrictions on multi-brand retail",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "Foreign direct investment in multi-brand retail is subject to minimum investment size, sourcing rules and location limitations",
         "link": ""
       },
       "incomplete": {
@@ -338,16 +338,15 @@
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "The government issues a Press Note lifting all restrictions on minimum investment size, sourcing rules and location limitation for multi-brand retail",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
-      "retail",
-      "market acces"
+
     ]
   },
   {
