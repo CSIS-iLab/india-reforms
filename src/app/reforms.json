@@ -468,18 +468,18 @@
     "name": "Allow more than 50% investment in Insurance",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "Only 49% foreign investment is currently allowed, with minority ownership for the foreign firm",
         "link": ""
       },
       "incomplete": {
-        "status": "",
-        "description": "",
+        "status": "Incomplete",
+        "description": "The government introduces amendments to Insurance Act that allow foreign investment above 50% but does not lift minority ownership regulations",
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "Parliament passes amendments to the Insurance Act allowing more than 50% investment and lifting minority ownership regulations, which are then signed into law",
         "link": ""
       }
     },
