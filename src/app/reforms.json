@@ -29,18 +29,18 @@
     "name": "Fully privatize Air India",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "Air India posted losses of nearly $1.1 billion in FY 2018-2019, and has posted continuous losses since 2007. Privatizing Air India will prevent taxpayer money from being directed to a loss-making enterprise",
         "link": ""
       },
       "incomplete": {
-        "status": "",
-        "description": "",
+        "status": "Incomplete",
+        "description": "The government announces a tender offering a majority stake in Air India, bringing the government's own stake below 49%",
         "link": ""
       },
       "completed": {
         "status": "",
-        "description": "",
+        "description": "The tender is completed successfully with a winner or group of winners who will assume control of Air India",
         "link": ""
       }
     },
@@ -99,9 +99,7 @@
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "industry",
-      "services",
-      "fiscal"
+
     ]
   },
   {
