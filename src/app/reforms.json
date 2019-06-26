@@ -771,7 +771,9 @@
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-
+      "services",
+      "retail",
+      "industry"
     ]
   }
 ]
