@@ -219,9 +219,12 @@
       }
     },
     "status": "not_started",
-    "difficulty": "",
+    "difficulty": "low",
     "sectors": [
-
+      "market acces",
+      "infrastructure",
+      "defense",
+      "industry"
     ]
   },
   {
