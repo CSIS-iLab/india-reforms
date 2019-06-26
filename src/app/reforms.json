@@ -269,9 +269,13 @@
       }
     },
     "status": "not_started",
-    "difficulty": "",
+    "difficulty": "medium",
     "sectors": [
-
+      "services",
+      "retail",
+      "industry",
+      "communications",
+      "fiscal"
     ]
   },
   {
