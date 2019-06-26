@@ -248,18 +248,18 @@
     "name": "End retrospective taxation of cross-border investments",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "While the government created a committee under the Central Board of Direct Taxes to block retrospective taxation of cross-border investments, it has not amended the Income Tax Code to repeal the provision entirely",
         "link": ""
       },
       "incomplete": {
-        "status": "",
-        "description": "",
+        "status": "Incomplete",
+        "description": "A bill is introduced in Parliament amending the Income Tax Code to repeal the retrospective taxation of cross-border investments entirely",
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "Parliament passes an act ending retrospective taxation of cross-border investments and the act is signed into law by the President of India",
         "link": ""
       }
     },
