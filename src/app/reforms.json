@@ -139,8 +139,8 @@
     "name": "Release an annual report every year outlining the origin country and destination state of foreign investment into India",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "India's FDI data currently shows only the last point of departure for FDI (usually Mauritius or Singapore), and the city foreign investment applications are filed in (Delhi or Mumbai).",
         "link": ""
       },
       "incomplete": {
@@ -149,17 +149,15 @@
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "The Reserve Bank of India and/or Department for Promotion of Industry and Internal Trade releases an annual report providing details on the origin country and destination state of FDI into India",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "low",
     "sectors": [
-      "industry",
-      "market access",
-      "fiscal"
+
     ]
   },
   {
@@ -184,9 +182,7 @@
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
-      "industry",
-      "services",
-      "fiscal"
+
     ]
   },
   {
@@ -211,9 +207,7 @@
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "infrastructure",
-      "industry",
-      "energy/mining"
+
     ]
   },
   {
@@ -238,10 +232,7 @@
     "status": "not_started",
     "difficulty": "low",
     "sectors": [
-      "market acces",
-      "infrastructure",
-      "defense",
-      "industry"
+
     ]
   },
   {
@@ -266,8 +257,7 @@
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
-      "market acces",
-      "fiscal"
+
     ]
   },
   {
