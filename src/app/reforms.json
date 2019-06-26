@@ -354,31 +354,25 @@
     "name": "Amend or replace the Fair Compensation in Land Acquisition Act to simplify the time and cost required to acquire land",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "The Fair Compensation in Land Acquisition, Rehabilitation, and Resettlement Act, 2013 requires that states obtain approval from at least 80% of residents before buying land, making it difficult to find plots for industry and infrastructure",
         "link": ""
       },
       "incomplete": {
         "status": "",
-        "description": "",
+        "description": "The government reintroduces the The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement (Amendment) Bill which simplifies the time needed and the cost required to acquire land in India",
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "Parliament passes the The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement (Amendment) Bill, and is signed into law by the President of India",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "services",
-      "retail",
-      "infrastructure",
-      "market acces",
-      "energy/mining",
-      "defense",
-      "communications"
+
     ]
   },
   {
