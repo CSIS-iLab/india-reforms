@@ -14,6 +14,7 @@ export default class PageHeader extends React.Component {
           <br />
           <span className="subtitle">{pageContent.subtitle}</span>
         </h1>
+        <section className="credit">{pageContent.credit}</section>
         <section className="intro">
           <div className="intro__text">{ValueToJSX(pageContent.text)}</div>
           <div className="intro__video video-wrapper">

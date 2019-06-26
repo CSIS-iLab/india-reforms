@@ -9,7 +9,6 @@ html {
 }
 
 body {
-
   --breakpoint: 'xsmall';
   margin: 0;
   background-color: $color__black;
@@ -35,7 +34,7 @@ body {
   }
 }
 
-header .intro,
+header section,
 nav,
 main,
 footer {
