@@ -385,30 +385,25 @@
     "name": "Mandate regulatory bodies to issue cost/benefit analyses, as well as a 30-day notice and comment period, for all proposed regulation",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "Regulations are implemented without a 30-day notice and comment period, and released without a cost-benefit analysis",
         "link": ""
       },
       "incomplete": {
-        "status": "",
-        "description": "",
+        "status": "Incomplete",
+        "description": "India's Ministry of Law and Justice or the Indian Cabinet issues note calling on government agencies to honor a 30-day notification period, and issue a cost-benefit analysis",
         "link": ""
       },
       "completed": {
         "status": "",
-        "description": "",
+        "description": "Parliament passes statutes amending the laws governing India’s financial regulators, mandating a 30-day notice and comment period for proposed regulation and the issuance of a cost-benefit analysis",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "services",
-      "retail",
-      "defense",
-      "communications",
-      "industry",
-      "fiscal"
+
     ]
   },
   {
