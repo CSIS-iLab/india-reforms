@@ -303,18 +303,18 @@
     "name": "Stop forcing banks to lend to \"priority sectors\"",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "The Reserve Bank of India currently forces bank to allocate 40% of their credit to priority sectors",
         "link": ""
       },
       "incomplete": {
-        "status": "",
-        "description": "",
+        "status": "Incomplete",
+        "description": "The Reserve Bank of India reduces the stipulation to below 40% or allows more flexibility in the discharge of these obligations, but stops short of abolishing the practice entirely",
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "The Reserve Bank of India removes its stipulation that banks should allocate a certain percentage to priority sectors.",
         "link": ""
       }
     },
