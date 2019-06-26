@@ -193,18 +193,18 @@
     "name": "Place control of pricing of electrical power in the hands of the central government",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "State-level tariff-setting bodies have been unable to balance political interests and consumer requirements to deliver reasonably-priced power.",
         "link": ""
       },
       "incomplete": {
         "status": "",
-        "description": "",
+        "description": "The center and states reach an agreement to jointly determine pricing of electrical power in India",
         "link": ""
       },
       "completed": {
         "status": "",
-        "description": "",
+        "description": "The center amends the Electricity Act and assumes complete control of pricing of electrical power in India",
         "link": ""
       }
     },
