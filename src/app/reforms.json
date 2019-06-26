@@ -626,10 +626,11 @@
       }
     },
     "name": "Raise the ceiling on foreign institutional investment in Indian companies",
-    "status": "incomplete",
-    "difficulty": "high",
+    "status": "not_started",
+    "difficulty": "low",
     "sectors": [
-      "services"
+      "industry",
+      "fiscal"
     ]
   },
   {
