@@ -344,9 +344,15 @@
       }
     },
     "status": "not_started",
-    "difficulty": "",
+    "difficulty": "high",
     "sectors": [
-
+      "services",
+      "retail",
+      "infrastructure",
+      "market acces",
+      "energy/mining",
+      "defense",
+      "communications"
     ]
   },
   {
