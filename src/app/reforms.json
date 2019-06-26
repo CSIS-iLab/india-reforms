@@ -653,9 +653,11 @@
     },
     "name": "Establish the already-approved Rail Development Authority",
     "status": "not_started",
-    "difficulty": "high",
+    "difficulty": "low",
     "sectors": [
-
+      "market acces",
+      "infrastructure",
+      "fiscal"
     ]
   },
   {
