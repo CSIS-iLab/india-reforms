@@ -746,7 +746,7 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "Financial institutions have been kept out of the Insolvency and Bankruptcy Code's purview",
+        "description": "The World Bank's Ease of Doing Business Report 2019 notes that it requires 10 procedures to start a business in India, compared to the South Asia regional average of 7.6 procedures",
         "link": ""
       },
       "incomplete": {
@@ -756,7 +756,7 @@
       },
       "completed": {
         "status": "Completed",
-        "description": "The law is passed in Parliament and signed into law by the President of India, and related regulations are issued",
+        "description": "The Department for Promotion of Industry and Internal Trade ensures the creation of a single-window clearance entity for central government clearances for all sectors",
         "link": ""
       }
     },
@@ -764,12 +764,7 @@
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
-      "services",
-      "retail",
-      "market acces",
-      "energy/mining",
-      "defense",
-      "communications"
+
     ]
   },
   {
