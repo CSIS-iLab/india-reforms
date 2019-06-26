@@ -442,8 +442,8 @@
     "name": "Deregulate Natural Gas Pricing",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "While the government has taken steps to introduce profit-sharing in natural gas production, the government has still implemented price ceilings on natural gas, maintaining control of pricing",
         "link": ""
       },
       "incomplete": {
@@ -452,16 +452,15 @@
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "The government issues a new Hydrocarbon policy that removes the government from pricing of natural gas, allowing the market to set the price",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
-      "market acces",
-      "energy/mining"
+
     ]
   },
   {
@@ -486,8 +485,7 @@
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "market acces",
-      "fiscal"
+
     ]
   },
   {
@@ -512,8 +510,7 @@
     "status": "not_started",
     "difficulty": "low",
     "sectors": [
-      "market acces",
-      "retail"
+
     ]
   },
   {
