@@ -5,7 +5,7 @@
     rgba($color__gray-dark, 0.62) 25%,
     rgba($color__gray-dark, 1) 50%
   ),
-    url('https://media.gettyimages.com/photos/indian-prime-minister-narendra-modi-waves-following-his-address-the-picture-id831489624?s=2048x2048');
+    url('https://res.cloudinary.com/csisideaslab/image/upload/v1561580579/india-reforms/Indian_Prime_Minister_Narendra_Modi_waves.jpg');
   background-size: cover, cover;
 
   h1 {
@@ -98,6 +98,8 @@
   }
 
   &--archive {
+    position: relative;
+    z-index: 10;
     height: 90px;
   }
 
