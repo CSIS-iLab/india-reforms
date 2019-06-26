@@ -575,10 +575,10 @@
       }
     },
     "status": "not_started",
-    "difficulty": "medium",
+    "difficulty": "high",
     "sectors": [
-      "energy",
-      "retail"
+      "industry",
+      "fiscal"
     ]
   },
   {
