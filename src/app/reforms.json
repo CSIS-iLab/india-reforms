@@ -671,7 +671,7 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "There are currently five rates under the Goods and Services Tax",
+        "description": "The government takes no steps to institute the Rail Development Authority despite Cabinet approval",
         "link": ""
       },
       "incomplete": {
@@ -681,7 +681,7 @@
       },
       "completed": {
         "status": "Completed",
-        "description": "Reduced to 2 rates",
+        "description": "The government creates the Rail Development Authority",
         "link": ""
       }
     },
@@ -689,9 +689,7 @@
     "status": "not_started",
     "difficulty": "low",
     "sectors": [
-      "market acces",
-      "infrastructure",
-      "fiscal"
+
     ]
   },
   {
