@@ -166,18 +166,18 @@
     "name": "Create a bankruptcy resolution process for financial firms",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "Financial institutions have been kept out of the Insolvency and Bankruptcy Code's purview",
         "link": ""
       },
       "incomplete": {
         "status": "",
-        "description": "",
+        "description": "A bill creating a bankruptcy resolution process for financial firms is approved by Parliament, but underlying regulations are not issued or contain critical weaknesses",
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "The law creating a bankruptcy process for financial firms is passed in Parliament and signed into law by the President of India, and related regulations are issued",
         "link": ""
       }
     },
