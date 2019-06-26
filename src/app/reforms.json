@@ -521,10 +521,10 @@
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "energy",
+      "industry",
+      "fiscal",
       "retail",
-      "agriculture",
-      "defense"
+      "agriculture"
     ]
   },
   {
@@ -549,8 +549,10 @@
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "defense",
-      "energy"
+      "services",
+      "industry",
+      "retail",
+      "fiscal"
     ]
   },
   {
