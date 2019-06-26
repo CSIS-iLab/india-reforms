@@ -274,29 +274,25 @@
     "name": "Reduce the corporate tax rate from 30 percent to 25 percent",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "India's 30 percent corporate tax rate is among the highest in the world.",
         "link": ""
       },
       "incomplete": {
-        "status": "",
-        "description": "",
+        "status": "Incomplete",
+        "description": "A bill is introduced in Parliament reducing the corporate tax rate from 30 percent to 25 percent",
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "Parliament passes an act reducing the corporate tax rate to 25 percent, and the act is signed into law by the President of India",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
-      "services",
-      "retail",
-      "industry",
-      "communications",
-      "fiscal"
+
     ]
   },
   {
