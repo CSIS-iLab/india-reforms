@@ -520,7 +520,7 @@
     "name": "Allow more than 50% investment in Defense",
     "steps": {
       "not_started": {
-        "status": "",
+        "status": "Not Started",
         "description": "FDI above 50% in defense is currently subject to approval from the government",
         "link": ""
       },
@@ -530,7 +530,7 @@
         "link": ""
       },
       "completed": {
-        "status": "",
+        "status": "Completed",
         "description": "The government issues a Press Note lifting the cap on FDI in the defense sector",
         "link": ""
       }
