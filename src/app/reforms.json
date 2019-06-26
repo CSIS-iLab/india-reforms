@@ -696,17 +696,17 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "Only 49% foreign investment is currently allowed, with minority ownership for the foreign firm",
+        "description": "The government announced the launch of the Integrated Case Management Information System to digitize India's courts, but has so far been implemented only in the Supreme Court",
         "link": ""
       },
       "incomplete": {
         "status": "Incomplete",
-        "description": "If amendments to Insurance Act are passed by Parliament that more than 50%, but minority ownership regulations are not lifted",
+        "description": "The Integrated Case Management Information System is implemented is expanded beyond the Supreme Court, but not all courts",
         "link": ""
       },
       "completed": {
         "status": "Completed",
-        "description": "Amendments to Insurance Act passed by Parliament allowing majority foreign ownership without management and control restrictions",
+        "description": "The Integrated Case Management Information System is implemented in all courts, including the Supreme Court, all High Courts, and all district courts around India to create a truly paperless court system",
         "link": ""
       }
     },
@@ -714,11 +714,7 @@
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
-      "services",
-      "retail",
-      "industry",
-      "fiscal",
-      "communications"
+
     ]
   },
   {
