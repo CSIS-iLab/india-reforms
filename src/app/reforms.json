@@ -381,27 +381,25 @@
     "name": "Deregulate Kerosene Pricing",
     "steps": {
       "not_started": {
-        "status": "",
-        "description": "",
+        "status": "Not Started",
+        "description": "The government maintains a price cap on public distribution system kerosene, and provides subsidies to compensate for the fixed price, thereby maintaining controls over kerosene pricing",
         "link": ""
       },
       "incomplete": {
-        "status": "",
-        "description": "",
+        "status": "Incomplete",
+        "description": "The government amends price cap on public distribution system kerosene, but falls short of complete deregulation",
         "link": ""
       },
       "completed": {
-        "status": "",
-        "description": "",
+        "status": "Completed",
+        "description": "The government lifts the price cap on public distribution system kerosene entirely, thereby deregulating kerosene pricing",
         "link": ""
       }
     },
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
-      "market acces",
-      "energy/mining",
-      "fiscal"
+
     ]
   },
   {
