@@ -169,9 +169,11 @@
       }
     },
     "status": "not_started",
-    "difficulty": "",
+    "difficulty": "medium",
     "sectors": [
-
+      "industry",
+      "services",
+      "fiscal"
     ]
   },
   {
