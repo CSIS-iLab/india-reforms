@@ -194,9 +194,11 @@
       }
     },
     "status": "not_started",
-    "difficulty": "",
+    "difficulty": "high",
     "sectors": [
-
+      "infrastructure",
+      "industry",
+      "energy/mining"
     ]
   },
   {
