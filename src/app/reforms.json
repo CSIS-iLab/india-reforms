@@ -119,9 +119,13 @@
       }
     },
     "status": "not_started",
-    "difficulty": "",
+    "difficulty": "high",
     "sectors": [
-
+      "retail",
+      "services",
+      "industry",
+      "defense",
+      "communications"
     ]
   },
   {
