@@ -494,9 +494,10 @@
       }
     },
     "status": "not_started",
-    "difficulty": "",
+    "difficulty": "medium",
     "sectors": [
-
+      "market acces",
+      "defense"
     ]
   },
   {
