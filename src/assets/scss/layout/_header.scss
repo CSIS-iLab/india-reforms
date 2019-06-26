@@ -41,6 +41,19 @@
   justify-content: space-between;
   transition: all 0.2s ease-in-out;
 
+  @include breakpoint('medium', 'max-width') {
+    background-color: $color__gray-lightest;
+    @include full-width-background($color__gray-lightest);
+    border-top: 4px solid $color__red;
+
+    &::after,
+    &::before {
+      top: -4px;
+      height: calc(100% + 4px);
+      border-top: 4px solid $color__red;
+    }
+  }
+
   &--hidden {
     opacity: 0;
   }
@@ -53,24 +66,66 @@
     z-index: 10;
   }
 
-  .link-logo {
+  .link-home {
     display: block;
-    margin-top: 2rem;
 
     &:not(:focus) {
       outline: 2px solid transparent;
     }
 
-    svg {
+    &--desktop {
+      @include breakpoint('medium', 'max-width') {
+        display: none;
+      }
+    }
+
+    &--mobile {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      max-width: 240px;
+      line-height: 1.4;
+
+      span {
+        display: block;
+        color: rgba($color__white, 0.8);
+        @extend %font-oxygen;
+
+        &:first-of-type {
+          @include font-size(13px);
+        }
+
+        &:last-of-type {
+          font-weight: bold;
+          letter-spacing: 0.82px;
+          @include font-size(14px);
+        }
+      }
+      @include breakpoint('medium') {
+        display: none;
+      }
+    }
+
+    &__logo-long {
       height: 42px;
+      margin-top: 2rem;
       fill: rgba($color__white, 0.62);
+    }
+
+    &__logo-short {
+      height: 21px;
+      margin-top: 1rem;
+      fill: rgba($color__white, 0.5);
+      @include breakpoint('medium') {
+        display: none;
+      }
     }
   }
 
   .link-reforms {
+    z-index: 10;
     display: flex;
     flex-wrap: wrap;
-
     align-content: center;
     max-width: 240px;
     padding: 0 1.25rem;
@@ -100,7 +155,7 @@
   &--archive {
     position: relative;
     z-index: 10;
-    height: 90px;
+    height: 96px;
   }
 
   &--homepage {

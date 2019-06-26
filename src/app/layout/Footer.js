@@ -1,6 +1,6 @@
 import React from 'react'
 import GetData from '../helpers/GetData'
-import { ReactComponent as Logo } from '../../assets/images/csis_logo.svg'
+import { ReactComponent as Logo } from '../../assets/images/csis_logo-long.svg'
 import ValueToJSX from '../helpers/ValueToJSX'
 import SocialShare from '../components/SocialShare'
 

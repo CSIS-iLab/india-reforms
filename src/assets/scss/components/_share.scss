@@ -6,6 +6,10 @@
 
   header & {
     margin-top: 2rem;
+
+    @include breakpoint('medium', 'max-width') {
+      display: none;
+    }
   }
 
   .icon-social {

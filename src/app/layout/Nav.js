@@ -1,5 +1,6 @@
 import React from 'react'
-import { ReactComponent as Logo } from '../../assets/images/csis_logo.svg'
+import { ReactComponent as LogoLong } from '../../assets/images/csis_logo-long.svg'
+import { ReactComponent as LogoShort } from '../../assets/images/csis_logo-short.svg'
 import SocialShare from '../components/SocialShare'
 
 export default class Nav extends React.Component {
@@ -13,7 +14,12 @@ export default class Nav extends React.Component {
           <span>Track reforms from the current administration</span>
         </a>
       ),
-      homepage: <SocialShare page={page} />
+      homepage: (
+        <React.Fragment>
+          <SocialShare page={page} />
+          <LogoShort className="link-home__logo-short" />
+        </React.Fragment>
+      )
     }
 
     return (
@@ -21,8 +27,13 @@ export default class Nav extends React.Component {
         className={`site-header__nav site-header__nav--${page}`}
         role="navigation"
       >
-        <a href="/" className="link-logo">
-          <Logo />
+        <a href="/" className="link-home link-home--desktop">
+          <LogoLong class="link-home__logo-long" />
+        </a>
+
+        <a href="/" className="link-home link-home--mobile">
+          <span>India's Economic Reform Agenda</span>
+          <span>A Scorecard</span>
         </a>
 
         {headerContent[page]}
