@@ -1,13 +1,8 @@
-// html {
-// }
-
 body,
-button,
-input,
-select,
-textarea {
-  color: $color__gray-medium;
-  @extend %sans-serif;
+button {
+  color: rgba($color__white, 0.8);
+  @extend %font-source;
+  font-size: $browser-context;
 }
 
 /*================================
@@ -16,102 +11,98 @@ textarea {
 
 @for $i from 1 through 6 {
   h#{$i} {
-    margin: 0 0 0.5rem;
-    color: $color__black;
-    @extend %sans-serif;
+    margin: 0 0 1rem;
+    @extend %font-oxygen;
     font-weight: 600;
     -webkit-font-smoothing: antialiased;
   }
 }
 
 h1 {
-  line-height: 1.06;
-  @include fluid-type(36px, 53px);
+  color: $color__red;
+  line-height: 0.83;
+  text-align: center;
+  @include font-size(44px);
+
+  .subtitle {
+    color: $color__white;
+    font-weight: normal;
+    font-size: 29px;
+    letter-spacing: 1.71px;
+    text-transform: uppercase;
+  }
 }
 
 h2 {
-  @include fluid-type(32px, 35.2px);
-  margin-bottom: 0.75rem;
+  color: $color__white;
+  font-weight: normal;
+  line-height: 1.3;
+  @include font-size(24px);
 }
 
 h3 {
-  @include fluid-type(24px, 26px);
+  color: $color__white;
+  @include font-size(20px);
 }
 
-h4 {
-  @include fluid-type(20px, 22px);
-}
 /*============================
 =            Copy            =
 ============================*/
 
 p {
-  section & {
+  margin: 0.25rem 0 1.5rem;
+
+  header &,
+  main & {
     @include font-size(18px);
-    margin: 0.25rem 0 1rem;
-    line-height: $font__line-height-body;
+    line-height: 1.48;
   }
 
-  .header__intro & {
-    @include fluid-type(18px, 20px);
-    margin-bottom: 2rem;
-    @extend %serif;
-  }
-}
-
-ul {
-  margin-top: 0;
-  padding-left: 0;
-  list-style-type: none;
-
-  section & {
-    @include font-size(18px);
+  footer & {
+    @include font-size(16px);
+    line-height: 1.3;
   }
 
-  li {
-    margin-bottom: 0.5rem;
-  }
-
-  .cantilever &,
-  .column & {
-    padding-left: 2rem;
-    list-style-type: disc;
-
-    li {
-      padding-left: 1rem;
-      line-height: 1.33;
-    }
+  .site-footer & {
+    color: rgba($color__white, 0.5);
   }
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 em {
   font-style: italic;
 }
 
-blockquote {
-  margin: 0 0 0.5rem;
+ul {
+  margin-top: 0;
+  padding-left: 0.5rem;
 
-  &,
-  p {
-    color: $color__black;
-    @extend %serif;
-    line-height: 1.5;
-    @include font-size(20px);
+  main & {
+    @include font-size(18px);
 
-    cite {
-      color: $color__gray_darker;
-      @extend %sans-serif;
-      font-style: normal;
-      @include font-size(16px);
+    li {
+      position: relative;
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      list-style-type: none;
+
+      &::before {
+        position: absolute;
+        top: 1rem;
+        left: -0.6rem;
+        content: '•';
+        line-height: 0;
+        @include font-size(20px);
+      }
     }
   }
 }
 
 address {
-  margin: 0 0 0.75rem;
-  font-style: normal;
+  color: rgba($color__white, 0.5);
+  @include font-size(16px);
+  line-height: 1.3;
 }

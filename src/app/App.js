@@ -1,20 +1,17 @@
 import React, { Component } from 'react'
-import Header from './layout/Header'
 import Footer from './layout/Footer'
 import Page from './pages/Page'
 import Archive from './pages/Archive'
-import SiteMap from './SiteMap'
 import { Route } from 'react-router-dom'
 import SmoothScroll from 'smooth-scroll'
-import sheetData from './reforms.json'
+import reforms from './reforms.json'
 
 class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      siteStructure: SiteMap,
       categories: [],
-      sheetData: []
+      reforms: []
     }
   }
 
@@ -23,7 +20,7 @@ class App extends Component {
 
     switch (input) {
     case 'search':
-      filteredSheetData = this.state.sheetData.filter(data =>
+      filteredSheetData = this.state.reforms.filter(data =>
         JSON.stringify(data)
           .toLowerCase()
           .includes(value.toLowerCase())
@@ -41,7 +38,7 @@ class App extends Component {
 
     case 'clear':
       filteredCategories = this.state.categories
-      filteredSheetData = this.state.sheetData
+      filteredSheetData = this.state.reforms
       break
 
     case 'category':
@@ -53,8 +50,8 @@ class App extends Component {
         )
         : [...filteredCategories, value]
 
-      filteredSheetData = this.state.sheetData
-      this.state.sheetData.map(data => {
+      filteredSheetData = this.state.reforms
+      this.state.reforms.map(data => {
         data.hide = data.sectors.some(t => filteredCategories.includes(t))
           ? false
           : true
@@ -69,14 +66,14 @@ class App extends Component {
   componentDidMount() {
     const categories = [
       ...new Set(
-        sheetData.map(data => data.sectors).reduce((a, b) => a.concat(b))
+        reforms.map(data => data.sectors).reduce((a, b) => a.concat(b))
       )
     ]
     this.setState(
       {
-        sheetData,
+        reforms,
         categories,
-        filteredSheetData: sheetData,
+        filteredSheetData: reforms,
         filteredCategories: categories
       }
       // () => console.log(this.state)
@@ -89,20 +86,18 @@ class App extends Component {
   }
 
   render() {
-    const { siteStructure, sheetData, categories } = this.state
+    const { reforms, categories } = this.state
 
     return (
-      <div className="wrapper">
-        <Header siteStructure={siteStructure} />
+      <React.Fragment>
         <Route
           exact
           path="/"
           render={props => (
             <Page
               {...props}
-              sheetData={sheetData}
+              reforms={reforms}
               categories={categories}
-              siteStructure={siteStructure}
               page="homepage"
             />
           )}
@@ -112,9 +107,8 @@ class App extends Component {
           path="/2014reforms"
           render={props => <Archive page="archive" />}
         />
-        <Footer siteStructure={siteStructure} />
-        <div className="content-overlay" />
-      </div>
+        <Footer />
+      </React.Fragment>
     )
   }
 }

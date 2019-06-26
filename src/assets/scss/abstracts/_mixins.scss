@@ -4,68 +4,6 @@
   font-size: calculate-rem($size);
 }
 
-@mixin button-dark {
-  color: $color__white;
-  background-color: $color__blue;
-  border-radius: 3px;
-
-  #filters & {
-    // margin: 0 0.2rem;
-    padding: 0.78571429em 1.5em;
-  }
-
-  &:hover,
-  &:focus {
-    color: $color__white;
-    background-color: $color__blue-dark;
-  }
-}
-
-@mixin button-light {
-  color: $color__black;
-  font-weight: bold;
-  background-color: $color__blue-light;
-  border-radius: 3px;
-
-  #filters & {
-    // margin: 0 0.2rem;
-    padding: 0.78571429em 1.5em;
-  }
-
-  &:hover,
-  &:focus {
-    background-color: $color__white;
-    @extend %link-gray;
-  }
-}
-
-@mixin grid-gap {
-  @each $size in $sizes__desktop {
-    @include breakpoint($size) {
-      $gap: return-map-value($size__grid-gap, $size);
-      grid-column-gap: $gap;
-    }
-  }
-}
-// Center block
-@mixin center-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-// Clearfix
-@mixin clearfix() {
-  content: '';
-  display: table;
-  table-layout: fixed;
-}
-
-// Clear after (not all clearfix need this also)
-@mixin clearfix-after() {
-  clear: both;
-}
-
 // Breakpoints
 // Breakpoints
 // $break: Breakpoint to use
@@ -194,13 +132,6 @@
   } @else {
     #{$property}: $value;
   }
-}
-
-@mixin site-header-white() {
-  background-color: $color__white;
-  background-image: none;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 1px -1px rgba(0, 0, 0, 0.12),
-    0 1px 1px 0 rgba(0, 0, 0, 0.14);
 }
 
 //- Mixin: Fluid Type

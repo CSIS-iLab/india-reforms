@@ -1,15 +1,45 @@
 .site-header {
-  position: relative;
-  width: 100vw;
-  background-color: $color__gray-lighter;
-  border-bottom: 2px solid $color__gray-darker;
-  transition: all 0.2s ease-in-out;
-  @each $size in $sizes__default {
-    @include breakpoint($size) {
-      $height: return-map-value($size__header-height, $size);
-      height: $height;
+  background-image: linear-gradient(
+    to bottom,
+    rgba($color__gray-dark, 0) 0%,
+    rgba($color__gray-dark, 0.62) 25%,
+    rgba($color__gray-dark, 1) 50%
+  ),
+    url('https://media.gettyimages.com/photos/indian-prime-minister-narendra-modi-waves-following-his-address-the-picture-id831489624?s=2048x2048');
+  background-size: cover, cover;
+
+  h1 {
+    margin: 8rem 0;
+  }
+
+  .intro {
+    display: flex;
+
+    > * {
+      margin-bottom: 2.5rem;
+    }
+
+    &__video {
+      flex-basis: 100%;
+      @include breakpoint('medium') {
+        flex-shrink: 0;
+      }
+      @include breakpoint('large') {
+        flex-basis: 500px;
+        margin-left: 3rem;
+      }
+    }
+
+    @include breakpoint('large', 'max-width') {
+      flex-wrap: wrap;
     }
   }
+}
+
+.site-header__nav {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.2s ease-in-out;
 
   &--hidden {
     opacity: 0;
@@ -23,18 +53,60 @@
     z-index: 10;
   }
 
-  .site-logo {
-    display: inline-block;
-    margin: auto;
-    padding: 0 0.125rem;
-    line-height: 0;
+  .link-logo {
+    display: block;
+    margin-top: 2rem;
 
     &:not(:focus) {
       outline: 2px solid transparent;
     }
 
-    &__icon {
-      height: 50px;
+    svg {
+      height: 42px;
+      fill: rgba($color__white, 0.62);
+    }
+  }
+
+  .link-reforms {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-content: center;
+    max-width: 240px;
+    padding: 0 1.25rem;
+    background-color: $color__red;
+
+    span {
+      display: block;
+      font-weight: bold;
+      @extend %font-oxygen;
+
+      &:first-of-type {
+        @include font-size(16px);
+        color: $color__white;
+        line-height: 1.31;
+      }
+
+      &:last-of-type {
+        @include font-size(13px);
+        color: rgba($color__white, 0.79);
+        line-height: 1.15;
+      }
+    }
+
+    @include full-width-background($color__red, right, true);
+  }
+
+  &--archive {
+    height: 90px;
+  }
+
+  &--homepage {
+    @each $size in $sizes__default {
+      @include breakpoint($size) {
+        $height: return-map-value($size__header-height, $size);
+        height: $height;
+      }
     }
   }
 }

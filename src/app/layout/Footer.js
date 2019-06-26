@@ -1,54 +1,43 @@
 import React from 'react'
+import GetData from '../helpers/GetData'
+import { ReactComponent as Logo } from '../../assets/images/csis_logo.svg'
+import ValueToJSX from '../helpers/ValueToJSX'
+import SocialShare from '../components/SocialShare'
 
 export default class Footer extends React.Component {
   render() {
+    const footerContent = GetData('footer')
+
     return (
       <footer>
-        <hr />
-
-        <div id="method">
-          <p>
-            <strong>Methodology:</strong>To establish this list, CSIS first
-            conducted a literature review, looking for the frequency that
-            individual reforms were listed by business associations, prominent
-            economists, and government agencies. To refine the list, CSIS
-            organized a series of workshops featuring experts from outside the
-            Indian government who further refined the list and helped determine
-            the difficulty of enacting. Feedback is welcome.
-          </p>
-
-          <p>
-            <a href="20180625_india_reforms.pdf">
-              Download a list of the reforms
-            </a>
-          </p>
-        </div>
-        <div id="copyright">
-          <p>
-            India Reforms is a product of the{' '}
+        <section className="page-footer">
+          <section className="page-footer__methodology">
+            <h3>{footerContent.methodology_title}</h3>
+            {ValueToJSX(footerContent.methodology)}
+          </section>
+          <section className="page-footer__feedback">
+            <h3>{footerContent.feedback_title}</h3>
+            {ValueToJSX(footerContent.feedback, 'feedback')}
+            {ValueToJSX(footerContent.feedback_instruction, 'instructions')}
             <a
-              href="https://www.csis.org/programs/dracopoulos-ideas-lab"
-              target="_blank"
-              rel="noreferrer noopener"
+              className="btn"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeFGs7QjqVdeoNhNUKCsRNY44UfVI-rDYzCDlnCCZVRmkRQ9w/viewform?embedded=true"
             >
-              Andreas C. Dracopoulos iDeas Lab
-            </a>, the in-house digital, multimedia, and design agency at the
-            Center for Strategic and International Studies.
-          </p>
-
-          <p>
-            © The Center for Strategic and International Studies{' '}
-            <span className="copyright-year">2019</span> |{' '}
-            <a
-              href="https://www.csis.org/privacy-policy"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Privacy Policy
+              {footerContent.feedback_form}
             </a>
-            | <a href="#">Back to top</a>
-          </p>
-        </div>
+          </section>
+        </section>
+        <section className="site-footer">
+          <Logo />
+          {ValueToJSX(footerContent.about, 'about')}
+
+          <section className="site-footer__connect">
+            <SocialShare />
+            {ValueToJSX(footerContent.address)}
+          </section>
+
+          {ValueToJSX(footerContent.copyright, 'copyright')}
+        </section>
       </footer>
     )
   }

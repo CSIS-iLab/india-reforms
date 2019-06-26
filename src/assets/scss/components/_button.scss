@@ -8,7 +8,7 @@ button {
   // @include font-size(15px);
 
   &:focus {
-    @extend %focus;
+    @extend %form-focus;
   }
 
   &.block {
@@ -16,7 +16,6 @@ button {
   }
 
   &.clear-all {
-    @extend %link-gray;
     font-weight: bold;
   }
 
@@ -31,15 +30,5 @@ button {
 
   &::before {
     margin-right: 0.25rem;
-  }
-
-  &.btn {
-    &.dark {
-      @include button-dark;
-    }
-
-    &.light {
-      @include button-light;
-    }
   }
 }

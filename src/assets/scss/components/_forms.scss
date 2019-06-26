@@ -4,12 +4,11 @@ input[type='checkbox'] {
 
   &:focus + label,
   &:focus + span.label {
-    @extend %focus;
+    @extend %form-focus;
   }
 }
 
 input[type='search'] {
-
   background-color: transparent;
   border: 0;
 
@@ -23,7 +22,7 @@ input[type='search'] {
   }
 
   &:focus {
-    @extend %focus;
+    @extend %form-focus;
   }
 
   &::placeholder {

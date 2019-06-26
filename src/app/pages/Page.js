@@ -1,8 +1,8 @@
 import React from 'react'
 import MarkdownToSections from '../helpers/MarkdownToSections'
-import PageContent from '../helpers/PageContent'
 import GetData from '../helpers/GetData'
-import CloseMenu from '../helpers/CloseMenu'
+import ValueToJSX from '../helpers/ValueToJSX'
+import PageHeader from '../layout/PageHeader'
 import Isotope from 'isotope-layout'
 import {
   Dropdown,
@@ -19,7 +19,6 @@ import {
   Sticky
 } from 'semantic-ui-react'
 import { Affix, Timeline, Icon as Ant } from 'antd'
-import ValueToJSX from '../helpers/ValueToJSX'
 const colorKey = {
   // not_started:"#9f4726",
   // incomplete:"#60666a"
@@ -31,13 +30,12 @@ const colorKey = {
 class Page extends React.Component {
   constructor(props) {
     super(props)
-    const { siteStructure, page } = this.props
+    const { page } = this.props
 
-    const pageContent = PageContent(siteStructure, page, GetData(page))
+    const pageContent = GetData(page)
 
     this.state = {
       cards: null,
-      siteStructure,
       page,
       pageContent,
       title: GetData(page).title,
@@ -98,7 +96,7 @@ class Page extends React.Component {
     require('../../assets/scss/scorecard.scss')
   }
   componentDidUpdate() {
-    if (!this.props.sheetData.length) return
+    if (!this.props.reforms.length) return
 
     if (!this.state.cards) {
       this.setState({
@@ -121,14 +119,6 @@ class Page extends React.Component {
 
   componentWillUnmount() {
     delete require.cache[require.resolve('../../assets/scss/scorecard.scss')]
-    
-    const triggers = Array.from(
-      document.querySelectorAll('.menu-trigger.is-active')
-    )
-    triggers.forEach(trigger => {
-      const target = document.querySelector(trigger.dataset.target)
-      CloseMenu(trigger, target)
-    })
 
     window.scrollTo({
       top: 0
@@ -169,7 +159,7 @@ class Page extends React.Component {
 
   render() {
     const { pageContent, page, open, active, value } = this.state
-    const { sheetData, categories } = this.props
+    const { reforms, categories } = this.props
     let cardRef = React.createRef()
     let mainRef = React.createRef()
 
@@ -179,14 +169,14 @@ class Page extends React.Component {
           <label htmlFor="reform-search" className="visually-hidden">
             Search
           </label>
-          {sheetData.length ? (
+          {reforms.length ? (
             <Dropdown
               id="reform-search"
               clearable
               fluid
               search
               selection
-              options={sheetData.map(r => {
+              options={reforms.map(r => {
                 return {
                   key: r.name,
                   value: r.name.toString(),
@@ -253,169 +243,171 @@ class Page extends React.Component {
       )
     }
     return (
-      <main innerref={this.mainRef} className={page}>
-        {MarkdownToSections(pageContent)}
-        <Segment
-          innerref={this.cardRef}
-          style={
-            window.innerWidth > 1080
-              ? { boxShadow: 'none', border: 0, marginLeft: '300px' }
-              : { boxShadow: 'none', border: 0 }
-          }
-        >
-          {window.innerWidth > 1080 ? (
-            <Rail
-              style={window.innerWidth > 1080 ? { width: '250px' } : ''}
-              dividing
-              position="left"
-            >
+      <React.Fragment>
+        <PageHeader pageContent={pageContent} page={page} />
+        <main innerref={this.mainRef} className={page}>
+          <Segment
+            innerref={this.cardRef}
+            style={
+              window.innerWidth > 1080
+                ? { boxShadow: 'none', border: 0, marginLeft: '300px' }
+                : { boxShadow: 'none', border: 0 }
+            }
+          >
+            {window.innerWidth > 1080 ? (
+              <Rail
+                style={window.innerWidth > 1080 ? { width: '250px' } : ''}
+                dividing
+                position="left"
+              >
+                <div
+                  style={{
+                    position: 'sticky',
+                    top: 12
+                  }}
+                >
+                  {Controls()}
+                </div>
+              </Rail>
+            ) : (
               <div
                 style={{
                   position: 'sticky',
-                  top: 12
+                  top: 0,
+                  zIndex: 1,
+                  backgroundColor: 'white',
+                  margin: '0 -20px',
+                  padding: '1rem',
+                  boxShadow: '0 46px 53px -34px rgba(0, 0, 0, 0.18)'
                 }}
               >
                 {Controls()}
               </div>
-            </Rail>
-          ) : (
-            <div
-              style={{
-                position: 'sticky',
-                top: 0,
-                zIndex: 1,
-                backgroundColor: 'white',
-                margin: '0 -20px',
-                padding: '1rem',
-                boxShadow: '0 46px 53px -34px rgba(0, 0, 0, 0.18)'
-              }}
-            >
-              {Controls()}
-            </div>
-          )}
+            )}
 
-          <section id="cards" attached="bottom">
-            {sheetData && sheetData.length
-              ? sheetData.map(d => {
-                return (
-                  <Card
-                    raised
-                    key={d.name}
-                    data-key={d.name}
-                    data-sectors={d.sectors}
-                    data-name={d.name}
-                    data-status={d.status}
-                    data-difficulty={d.difficulty}
-                  >
-                    <Card.Content>
-                      <Card.Header>
-                        <Label as="span" color={colorKey[d.status]} ribbon>
-                          {d.steps[d.status].status}
-                        </Label>
-                        <h3>{d.name}</h3>
-                      </Card.Header>
-                      <Card.Meta>
-                        <strong>{'difficulty'.toUpperCase()}:</strong>{' '}
-                        {d.difficulty.toUpperCase()}
-                      </Card.Meta>
-                    </Card.Content>
-                    <Card.Content>
-                      <Card.Description>
-                        <p>{d.steps[d.status].description}</p>
-                      </Card.Description>
-                    </Card.Content>
-                    <Card.Content extra>
-                      <div className="ui two buttons">
-                        <Button
-                          basic
-                          color="green"
-                          onClick={this.show(true, d)}
-                        >
-                          <Icon name="hand point right" /> STEPS
-                        </Button>
-                      </div>
-                    </Card.Content>
-                  </Card>
-                )
-              })
-              : ''}
-          </section>
-        </Segment>
-        {active ? (
-          <Modal open={open} onClose={this.close} closeIcon>
-            <Header icon="legal" content={active.name} />
-            <Modal.Content>
-              <Timeline>
-                {Object.keys(active.steps).map((step, index) => {
-                  const number = Object.keys(active.steps).indexOf(
-                    active.status
-                  )
-
-                  const checked = index <= number
-
+            <section id="cards" attached="bottom">
+              {reforms && reforms.length
+                ? reforms.map(d => {
                   return (
-                    <Timeline.Item
-                      key={step}
-                      dot={
-                        checked ? (
-                          <Ant
-                            type="check-circle-o"
-                            style={{ fontSize: '18px' }}
-                          />
+                    <Card
+                      raised
+                      key={d.name}
+                      data-key={d.name}
+                      data-sectors={d.sectors}
+                      data-name={d.name}
+                      data-status={d.status}
+                      data-difficulty={d.difficulty}
+                    >
+                      <Card.Content>
+                        <Card.Header>
+                          <Label as="span" color={colorKey[d.status]} ribbon>
+                            {d.steps[d.status].status}
+                          </Label>
+                          <h3>{d.name}</h3>
+                        </Card.Header>
+                        <Card.Meta>
+                          <strong>{'difficulty'.toUpperCase()}:</strong>{' '}
+                          {d.difficulty.toUpperCase()}
+                        </Card.Meta>
+                      </Card.Content>
+                      <Card.Content>
+                        <Card.Description>
+                          <p>{d.steps[d.status].description}</p>
+                        </Card.Description>
+                      </Card.Content>
+                      <Card.Content extra>
+                        <div className="ui two buttons">
+                          <Button
+                            basic
+                            color="green"
+                            onClick={this.show(true, d)}
+                          >
+                            <Icon name="hand point right" /> STEPS
+                          </Button>
+                        </div>
+                      </Card.Content>
+                    </Card>
+                  )
+                })
+                : ''}
+            </section>
+          </Segment>
+          {active ? (
+            <Modal open={open} onClose={this.close} closeIcon>
+              <Header icon="legal" content={active.name} />
+              <Modal.Content>
+                <Timeline>
+                  {Object.keys(active.steps).map((step, index) => {
+                    const number = Object.keys(active.steps).indexOf(
+                      active.status
+                    )
+
+                    const checked = index <= number
+
+                    return (
+                      <Timeline.Item
+                        key={step}
+                        dot={
+                          checked ? (
+                            <Ant
+                              type="check-circle-o"
+                              style={{ fontSize: '18px' }}
+                            />
+                          ) : (
+                            ''
+                          )
+                        }
+                        color={checked ? 'green' : 'grey'}
+                        style={{
+                          fontSize: window.innerWidth < 768 ? '14px' : '18px'
+                        }}
+                      >
+                        <h5
+                          style={{ color: index === number ? 'black' : 'grey' }}
+                        >
+                          {active.steps[step].status}
+                        </h5>
+                        {ValueToJSX(active.steps[step].description)}
+                        {checked && index !== 0 ? (
+                          <p className="source">
+                            <a href={active.steps[step].link}>
+                              Source <Icon name="external alternate" />
+                            </a>
+                          </p>
                         ) : (
                           ''
-                        )
-                      }
-                      color={checked ? 'green' : 'grey'}
-                      style={{
-                        fontSize: window.innerWidth < 768 ? '14px' : '18px'
-                      }}
-                    >
-                      <h5
-                        style={{ color: index === number ? 'black' : 'grey' }}
-                      >
-                        {active.steps[step].status}
-                      </h5>
-                      {ValueToJSX(active.steps[step].description)}
-                      {checked && index !== 0 ? (
-                        <p className="source">
-                          <a href={active.steps[step].link}>
-                            Source <Icon name="external alternate" />
-                          </a>
-                        </p>
-                      ) : (
-                        ''
-                      )}
-                    </Timeline.Item>
-                  )
-                })}
-              </Timeline>
-            </Modal.Content>
-            <Modal.Actions>
-              <Button basic color="green" onClick={this.close}>
-                <Icon name="remove" /> CLOSE
-              </Button>
-            </Modal.Actions>
-          </Modal>
-        ) : (
-          ''
-        )}
+                        )}
+                      </Timeline.Item>
+                    )
+                  })}
+                </Timeline>
+              </Modal.Content>
+              <Modal.Actions>
+                <Button basic color="green" onClick={this.close}>
+                  <Icon name="remove" /> CLOSE
+                </Button>
+              </Modal.Actions>
+            </Modal>
+          ) : (
+            ''
+          )}
 
-        <Button
-          aria-label="back to top"
-          circular
-          color="green"
-          icon="angle double up"
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          style={{
-            textAlign: 'right',
-            position: 'fixed',
-            bottom: '12px',
-            right: '12px',
-            zIndex: 2
-          }}
-        />
-      </main>
+          <Button
+            aria-label="back to top"
+            circular
+            color="green"
+            icon="angle double up"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            style={{
+              textAlign: 'right',
+              position: 'fixed',
+              bottom: '12px',
+              right: '12px',
+              zIndex: 2
+            }}
+          />
+        </main>
+      </React.Fragment>
     )
   }
 }

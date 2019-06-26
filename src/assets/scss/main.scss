@@ -7,12 +7,14 @@
 @import 'abstracts/placeholders';
 
 @import 'base/base';
+@import 'base/helpers';
 @import 'base/typography';
-@import 'components/button';
-@import 'components/header-nav';
+
+@import 'components/link';
+@import 'components/share';
 
 @import 'layout/footer';
 @import 'layout/header';
-@import 'layout/sections';
+@import 'layout/main';
 
 @import 'vendor/fontello';

@@ -11,10 +11,8 @@ html {
 body {
 
   --breakpoint: 'xsmall';
-  position: relative;
   margin: 0;
-  overflow-x: hidden;
-  background: $color__white;
+  background-color: $color__black;
 
   @include breakpoint('small') {
     --breakpoint: 'small';
@@ -37,10 +35,11 @@ body {
   }
 }
 
+header .intro,
 nav,
 main,
 footer {
-  max-width: 1400px;
+  max-width: 1260px;
   margin: auto;
   @each $size in $sizes__default {
     $padding: return-map-value($size__container-padding, $size);
@@ -50,59 +49,9 @@ footer {
   }
 }
 
-main,
-footer {
-  position: relative;
-  z-index: -100;
-}
-
-nav,
-main,
-footer,
-header {
-  display: block;
-}
-
 a,
 i,
-button {
-  &,
-  &::before {
-    transition: all 0.2s ease-in-out;
-  }
-}
-
-.wrapper {
-  position: relative;
-  z-index: 1;
-}
-
-.js-no-scroll,
-.js-no-scroll body {
-  height: unset !important;
-  overflow: hidden;
-  touch-action: none;
-}
-
-/* Create class to allow scrolling on certain elements, like modal windows */
-.allow-scroll {
-  touch-action: auto !important;
-}
-
-.content-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -10;
-  background-color: $color__black;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-
-  &.is-active {
-    visibility: visible;
-    opacity: 0.25;
-  }
+button,
+[class^='icon-'] {
+  transition: all 0.2s ease-in-out;
 }

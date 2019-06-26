@@ -1,19 +1,11 @@
 import React from 'react'
-import MarkdownToSections from '../helpers/MarkdownToSections'
-import PageContent from '../helpers/PageContent'
-import GetData from '../helpers/GetData'
-import CloseMenu from '../helpers/CloseMenu'
-import ValueToJSX from '../helpers/ValueToJSX'
 import htmlContent from '../archive/archive.html'
 import Isotope from 'isotope-layout'
+import Nav from '../layout/Nav'
 
 class Archive extends React.Component {
   componentDidMount() {
     require('../../assets/scss/archive.scss')
-
-    document.querySelector(
-      '.copyright-year'
-    ).innerText = new Date().getFullYear()
 
     // init Isotope
     var container = new Isotope(document.querySelector('.policycontainer'), {
@@ -73,25 +65,21 @@ class Archive extends React.Component {
   }
 
   componentWillUnmount() {
-    const triggers = Array.from(
-      document.querySelectorAll('.menu-trigger.is-active')
-    )
-    triggers.forEach(trigger => {
-      const target = document.querySelector(trigger.dataset.target)
-      CloseMenu(trigger, target)
-    })
-
     window.scrollTo({
       top: 0
     })
   }
 
   render() {
+    const { page } = this.props
     return (
-      <div
-        className="archive"
-        dangerouslySetInnerHTML={{ __html: htmlContent }}
-      />
+      <React.Fragment>
+        <Nav page={page} />
+        <div
+          className="archive"
+          dangerouslySetInnerHTML={{ __html: htmlContent }}
+        />
+      </React.Fragment>
     )
   }
 }

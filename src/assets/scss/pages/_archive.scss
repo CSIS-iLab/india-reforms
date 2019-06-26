@@ -1,19 +1,16 @@
 /* stylelint-disable */
 .archive {
-
   margin: 0;
   padding: 0;
-  font-family: 'museo-sans', sans-serif;
-  font-size: 62.5%;
   letter-spacing: 0.5px;
-  background: #101010;
+  background: #17191c;
 
   /*------------------------------------------*/
   /* GLOBAL STYLES */
   /*------------------------------------------*/
 
   p {
-    font-size: 1.6rem;
+    font-size: 1.25rem;
   }
 
   a {
@@ -21,11 +18,11 @@
   }
 
   h1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   a:hover {
@@ -85,7 +82,13 @@
     margin-top: 0;
     padding: 10%;
     color: #fff;
+    line-height: 1.5;
     text-transform: uppercase;
+  }
+
+  .header h1 span {
+    display: block;
+    text-transform: none;
   }
 
   .header a {
@@ -316,8 +319,6 @@
     margin-bottom: 10px;
     padding: 6px;
     color: #fff;
-    font-family: 'museo-sans', sans-serif;
-    font-weight: lighter;
     font-size: 1.4rem;
     letter-spacing: 0.6px;
     text-align: center;
@@ -361,7 +362,7 @@
 
   .policy {
     width: 295px;
-    height: 295px;
+    height: 395px;
     margin: 10px;
     overflow: hidden;
     color: #e3e3e3;
@@ -477,17 +478,17 @@
   @media screen and (max-width: 890px) {
     .policy {
       width: 255px;
-      height: 255px;
+      height: 500px;
     }
 
     .policy div {
       width: 255px;
-      height: 255px;
+      height: 500px;
     }
 
     .policy .info-text {
       width: 255px;
-      height: 255px;
+      height: 500px;
     }
 
     .policy h2 {
