@@ -34,10 +34,9 @@
   line-height: 1.48;
 }
 
-%meta {
+%label {
   @include font-size(14px);
   color: rgba($color__white, 0.8);
-  font-weight: bold;
   @extend %font-oxygen;
 
   span {
@@ -47,9 +46,9 @@
   }
 }
 
-%filters-label {
-  @include font-size(16px);
-  color: rgba($color__white, 0.8);
+%meta {
+  @extend %label;
+  font-weight: bold;
 }
 
 %btn {

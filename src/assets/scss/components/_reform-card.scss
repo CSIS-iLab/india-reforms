@@ -72,6 +72,8 @@
   }
 
   .ui.ribbon.label {
+    @extend %meta;
+
     &.blue {
       background-color: $color__blue !important;
 
@@ -102,6 +104,5 @@
         border-right-width: 0.7em;
       }
     }
-    @include font-size(14px);
   }
 }

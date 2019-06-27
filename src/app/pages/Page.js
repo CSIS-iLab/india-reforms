@@ -134,7 +134,8 @@ export default class Page extends React.Component {
     printContent += document.querySelector('.page-footer__methodology')
       .innerHTML
 
-    printContent += document.querySelector('.site-footer__csis').innerHTML
+    printContent += document.querySelector('.site-footer__content-csis')
+      .innerHTML
     printContent += document.querySelector('.site-footer__copyright').innerHTML
 
     doc.fromHTML(printContent, 15, 15, {
@@ -217,7 +218,7 @@ export default class Page extends React.Component {
               : ''}
           </section>
           {active ? (
-            <Modal open={open} onClose={this.onClose} closeIcon>
+            <Modal open={open} onClose={this.close} closeIcon>
               <h3>{active.name}</h3>
               <ReformDetail active={active} />
             </Modal>

@@ -1,7 +1,9 @@
 footer {
   > section {
-    display: flex;
-    flex-wrap: wrap;
+    @include breakpoint('medium', 'max-width') {
+      display: flex;
+      flex-wrap: wrap;
+    }
 
     > * {
       @include breakpoint('medium', 'max-width') {
@@ -11,11 +13,12 @@ footer {
   }
 
   .page-footer {
+    display: flex;
     padding: 4.5rem 0 4.25rem;
 
     &__methodology {
       @include breakpoint('medium') {
-        flex-basis: calc(100% - 300px);
+        flex-basis: 70%;
         padding: 1.5rem 5.75rem 1.5rem 0;
       }
     }
@@ -23,7 +26,7 @@ footer {
     &__feedback {
       margin-top: 2rem;
       @include breakpoint('medium') {
-        flex-basis: 300px;
+        flex-basis: 30%;
         margin-top: 0;
         padding: 1.5rem 0 1.5rem 3rem;
         border-left: 2px solid rgba($color__white, 0.15);
@@ -41,7 +44,7 @@ footer {
     background-color: $color__gray-dark;
 
     svg {
-      flex-basis: auto;
+      max-width: 350px;
       height: 2.5rem;
       margin-bottom: 1.5rem;
       fill: rgba($color__white, 0.6);
@@ -51,16 +54,23 @@ footer {
       }
     }
 
-    &__csis {
-      @include breakpoint('medium') {
-        flex-basis: calc(100% - 300px);
-        padding-right: 3rem;
+    &__content {
+      display: flex;
+      @include breakpoint('medium', 'max-width') {
+        flex-wrap: wrap;
       }
-    }
 
-    &__connect {
-      @include breakpoint('medium') {
-        flex-basis: 300px;
+      &-csis {
+        @include breakpoint('medium') {
+          flex-basis: 70%;
+          padding-right: 3rem;
+        }
+      }
+
+      &-connect {
+        @include breakpoint('medium') {
+          flex-basis: 30%;
+        }
       }
     }
 

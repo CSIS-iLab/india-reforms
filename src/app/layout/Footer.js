@@ -29,13 +29,15 @@ export default class Footer extends React.Component {
         </section>
         <section className="site-footer">
           <Logo />
-          {ValueToJSX(footerContent.about, 'about')}
 
-          <section className="site-footer__connect">
-            <SocialShare />
-            {ValueToJSX(footerContent.address)}
-          </section>
+          <div className="site-footer__content">
+            {ValueToJSX(footerContent.about, 'about')}
 
+            <section className="site-footer__content-connect">
+              <SocialShare />
+              {ValueToJSX(footerContent.address)}
+            </section>
+          </div>
           {ValueToJSX(footerContent.copyright, 'copyright')}
         </section>
       </footer>

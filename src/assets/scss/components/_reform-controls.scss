@@ -5,11 +5,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
+  width: 100vw !important;
   height: 3em;
   margin-left: calc((100vw - 100%) / -2);
   background-color: $color__gray-dark;
   box-shadow: 3px 6px 6px $color__black;
+
+  &[style] {
+    padding-right: 162px;
+  }
 
   @include breakpoint('medium') {
     top: 0;
@@ -28,7 +32,7 @@
 
     span {
       margin-right: 1rem;
-      @include font-size(14px);
+      @extend %label;
     }
 
     .buttons,

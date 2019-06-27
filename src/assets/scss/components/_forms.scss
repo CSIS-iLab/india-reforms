@@ -28,6 +28,4 @@ input[type='search'] {
   &::placeholder {
     color: $color__gray-dark;
   }
-
-  @include font-size(18px);
 }
