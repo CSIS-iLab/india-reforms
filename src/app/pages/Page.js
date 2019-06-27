@@ -6,7 +6,7 @@ import ReformDetail from '../components/ReformDetail'
 import Isotope from 'isotope-layout'
 import jsPDF from 'jspdf'
 import Stickyfill from 'stickyfilljs'
-import { Button } from 'semantic-ui-react'
+import { Button, Modal } from 'semantic-ui-react'
 
 export default class Page extends React.Component {
   constructor(props) {
@@ -33,7 +33,7 @@ export default class Page extends React.Component {
     target.classList.contains('light')
       ? target.classList.remove('light')
       : target.classList.add('light')
-  };
+  }
 
   resetControl = (target, all) => {
     let buttons = Array.from(target.parentNode.querySelectorAll('button'))
@@ -44,14 +44,14 @@ export default class Page extends React.Component {
       b.classList.remove('dark')
       b.classList.add('light')
     })
-  };
+  }
 
   handleReset = e => {
     this.state.cards.arrange({ filter: '*' })
     this.resetControl(e.target, true)
     this.toggle(e.target)
     this.setState({ value: '' })
-  };
+  }
 
   handleSort = e => {
     this.state.cards.arrange({
@@ -60,7 +60,7 @@ export default class Page extends React.Component {
 
     this.resetControl(e.target, true)
     this.toggle(e.target)
-  };
+  }
 
   handleFilter = e => {
     const value = e.target.dataset.sectors
@@ -71,7 +71,7 @@ export default class Page extends React.Component {
       })
     this.resetControl(e.target, true)
     this.toggle(e.target)
-  };
+  }
 
   componentDidMount() {
     require('../../assets/scss/scorecard.scss')
@@ -108,17 +108,42 @@ export default class Page extends React.Component {
     })
   }
 
-  close = () => this.setState({ open: false });
-  show = (open, d) => () => this.setState({ open: true, active: d });
+  close = () => this.setState({ open: false })
+  show = (open, d) => () => this.setState({ open: true, active: d })
 
   handlePrint = () => {
     let doc = new jsPDF('p')
+    let printContent = ''
+    printContent += '<h1>India\'s Economic Reform Agenda | CSIS</h1>'
 
-    doc.fromHTML(document.querySelector('main'), 15, 15, {
+    printContent += this.props.reforms
+      .map(
+        reform =>
+          `<article>
+          <h2>${reform.name}</h2>
+          <h3>${reform.steps[reform.status].status}</h3>
+          <h4>
+            <span>${'difficulty'.toUpperCase()}:</span>${' '}
+            ${reform.difficulty.toUpperCase()}
+          </h4>
+          <p>${reform.steps[reform.status].description}</p>
+        </article><br/><br/>`
+      )
+      .join('')
+
+    printContent += document.querySelector('.page-footer__methodology')
+      .innerHTML
+
+    printContent += document.querySelector('.site-footer__csis').innerHTML
+    printContent += document.querySelector('.site-footer__copyright').innerHTML
+
+    doc.fromHTML(printContent, 15, 15, {
       width: 170
     })
-    doc.save('sample-file.pdf')
-  };
+    doc.setFont('sans-serif')
+
+    doc.save('india-reforms.pdf')
+  }
 
   handleChange = (e, { value }) => {
     if (!value) {
@@ -147,7 +172,7 @@ export default class Page extends React.Component {
     )
 
     this.setState({ value })
-  };
+  }
 
   render() {
     const { pageContent, page, open, active } = this.state
@@ -187,14 +212,15 @@ export default class Page extends React.Component {
           <section id="cards" attached="bottom">
             {reforms && reforms.length
               ? reforms.map(d => {
-                return (
-                  <ReformCard reform={d} key={d.name} show={this.show} />
-                )
+                return <ReformCard reform={d} key={d.name} show={this.show} />
               })
               : ''}
           </section>
           {active ? (
-            <ReformDetail active={active} open={open} onClose={this.close} />
+            <Modal open={open} onClose={this.onClose} closeIcon>
+              <h3>{active.name}</h3>
+              <ReformDetail active={active} />
+            </Modal>
           ) : (
             ''
           )}

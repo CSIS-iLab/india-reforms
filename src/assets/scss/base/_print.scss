@@ -8,20 +8,22 @@
     color: #000 !important; // Black prints faster: h5bp.com/s
     text-shadow: none !important;
     background: transparent !important;
+    background-image: none !important;
     box-shadow: none !important;
     filter: none !important;
   }
 
+  a:link,
+  a:visited {
+    color: #000 !important;
+  }
+
   body {
     margin: 25mm;
+  }
 
-    &::before {
-      display: block;
-      font-family: $font__serif;
-      font-size: 75pt;
-      text-align: center;
-      content: 'CSIS | Careers';
-    }
+  h1 {
+    margin: 2rem auto !important;
   }
 
   h2,
@@ -29,36 +31,50 @@
     break-after: avoid;
   }
 
-  .site-header,
-  .listings__filters,
-  .share,
-  .component-image,
-  .post-footer,
-  .csis-logo,
-  .Page-logo,
-  .apply,
-  .forward,
-  .backward,
-  .site-footer__subsection section:first-of-type,
-  .site-footer__details-social {
+  nav,
+  #controls,
+  .intro__video,
+  .content.extra .share,
+  .credit,
+  .button,
+  .btn {
     display: none !important;
   }
 
-  a:link,
-  a:visited,
-  .site-footer li {
-    color: #000 !important;
+  #cards {
+    display: block !important;
+    height: unset !important;
+
+    .ui.ribbon.label {
+      color: #000 !important;
+      background-color: #fff !important;
+      border: 1px solid #ccc !important;
+
+      &::after {
+        border-right-color: #ccc !important;
+      }
+    }
   }
 
-  .post,
-  .job {
-    .job-content__body {
-      padding: 5mm;
-    }
+  .ui.card {
+    position: static !important;
+    height: unset !important;
+    border: 1px solid #ccc !important;
 
-    .job-meta {
-      grid-template-columns: auto auto;
-      grid-template-rows: 1fr auto;
+    .content > * {
+      flex-basis: 100% !important;
+
+      &.description.progress {
+        display: block !important;
+      }
+
+      &.description.current {
+        display: none !important;
+      }
     }
+  }
+
+  footer > section {
+    padding: 0 !important;
   }
 }

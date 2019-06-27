@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Label } from 'semantic-ui-react'
+import ReformDetail from './ReformDetail'
 
 const colorKey = {
   not_started: 'blue',
@@ -32,11 +33,15 @@ export default class ReformCard extends React.Component {
           </Card.Meta>
         </Card.Content>
         <Card.Content>
-          <Card.Description>
+          <Card.Description className="current">
             <p>{reform.steps[reform.status].description}</p>
           </Card.Description>
         </Card.Content>
         <Card.Content extra>
+          <Card.Description className="progress">
+            <ReformDetail active={reform} />
+          </Card.Description>
+
           <button onClick={show(true, reform)} className="icon-progress btn">
             View Progress
           </button>

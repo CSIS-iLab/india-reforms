@@ -40,6 +40,10 @@
       p {
         @extend %base;
       }
+
+      &.progress {
+        display: none;
+      }
     }
 
     &.extra {
