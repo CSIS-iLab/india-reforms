@@ -36,16 +36,26 @@ body {
 
 header > *,
 nav,
-main,
-footer {
+footer,
+.wrapper {
   max-width: 1260px;
   margin: auto;
+}
+
+header > *,
+nav,
+footer {
   @each $size in $sizes__default {
     $padding: return-map-value($size__container-padding, $size);
     @include breakpoint(#{$size}) {
       width: calc(100vw - #{$padding} * 2);
     }
   }
+}
+
+main {
+  max-width: calc(1260px + 108px);
+  margin: auto;
 }
 
 a,

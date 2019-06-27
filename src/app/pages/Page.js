@@ -184,25 +184,27 @@ export default class Page extends React.Component {
         <PageHeader pageContent={pageContent} page={page} />
         <main className={page}>
           <section id="controls" className="sticky">
-            <div className="icon-sort sort">
-              <span>SORT</span>
+            <div className="wrapper">
+              <div className="icon-sort sort">
+                <span>SORT</span>
 
-              <Button.Group basic>
-                {['Status', 'Name', 'Difficulty'].map(sortBy => (
-                  <Button
-                    onClick={this.handleSort}
-                    data-sort-by={sortBy.toLowerCase()}
-                    key={sortBy}
-                  >
-                    {sortBy}
-                  </Button>
-                ))}
-              </Button.Group>
+                <Button.Group basic>
+                  {['Status', 'Name', 'Difficulty'].map(sortBy => (
+                    <Button
+                      onClick={this.handleSort}
+                      data-sort-by={sortBy.toLowerCase()}
+                      key={sortBy}
+                    >
+                      {sortBy}
+                    </Button>
+                  ))}
+                </Button.Group>
+              </div>
+              <button onClick={this.handlePrint} className="icon-download-doc">
+                <span>Download</span>
+                <span>All Reform Information</span>
+              </button>
             </div>
-            <button onClick={this.handlePrint} className="icon-download-doc">
-              <span>Download</span>
-              <span>All Reform Information</span>
-            </button>
           </section>
           <Button
             aria-label="back to top"

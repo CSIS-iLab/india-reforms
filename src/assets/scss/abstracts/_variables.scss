@@ -73,5 +73,5 @@ $large-row-margin: 40px;
 $large-card-width: calc(100% / 3 - #{$large-column-gap});
 $large-container-width: calc(#{$large-card-width} * 3);
 
-$xlarge-container-width: calc(100% - 108px);
+$xlarge-container-width: calc(100% + 54px);
 $xlarge-column-margin: calc(((100% - 340px * 3) / 6) + 1rem);
