@@ -1,30 +1,45 @@
 #cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  min-height: 50vh;
+  margin: auto;
+
+  @media screen and (min-width: 724px) {
+    width: $medium-container-width;
+  }
+
+  @include breakpoint('large') {
+    width: $large-container-width;
+  }
+
+  @include breakpoint('xlarge') {
+    width: $xlarge-container-width;
+  }
 }
 
 .ui.card {
   width: 100%;
   max-width: unset;
   height: 575px;
-  margin: 1rem 2rem 1rem 0;
   background-color: $color__gray-medium;
   border: 0;
   box-shadow: none;
   /* stylelint-disable */
   -webkit-transition: unset;
-  transition: unset;
   /* stylelint-enable */
+  transition: unset;
 
-  @include breakpoint('medium') {
-    width: 500px;
+  @media screen and (min-width: 724px) {
+    width: $medium-card-width;
+    margin: 0 $medium-column-margin $medium-row-margin;
   }
-  @include breakpoint('large') {
-    width: 300px;
+
+  @media screen and (min-width: 62em) {
+    width: $large-card-width;
+    max-width: 300px;
+    margin: 0 $large-column-margin $large-row-margin;
   }
+
   @include breakpoint('xlarge') {
-    width: 300px;
+    width: 340px;
+    margin: 0 $xlarge-column-margin $large-row-margin;
   }
 
   h2 {
@@ -52,20 +67,11 @@
   }
 
   .meta {
-    @extend %meta;
     align-self: flex-end;
+    @extend %meta;
   }
 
   .ui.ribbon.label {
-    @include breakpoint('medium', 'max-width') {
-      left: calc(-1rem - 0.75em);
-
-      &::after {
-        border-right-width: 0.7em;
-      }
-    }
-    @include font-size(14px);
-
     &.blue {
       background-color: $color__blue !important;
 
@@ -89,5 +95,13 @@
         border-right-color: $color__green-dark;
       }
     }
+    @include breakpoint('medium', 'max-width') {
+      left: calc(-1rem - 0.75em);
+
+      &::after {
+        border-right-width: 0.7em;
+      }
+    }
+    @include font-size(14px);
   }
 }

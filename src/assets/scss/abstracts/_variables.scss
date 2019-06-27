@@ -35,21 +35,10 @@ $browser-context: 16px;
 
 /*----------  Structure  ----------*/
 
-$sizes__default: (
-  'small',
-  'medium',
-  'large',
-  'xlarge'
-);
+$sizes__default: ('small', 'medium', 'large', 'xlarge');
 
-$sizes__mobile: (
-  'medium',
-  'large'
-);
-$sizes__desktop: (
-  'large',
-  'xlarge'
-);
+$sizes__mobile: ('medium', 'large');
+$sizes__desktop: ('large', 'xlarge');
 
 $breakpoints: (
   'small': 0,
@@ -72,23 +61,17 @@ $size__container-padding: (
   'xlarge': 54px
 );
 
-$size__card-width: (
-  'small': 100%,
-  'medium': 50%,
-  'large': 300px,
-  'xlarge': 340px
-);
+$medium-column-gap: 40px;
+$medium-column-margin: calc(#{$medium-column-gap} - 1rem);
+$medium-row-margin: 40px;
+$medium-card-width: calc(100% / 2 - #{$medium-column-gap} - 1rem);
+$medium-container-width: calc(#{$medium-card-width} * 2);
 
-$size__grid-row-gap: (
-  'small': 32px,
-  'medium': 40px,
-  'large': 40px,
-  'xlarge': 40px
-);
+$large-column-gap: 32px;
+$large-column-margin: calc(#{$large-column-gap} - 1rem);
+$large-row-margin: 40px;
+$large-card-width: calc(100% / 3 - #{$large-column-gap});
+$large-container-width: calc(#{$large-card-width} * 3);
 
-$size__grid-column-gap: (
-  'small': 32px,
-  'medium': 40px,
-  'large': 32px,
-  'xlarge': 32px
-);
+$xlarge-container-width: calc(100% - 108px);
+$xlarge-column-margin: calc(((100% - 340px * 3) / 6) + 1rem);
