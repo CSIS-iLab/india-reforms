@@ -1,7 +1,6 @@
 #cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
   min-height: 50vh;
 }
 
@@ -37,10 +36,6 @@
     flex-wrap: wrap;
     border-top: solid 2px rgba($color__white, 0.1);
 
-    > .header:not(.ui) {
-      font-size: 16px;
-    }
-
     > .description {
       p {
         @extend %base;
@@ -58,6 +53,13 @@
   }
 
   .ui.ribbon.label {
+    @include breakpoint('medium', 'max-width') {
+      left: calc(-1rem - 0.75em);
+
+      &::after {
+        border-right-width: 0.7em;
+      }
+    }
     @include font-size(14px);
 
     &.blue {

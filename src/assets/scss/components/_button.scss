@@ -1,21 +1,20 @@
 input[type='submit'],
 button {
   padding: 0;
-  text-transform: uppercase;
+  line-height: 1.25;
   background-color: transparent;
   border: 0;
   cursor: pointer;
-  // @include font-size(15px);
 
   &:focus {
     @extend %form-focus;
   }
 
   &.ui.button.back-to-top {
-    position: fixed;
-    right: 1rem;
-    bottom: 1rem;
-    z-index: 2;
+    position: sticky;
+    top: calc(100vh - 4rem);
+    left: calc(100vw - 1rem);
+    z-index: 1;
     color: $color__white;
     text-align: right;
     background-color: $color__red;
@@ -24,7 +23,73 @@ button {
 
   &.btn {
     @extend %btn;
-    display: block;
+    display: flex;
     margin: auto;
+  }
+
+  .ui.basic.buttons &.button {
+    @extend %font-oxygen;
+    @include font-size(13px);
+    color: rgba($color__white, 0.8) !important;
+
+    &.dark {
+      color: rgba($color__white, 0.8) !important;
+      background-color: $color__gray-light !important;
+    }
+
+    &:hover,
+    &:focus {
+      color: rgba($color__white, 0.8) !important;
+      background-color: $color__gray-lightest !important;
+    }
+  }
+
+  &.icon-download-doc {
+    display: flex;
+    align-items: flex-start;
+    max-height: 54px;
+    padding: 0.5rem 1em;
+    background-color: $color__gray-light;
+    border-radius: 0.28571429rem;
+    @include breakpoint('medium', 'max-width') {
+      display: none;
+    }
+    @include breakpoint('medium') {
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 212px;
+
+      &::before {
+        top: 2px;
+        flex-basis: 100%;
+        margin-right: 0.5rem;
+        font-size: 2rem;
+      }
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $color__gray-lightest !important;
+    }
+
+    span {
+      display: block;
+
+      &:first-of-type {
+        @extend %font-oxygen;
+        color: rgba($color__white, 0.8);
+        text-transform: uppercase;
+        @include font-size(15px);
+      }
+
+      &:last-of-type {
+        @include font-size(13px);
+        color: rgba($color__white, 0.5);
+
+        @include breakpoint('medium', 'max-width') {
+          display: none;
+        }
+      }
+    }
   }
 }

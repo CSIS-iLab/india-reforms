@@ -1,47 +1,55 @@
 import React from 'react'
 import ValueToJSX from '../helpers/ValueToJSX'
-
-import { Button, Modal, Header, Icon } from 'semantic-ui-react'
-import { Timeline, Icon as Ant } from 'antd'
+import { Modal } from 'semantic-ui-react'
 
 export default class ReformDetail extends React.Component {
   render() {
     const { open, onClose, active } = this.props
-    console.log(active)
 
     return (
       <Modal open={open} onClose={onClose} closeIcon>
         <h3>{active.name}</h3>
 
-        <Timeline>
+        <ul className="ant-timeline">
           {Object.keys(active.steps)
             .filter(step => active.steps[step].status)
             .map((step, index) => {
               const number = Object.keys(active.steps).indexOf(active.status)
 
               const checked = index <= number
+              const current = active.status === step
 
               return (
-                <Timeline.Item
+                <li
                   key={step}
                   color="#e95623"
-                  className={checked ? 'checked' : ''}
+                  className={`ant-timeline-item ${checked ? 'checked' : ''} ${
+                    current ? 'current' : ''
+                  }`}
                 >
-                  <span className="status">{active.steps[step].status}</span>
-                  {ValueToJSX(active.steps[step].description)}
-                  {checked && index !== 0 ? (
-                    <p className="source">
-                      <a href={active.steps[step].link}>
-                        Source <Icon name="external alternate" />
-                      </a>
-                    </p>
-                  ) : (
-                    ''
-                  )}
-                </Timeline.Item>
+                  <div className="ant-timeline-item-tail" />
+
+                  <div className="ant-timeline-item-head" />
+                  <div className="ant-timeline-item-content">
+                    <span className="status">{active.steps[step].status}</span>
+                    {ValueToJSX(active.steps[step].description)}
+                    {checked && index !== 0 ? (
+                      <p className="source">
+                        <a
+                          href={active.steps[step].link}
+                          className="icon-link-external"
+                        >
+                          Source
+                        </a>
+                      </p>
+                    ) : (
+                      ''
+                    )}
+                  </div>
+                </li>
               )
             })}
-        </Timeline>
+        </ul>
       </Modal>
     )
   }

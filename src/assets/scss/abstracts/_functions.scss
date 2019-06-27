@@ -4,7 +4,7 @@
 
 @function calculate-rem($size) {
   $rem-size: $size / $browser-context;
-  @return #{$rem-size}em;
+  @return #{$rem-size}rem;
 }
 
 @function return-map-value($map, $breakpoint) {

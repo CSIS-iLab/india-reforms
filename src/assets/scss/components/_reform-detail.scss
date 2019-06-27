@@ -1,12 +1,23 @@
 .ui.modal {
   max-width: 500px;
+  max-height: 90vh;
   background-color: $color__gray-light;
   @extend %font-oxygen;
-  @include font-size(16px);
+
+  // @include breakpoint('medium', 'max-width') {
+  // bottom: 0;
+  // height: 92vh;
+  // }
 
   i.close.icon {
     display: flex;
     align-items: center;
+    color: $color__white;
+
+    @include breakpoint('medium', 'max-width') {
+      top: -2.5rem !important;
+      right: 2.5rem !important;
+    }
 
     &::after {
       content: ' \F00D';
@@ -28,11 +39,19 @@
 
   .ant-timeline {
     padding: 0 1.5rem 1.25rem;
+    list-style-type: none;
+
+    // @include breakpoint('medium', 'max-width') {
+    //   max-height: 60vh;
+    //   overflow-y: auto;
+    // }
+  }
+
+  .current.ant-timeline-item {
+    color: rgba($color__white, 0.8);
   }
 
   .checked.ant-timeline-item {
-    color: rgba($color__white, 0.8);
-
     .ant-timeline-item-head {
       background-color: $color__red;
       border-color: $color__red;
@@ -47,11 +66,14 @@
   }
 
   .ant-timeline-item {
+    position: relative;
+    margin: 0;
+    padding: 0 0 20px;
     color: rgba($color__white, 0.5);
-    @include font-size(16px);
+    @include font-size(14px);
 
     @include breakpoint('medium') {
-      @include font-size(18px);
+      @include font-size(16px);
     }
 
     .status {
@@ -61,7 +83,29 @@
     }
 
     &-tail {
+      position: absolute;
+      top: 0.75em;
+      left: 4px;
+      height: 100%;
       border-left: solid 2px rgba($color__white, 0.1);
+    }
+
+    &:last-of-type > .ant-timeline-item-tail {
+      display: none;
+    }
+
+    &-head {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border: 2px solid #f4602e;
+      border-radius: 100px;
+    }
+
+    &-content {
+      position: relative;
+      top: -6px;
+      margin: 0 0 0 18px;
     }
   }
 }

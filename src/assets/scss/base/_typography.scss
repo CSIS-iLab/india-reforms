@@ -11,7 +11,7 @@ button {
 
 @for $i from 1 through 6 {
   h#{$i} {
-    margin: 0 0 1rem;
+    margin: 0 auto 1rem;
     @extend %font-oxygen;
     font-weight: 600;
     -webkit-font-smoothing: antialiased;
@@ -19,6 +19,7 @@ button {
 }
 
 h1 {
+  margin-bottom: 0;
   color: $color__red;
   line-height: 0.83;
   text-align: center;
@@ -102,6 +103,7 @@ ul {
 
 address {
   color: rgba($color__white, 0.5);
+  font-style: normal;
   @include font-size(16px);
   line-height: 1.3;
 }

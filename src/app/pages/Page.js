@@ -4,6 +4,8 @@ import PageHeader from '../layout/PageHeader'
 import ReformCard from '../components/ReformCard'
 import ReformDetail from '../components/ReformDetail'
 import Isotope from 'isotope-layout'
+import jsPDF from 'jspdf'
+import Stickyfill from 'stickyfilljs'
 import { Button } from 'semantic-ui-react'
 
 export default class Page extends React.Component {
@@ -31,7 +33,7 @@ export default class Page extends React.Component {
     target.classList.contains('light')
       ? target.classList.remove('light')
       : target.classList.add('light')
-  }
+  };
 
   resetControl = (target, all) => {
     let buttons = Array.from(target.parentNode.querySelectorAll('button'))
@@ -42,14 +44,14 @@ export default class Page extends React.Component {
       b.classList.remove('dark')
       b.classList.add('light')
     })
-  }
+  };
 
   handleReset = e => {
     this.state.cards.arrange({ filter: '*' })
     this.resetControl(e.target, true)
     this.toggle(e.target)
     this.setState({ value: '' })
-  }
+  };
 
   handleSort = e => {
     this.state.cards.arrange({
@@ -58,7 +60,7 @@ export default class Page extends React.Component {
 
     this.resetControl(e.target, true)
     this.toggle(e.target)
-  }
+  };
 
   handleFilter = e => {
     const value = e.target.dataset.sectors
@@ -69,10 +71,12 @@ export default class Page extends React.Component {
       })
     this.resetControl(e.target, true)
     this.toggle(e.target)
-  }
+  };
 
   componentDidMount() {
     require('../../assets/scss/scorecard.scss')
+    const elements = document.querySelectorAll('.sticky')
+    Stickyfill.add(elements)
   }
   componentDidUpdate() {
     if (!this.props.reforms.length) return
@@ -104,8 +108,17 @@ export default class Page extends React.Component {
     })
   }
 
-  close = () => this.setState({ open: false })
-  show = (open, d) => () => this.setState({ open: true, active: d })
+  close = () => this.setState({ open: false });
+  show = (open, d) => () => this.setState({ open: true, active: d });
+
+  handlePrint = () => {
+    let doc = new jsPDF('p')
+
+    doc.fromHTML(document.querySelector('main'), 15, 15, {
+      width: 170
+    })
+    doc.save('sample-file.pdf')
+  };
 
   handleChange = (e, { value }) => {
     if (!value) {
@@ -134,22 +147,49 @@ export default class Page extends React.Component {
     )
 
     this.setState({ value })
-  }
+  };
 
   render() {
-    const { pageContent, page, open, active, value } = this.state
-    const { reforms, categories } = this.props
-    let cardRef = React.createRef()
-    let mainRef = React.createRef()
+    const { pageContent, page, open, active } = this.state
+    const { reforms } = this.props
 
     return (
       <React.Fragment>
         <PageHeader pageContent={pageContent} page={page} />
         <main className={page}>
+          <section id="controls" className="sticky">
+            <div className="icon-sort sort">
+              <span>SORT</span>
+
+              <Button.Group basic>
+                {['Status', 'Name', 'Difficulty'].map(sortBy => (
+                  <Button
+                    onClick={this.handleSort}
+                    data-sort-by={sortBy.toLowerCase()}
+                    key={sortBy}
+                  >
+                    {sortBy}
+                  </Button>
+                ))}
+              </Button.Group>
+            </div>
+            <button onClick={this.handlePrint} className="icon-download-doc">
+              <span>Download</span>
+              <span>All Reform Information</span>
+            </button>
+          </section>
+          <Button
+            aria-label="back to top"
+            className="back-to-top sticky"
+            icon="angle double up"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          />
           <section id="cards" attached="bottom">
             {reforms && reforms.length
               ? reforms.map(d => {
-                return <ReformCard reform={d} key={d.name} show={this.show} />
+                return (
+                  <ReformCard reform={d} key={d.name} show={this.show} />
+                )
               })
               : ''}
           </section>
@@ -158,13 +198,6 @@ export default class Page extends React.Component {
           ) : (
             ''
           )}
-
-          <Button
-            aria-label="back to top"
-            className="back-to-top"
-            icon="angle double up"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          />
         </main>
       </React.Fragment>
     )

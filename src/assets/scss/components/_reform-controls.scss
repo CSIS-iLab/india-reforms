@@ -1,0 +1,48 @@
+#controls {
+  position: sticky;
+  top: return-map-value($size__header-height, 'small');
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 3em;
+  margin-left: calc((100vw - 100%) / -2);
+  background-color: $color__gray-dark;
+  box-shadow: 3px 6px 6px $color__black;
+
+  @include breakpoint('medium') {
+    top: 0;
+    height: 5.5rem;
+  }
+
+  @each $size in $sizes__default {
+    @include breakpoint($size) {
+      padding: 0 return-map-value($size__container-padding, $size);
+    }
+  }
+
+  .sort {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-right: 1rem;
+      @include font-size(14px);
+    }
+
+    .buttons,
+    .button {
+      border-top-color: $color__gray-light;
+      border-right-color: $color__gray-light;
+      border-bottom-color: $color__gray-light;
+      border-left-color: $color__gray-light;
+    }
+
+    .buttons {
+      &::after {
+        content: none;
+      }
+    }
+  }
+}

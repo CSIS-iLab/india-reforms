@@ -144,16 +144,6 @@ fields:
       - low
       - medium
       - high
-  - type: list
-    name: sectors
-    label: sectors
-    config:
-      use_select: true
-      source:
-        type: documents
-        section: sectors
-        path: Sector
-        file: ".forestry/sector.yml"
   config:
     labelField: name
 pages:

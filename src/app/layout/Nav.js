@@ -9,7 +9,7 @@ export default class Nav extends React.Component {
 
     const headerContent = {
       archive: (
-        <a href="/" className="link-reforms">
+        <a href="/" className="link-reforms nav-link">
           <span>VISIT THE NEW SITE &#8594;</span>
           <span>Track reforms from the current administration</span>
         </a>
@@ -27,14 +27,14 @@ export default class Nav extends React.Component {
         className={`site-header__nav site-header__nav--${page}`}
         role="navigation"
       >
-        <a href="/" className="link-home link-home--desktop">
+        <div className="link-home link-home--desktop nav-link">
           <LogoLong className="link-home__logo-long" />
-        </a>
+        </div>
 
-        <a href="/" className="link-home link-home--mobile">
+        <div className="link-home link-home--mobile nav-link">
           <span>India's Economic Reform Agenda</span>
           <span>A Scorecard</span>
-        </a>
+        </div>
 
         {headerContent[page]}
       </nav>

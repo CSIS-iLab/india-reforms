@@ -1,9 +1,9 @@
-a,
-[class^='icon-'] {
+a {
+  text-decoration: none;
+
   div > &,
   &.btn {
     color: rgba($color__white, 0.5);
-    text-decoration: none;
 
     background-image: linear-gradient(
       to bottom,
@@ -50,7 +50,7 @@ a,
     }
   }
 
-  &:not(.btn):focus {
+  &:not(.btn):not(.nav-link):focus {
     @extend %link-focus;
     padding: 0 0.125rem;
     background-position: 0 87.5%;
@@ -58,6 +58,11 @@ a,
 
   &.btn {
     @extend %btn;
-    display: inline-block;
+    display: inline-flex;
+
+    &:hover,
+    &:focus {
+      background-color: $color__gray-lightest;
+    }
   }
 }

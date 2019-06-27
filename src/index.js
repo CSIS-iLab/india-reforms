@@ -2,8 +2,13 @@ import './web.config'
 import 'react-app-polyfill/ie9'
 import '@babel/polyfill'
 
-import 'antd/dist/antd.css'
-import 'semantic-ui-css/semantic.min.css'
+import 'semantic-ui-css/components/button.min.css'
+import 'semantic-ui-css/components/card.min.css'
+import 'semantic-ui-css/components/dimmer.min.css'
+import 'semantic-ui-css/components/icon.min.css'
+import 'semantic-ui-css/components/label.min.css'
+import 'semantic-ui-css/components/modal.min.css'
+
 import './assets/scss/main.scss'
 
 import * as serviceWorker from './serviceWorker'

@@ -35,10 +35,21 @@ $browser-context: 16px;
 
 /*----------  Structure  ----------*/
 
-$sizes__default: ('small', 'medium', 'large', 'xlarge');
+$sizes__default: (
+  'small',
+  'medium',
+  'large',
+  'xlarge'
+);
 
-$sizes__mobile: ('medium', 'large');
-$sizes__desktop: ('large', 'xlarge');
+$sizes__mobile: (
+  'medium',
+  'large'
+);
+$sizes__desktop: (
+  'large',
+  'xlarge'
+);
 
 $breakpoints: (
   'small': 0,
@@ -53,6 +64,7 @@ $size__header-height: (
   'large': 72px,
   'xlarge': 72px
 );
+
 $size__container-padding: (
   'small': 24px,
   'medium': 32px,

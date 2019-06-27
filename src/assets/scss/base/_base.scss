@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  --breakpoint: 'xsmall';
   margin: 0;
+  overflow-x: hidden;
   background-color: $color__off-black;
 
   @include breakpoint('small') {
@@ -34,7 +34,7 @@ body {
   }
 }
 
-header section,
+header > *,
 nav,
 main,
 footer {

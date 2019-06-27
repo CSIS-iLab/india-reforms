@@ -9,13 +9,13 @@
   background-size: cover, cover;
 
   h1 {
-    margin: 8rem 0;
+    padding: 8rem 0;
   }
 
   .credit {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     text-align: right;
-    opacity: 0.33;
+    opacity: 0.25;
   }
 
   .intro {
@@ -48,8 +48,8 @@
   transition: all 0.2s ease-in-out;
 
   @include breakpoint('medium', 'max-width') {
-    background-color: $color__gray-lightest;
     @include full-width-background($color__gray-lightest);
+    background-color: $color__gray-lightest;
     border-top: 4px solid $color__red;
 
     &::after,
@@ -73,6 +73,8 @@
   }
 
   .link-home {
+    position: relative;
+    z-index: 1;
     display: block;
 
     &:not(:focus) {
@@ -129,7 +131,8 @@
   }
 
   .link-reforms {
-    z-index: 10;
+    position: relative;
+    z-index: 2;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -159,17 +162,22 @@
   }
 
   &--archive {
-    position: relative;
-    z-index: 10;
+    z-index: 1;
     height: 96px;
   }
 
   &--homepage {
     @each $size in $sizes__default {
       @include breakpoint($size) {
-        $height: return-map-value($size__header-height, $size);
-        height: $height;
+        height: return-map-value($size__header-height, $size);
       }
+    }
+
+    @include breakpoint('medium', 'max-width') {
+      position: fixed;
+      top: 0;
+      left: return-map-value($size__container-padding, 'small');
+      z-index: 10;
     }
   }
 }
