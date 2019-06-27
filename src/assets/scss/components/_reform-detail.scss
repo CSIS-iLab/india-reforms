@@ -24,9 +24,10 @@
 
     &::before {
       @extend %font-oxygen;
-      @include font-size(12px);
       margin-right: 0.5rem;
+      font-weight: bold;
       content: 'CLOSE';
+      @include font-size(12px);
     }
   }
 
