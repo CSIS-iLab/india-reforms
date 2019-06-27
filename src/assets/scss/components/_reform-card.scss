@@ -1,6 +1,6 @@
 #cards {
-  margin: auto;
 
+  margin: auto;
   @media screen and (min-width: 724px) {
     width: $medium-container-width;
   }
@@ -20,7 +20,7 @@
   height: 575px;
   background-color: $color__gray-medium;
   border: 0;
-  box-shadow: none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.9);
   /* stylelint-disable */
   -webkit-transition: unset;
   /* stylelint-enable */
@@ -37,8 +37,9 @@
     margin: 0 $large-column-margin $large-row-margin;
   }
 
-  @include breakpoint('xlarge') {
-    width: 340px;
+  @media screen and (min-width: 75em) {
+    width: $xlarge-card-width;
+    max-width: 400px;
     margin: 0 $xlarge-column-margin $large-row-margin;
   }
 
@@ -48,8 +49,15 @@
 
   .content {
     display: flex;
+    flex-grow: unset;
     flex-wrap: wrap;
+    padding: 1em;
     border-top: solid 2px rgba($color__white, 0.1);
+
+
+    @include breakpoint('medium') {
+      padding: 1em 2em;
+    }
 
     > .description {
       p {
@@ -62,7 +70,13 @@
     }
 
     &.extra {
+      flex-grow: 1;
       margin-bottom: 1.5rem;
+
+      button {
+        align-self: flex-end;
+        margin: 0 auto;
+      }
     }
   }
 
@@ -104,5 +118,10 @@
         border-right-width: 0.7em;
       }
     }
+
+    @include breakpoint('medium') {
+      left: calc(-2rem - 1.2em);
+    }
+
   }
 }
