@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
+    "html2pdf.js": "^0.9.1",
     "react": "^16.8.6",
     "react-app-polyfill": "^1.0.0",
     "react-dom": "^16.8.6",
