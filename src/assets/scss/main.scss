@@ -8,7 +8,6 @@
 
 @import 'base/base';
 @import 'base/helpers';
-@import 'base/print';
 @import 'base/typography';
 
 @import 'components/link';
@@ -18,3 +17,7 @@
 @import 'layout/header';
 
 @import 'vendor/fontello';
+
+@media print {
+  @import 'base/print';
+}

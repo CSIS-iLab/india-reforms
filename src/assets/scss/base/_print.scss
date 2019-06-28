@@ -1,130 +1,123 @@
-/*=========================================
-=            Print Stylesheets            =
-=========================================*/
-
-@mixin print {
-  *,
-  *::before,
-  *::after {
-    color: #000 !important; // Black prints faster: h5bp.com/s
-    text-shadow: none !important;
-    background: transparent !important;
-    background-image: none !important;
-    box-shadow: none !important;
-    filter: none !important;
-  }
-
-  a:link,
-  a:visited {
-    color: #000 !important;
-  }
-
-  html {
-    font-size: 12px;
-  }
-
-  #root {
-    max-width: 170mm;
-    margin: 25mm auto;
-  }
-
-  h1 {
-    margin: 2rem auto !important;
-    padding: 0 !important;
-  }
-
-  h2,
-  h3 {
-    break-after: avoid;
-  }
-
-  nav,
-  header a,
-  #controls,
-  .intro__video,
-  .share,
-  .credit,
-  button,
-  .btn,
-  svg,
-  img {
-    display: none !important;
-  }
-
-  h1,
-  section,
-  .ui.card,
-  footer {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
-  #cards {
-    display: block !important;
-    height: unset !important;
-
-    .ui.ribbon.label {
-      left: calc(-2rem - 2em) !important;
-      color: #000 !important;
-      background-color: #fff !important;
-      border: 1px solid #ccc !important;
-
-      &::after {
-        border-right-color: transparent !important;
-      }
-    }
-  }
-
-  .ui.card {
-    position: static !important;
-    height: unset !important;
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-    border: 0 !important;
-
-    .content {
-      > * {
-        flex-basis: 100% !important;
-
-        &.description.progress {
-          display: block !important;
-        }
-
-        &.description.current {
-          display: none !important;
-        }
-      }
-
-      &:nth-child(2) {
-        padding: 0 !important;
-      }
-
-      &:nth-child(3) {
-        margin-bottom: 0 !important;
-      }
-    }
-  }
-
-  footer {
-    > section {
-      padding: 1rem 0 0 !important;
-    }
-
-    .page-footer,
-    .site-footer__content {
-      flex-wrap: wrap;
-    }
-
-    .page-footer {
-      &__methodology,
-      &__feedback {
-        flex-basis: 100%;
-        padding: 0;
-      }
-    }
-  }
+*,
+*::before,
+*::after {
+  color: #000 !important;
+  text-shadow: none !important;
+  background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  filter: none !important;
 }
 
-@media print {
-  @include print;
+a:link,
+a:visited {
+  color: #000 !important;
+}
+
+html {
+  font-size: 12px;
+}
+
+#root {
+  width: 150mm;
+  margin: 25mm auto;
+}
+
+h1 {
+  margin: 2rem auto !important;
+  padding: 0 !important;
+}
+
+.header,
+.description.current,
+.meta,
+footer section,
+p,
+li,
+h3,
+h2,
+h1 {
+  break-after: avoid;
+}
+
+nav,
+header a,
+#controls,
+.intro__video,
+.share,
+.credit,
+button,
+.btn,
+svg,
+img {
+  display: none !important;
+}
+
+h1,
+section,
+.ui.card,
+footer {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#cards {
+  display: block !important;
+  height: unset !important;
+}
+
+#cards .ui.ribbon.label {
+  left: calc(-2rem - 2em) !important;
+  color: #000 !important;
+  background-color: #fff !important;
+  border-bottom: 1px solid #ccc !important;
+}
+
+#cards .ui.ribbon.label::after {
+  border-right-color: transparent !important;
+}
+
+.ui.card {
+  position: static !important;
+  height: unset !important;
+  margin-right: 0 !important;
+  margin-bottom: 3rem !important;
+  margin-left: 0 !important;
+  border-top: 1px solid #ccc !important;
+  border-radius: 0 !important;
+}
+
+.ui.card .content > * {
+  flex-basis: 100% !important;
+}
+
+.ui.card .content > *.description.progress {
+  display: block !important;
+}
+
+.ui.card .content > *.description.current {
+  display: none !important;
+}
+
+.ui.card .content:nth-child(2) {
+  padding: 0 !important;
+}
+
+.ui.card .content:nth-child(3) {
+  margin-bottom: 0 !important;
+}
+
+footer > section {
+  padding: 1rem 0 0 !important;
+}
+
+footer .page-footer,
+footer .site-footer__content {
+  flex-wrap: wrap;
+}
+
+footer .page-footer__methodology,
+footer .page-footer__feedback {
+  flex-basis: 100%;
+  padding: 0;
 }
