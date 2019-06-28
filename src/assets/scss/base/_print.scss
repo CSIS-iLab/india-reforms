@@ -24,6 +24,7 @@
 
   h1 {
     margin: 2rem auto !important;
+    padding: 0 !important;
   }
 
   h2,
@@ -32,12 +33,15 @@
   }
 
   nav,
+  header a,
   #controls,
   .intro__video,
-  .content.extra .share,
+  .share,
   .credit,
-  .button,
-  .btn {
+  button,
+  .btn,
+  svg,
+  img {
     display: none !important;
   }
 
@@ -74,7 +78,14 @@
     }
   }
 
-  footer > section {
-    padding: 0 !important;
+  footer {
+    > section {
+      padding: 1rem 0 0 !important;
+    }
+
+    .page-footer,
+    .site-footer__content {
+      flex-wrap: wrap;
+    }
   }
 }
