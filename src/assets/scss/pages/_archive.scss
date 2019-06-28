@@ -375,7 +375,7 @@
 
   .policy {
     width: 295px;
-    height: 395px;
+    height: 325px;
     margin: 10px;
     overflow: hidden;
     color: #e3e3e3;
@@ -389,7 +389,7 @@
     top: 0;
     left: 0;
     width: 295px;
-    height: 395px;
+    height: 325px;
     text-align: center;
   }
 
@@ -453,7 +453,7 @@
   @media screen and (max-width: 990px) {
     .policy {
       width: 275px;
-      height: 275px;
+      height: 375px;
     }
 
     .policy h2 {
@@ -462,12 +462,12 @@
 
     .policy div {
       width: 275px;
-      height: 275px;
+      height: 375px;
     }
 
     .policy .info-text {
       width: 275px;
-      height: 275px;
+      height: 375px;
     }
   }
 
@@ -491,17 +491,17 @@
   @media screen and (max-width: 890px) {
     .policy {
       width: 255px;
-      height: 500px;
+      height: 375px;
     }
 
     .policy div {
       width: 255px;
-      height: 500px;
+      height: 375px;
     }
 
     .policy .info-text {
       width: 255px;
-      height: 500px;
+      height: 375px;
     }
 
     .policy h2 {
@@ -516,17 +516,17 @@
   @media screen and (max-width: 860px) {
     .policy {
       width: 240px;
-      height: 240px;
+      height: 375px;
     }
 
     .policy div {
       width: 240px;
-      height: 240px;
+      height: 375px;
     }
 
     .policy .info-text {
       width: 240px;
-      height: 240px;
+      height: 375px;
     }
   }
 
@@ -539,6 +539,7 @@
     margin: 0 0 10px;
     padding: 10px;
     color: #f2f2f2;
+    font-weight: bold;
     border-radius: 10px 10px 0 0;
   }
 
