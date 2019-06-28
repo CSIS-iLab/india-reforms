@@ -32,8 +32,7 @@ export default class Nav extends React.Component {
         </div>
 
         <div className="link-home link-home--mobile nav-link">
-          <span>India's Economic Reform Agenda</span>
-          <span>A Scorecard</span>
+          <span>India Reforms Scorecard</span>
         </div>
 
         {headerContent[page]}
