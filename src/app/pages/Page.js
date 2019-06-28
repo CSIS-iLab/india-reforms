@@ -3,8 +3,7 @@ import GetData from '../helpers/GetData'
 import PageHeader from '../layout/PageHeader'
 import ReformCard from '../components/ReformCard'
 import ReformDetail from '../components/ReformDetail'
-import ReactDOMServer from 'react-dom/server'
-import jsPDF from 'jspdf'
+import html2pdf from 'html2pdf.js'
 import Stickyfill from 'stickyfilljs'
 import { Button, Modal } from 'semantic-ui-react'
 
@@ -115,40 +114,19 @@ export default class Page extends React.Component {
   show = (open, d) => () => this.setState({ open: true, active: d })
 
   handlePrint = () => {
-    let doc = new jsPDF('p')
-    let printContent = ''
-    printContent += '<h1>India\'s Economic Reform Agenda | CSIS</h1>'
-
-    printContent += this.props.reforms
-      .map(
-        reform =>
-          `<article>
-          <h2>${reform.name}</h2>
-          <h3><span>${'status'.toUpperCase()}:</span>${' '}${
-            reform.steps[reform.status].status
-          }</h3>
-          <h4>
-            <span>${'difficulty'.toUpperCase()}:</span>${' '}
-            ${reform.difficulty.toUpperCase()}
-          </h4>
-          ${ReactDOMServer.renderToString(<ReformDetail active={reform} />)}
-        </article><br/><br/>`
-      )
-      .join('')
-
-    printContent += document.querySelector('.page-footer__methodology')
-      .innerHTML
-
-    printContent += document.querySelector('.site-footer__content-csis')
-      .innerHTML
-    printContent += document.querySelector('.site-footer__copyright').innerHTML
-
-    doc.fromHTML(printContent, 15, 15, {
-      width: 170
+    require('../../assets/scss/print.scss')
+    window.scrollTo({
+      top: 0
     })
-    doc.setFont('sans-serif')
-
-    doc.save('india-reforms.pdf')
+    html2pdf()
+      .set({
+        pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+      })
+      .from(document.querySelector('#root'))
+      .save('csis-india-reforms.pdf')
+      .then(function() {
+        window.location.reload()
+      })
   }
 
   handleChange = (e, { value }) => {
