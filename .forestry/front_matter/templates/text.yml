@@ -5,6 +5,7 @@ fields:
 - type: text
   name: slug
   label: slug
+  hidden: true
 - type: text
   name: site_title
   label: site_title
