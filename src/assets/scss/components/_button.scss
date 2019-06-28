@@ -55,6 +55,7 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: flex-start;
     width: 212px;
     max-height: 54px;
@@ -66,7 +67,6 @@ button {
     }
 
     &::before {
-      top: 2px;
       display: block;
       flex-basis: 100%;
       margin-right: 0.5rem;
@@ -95,8 +95,9 @@ button {
       }
 
       &:last-of-type {
-        @include font-size(13px);
         color: rgba($color__white, 0.5);
+        letter-spacing: 0.5px;
+        @include font-size(13px);
       }
     }
 

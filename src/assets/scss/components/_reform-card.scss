@@ -21,7 +21,6 @@
 .ui.card {
   width: 100%;
   max-width: unset;
-  height: 500px;
   background-color: $color__gray-medium;
   border: 0;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.9);
@@ -32,18 +31,21 @@
 
   @media screen and (min-width: 724px) {
     width: $medium-card-width;
+    height: 525px;
     margin: 0 $medium-column-margin $medium-row-margin;
   }
 
   @media screen and (min-width: 62em) {
     width: $large-card-width;
     max-width: 300px;
+    height: 650px;
     margin: 0 $large-column-margin $large-row-margin;
   }
 
   @media screen and (min-width: 75em) {
     width: $xlarge-card-width;
     max-width: 400px;
+    height: 500px;
     margin: 0 $xlarge-column-margin $large-row-margin;
   }
 
