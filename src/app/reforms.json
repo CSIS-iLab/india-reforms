@@ -50,7 +50,7 @@
     ]
   },
   {
-    "name": "Create outside restructuring process to prevent NCLT bottleneck",
+    "name": "Create an outside restructuring process to prevent overburdening of the NCLT",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "name": "Amend/replace the Land Acquisition Act, 2013 to simplify the time/cost required to acquire land",
+    "name": "Simplify the land acquisition process by amending or replacing the Land Acquisition Act, 2013",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -350,7 +350,7 @@
     ]
   },
   {
-    "name": "Mandate regulatory bodies to issue cost/benefit analyses & a 30-day notice/comment period, for all proposed regulation",
+    "name": "Mandate all proposed regulation be accompanied by cost/benefit analyses & a 30-day notice and comment period",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -550,7 +550,7 @@
     ]
   },
   {
-    "name": "Establish a 10-Year Reform Action Plan to privatize central & state-owned public sector enterprises",
+    "name": "Establish a 10-Year Plan to privatize all center and state-owned enterprises",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -575,7 +575,7 @@
     ]
   },
   {
-    "name": "Privatize India's public sector banks & create an independent body that decides board appointments to these banks",
+    "name": "Privatize public sector banks & create an independent body to appoint PSB board members",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -692,7 +692,7 @@
         "link": ""
       }
     },
-    "name": "Ensure that business owners can receive central government permits in 10 days or less",
+    "name": "Ensure business owners receive central government permits in 10 days or less",
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
@@ -717,7 +717,7 @@
         "link": ""
       }
     },
-    "name": "Make it easier to start a business by offering one-stop shopping for central government clearances",
+    "name": "Offer one-stop shopping for central government clearances",
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
@@ -742,7 +742,7 @@
         "link": ""
       }
     },
-    "name": "Remove the requirement for government permission for layoffs in the Industrial Disputes Act",
+    "name": "Remove the need for government permission for layoffs under the Industrial Disputes Act",
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
