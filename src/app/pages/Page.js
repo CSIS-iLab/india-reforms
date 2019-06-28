@@ -139,6 +139,7 @@ export default class Page extends React.Component {
         })
         html2pdf()
           .set({
+            margin: [15, 0, 15, 0],
             pagebreak: {
               avoid: [
                 '.header',
