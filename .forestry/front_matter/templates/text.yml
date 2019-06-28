@@ -1,0 +1,31 @@
+---
+label: text
+hide_body: true
+fields:
+- type: text
+  name: slug
+  label: slug
+- type: text
+  name: site_title
+  label: site_title
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: credit
+  label: credit
+- type: textarea
+  name: iframe
+  label: iframe
+- type: textarea
+  name: text
+  label: text
+- type: text
+  name: download_title
+  label: download_title
+- type: text
+  name: download_text
+  label: download_text
