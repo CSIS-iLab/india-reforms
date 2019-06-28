@@ -70,7 +70,7 @@
       border: 1px solid #ccc !important;
 
       &::after {
-        border-right-color: #ccc !important;
+        border-right-color: transparent !important;
       }
     }
   }
@@ -80,7 +80,7 @@
     height: unset !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
-    border: 1px solid #ccc !important;
+    border: 0 !important;
 
     .content {
       > * {

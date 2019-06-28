@@ -114,18 +114,17 @@ export default class Page extends React.Component {
   show = (open, d) => () => this.setState({ open: true, active: d })
 
   handlePrint = () => {
-    // require('../../assets/scss/print.scss')
+    addPrintStyles()
     window.scrollTo({
       top: 0
     })
     html2pdf()
       .set({
-        pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+        pagebreak: { avoid: ['span', '.description', '.meta', 'li', 'h2'] }
       })
       .from(document.querySelector('#root'))
       .save('csis-india-reforms.pdf')
       .then(function() {
-        // delete require.cache[require.resolve('../../assets/scss/print.scss')]
         window.location.reload()
       })
   }
@@ -221,4 +220,37 @@ export default class Page extends React.Component {
       </React.Fragment>
     )
   }
+}
+
+function addPrintStyles() {
+  let printStyle = Object.assign(document.createElement('style'), {
+    id: 'print-styles'
+  })
+  document.head.appendChild(printStyle)
+  let printStyleSheet = printStyle.sheet
+
+  const rules = [
+    '*, *::before, *::after { color: #000 !important; text-shadow: none !important; background: transparent !important; background-image: none !important; box-shadow: none !important; filter: none !important; }',
+    'a:link, a:visited { color: #000 !important; }',
+    'html { font-size: 12px; }',
+    '#root { max-width: 170mm; margin: 25mm auto; }',
+    'h1 { margin: 2rem auto !important; padding: 0 !important; }',
+    'h2, h3 { break-after: avoid; }',
+    'nav, header a, #controls, .intro__video, .share, .credit, button, .btn, svg, img { display: none !important; }',
+    'h1, section, .ui.card, footer { width: 100% !important; max-width: 100% !important; }',
+    ' #cards { display: block !important; height: unset !important; }',
+    '#cards .ui.ribbon.label { left: calc(-2rem - 2em) !important; color: #000 !important; background-color: #fff !important; border: 1px solid #ccc !important; }',
+    '#cards .ui.ribbon.label::after { border-right-color: #ccc !important; }',
+    '.ui.card { position: static !important; height: unset !important; margin-right: 0 !important; margin-left: 0 !important; border: 0 !important; }',
+    '.ui.card .content > * { flex-basis: 100% !important; }',
+    '.ui.card .content > *.description.progress { display: block !important; }',
+    '.ui.card .content > *.description.current { display: none !important; }',
+    '.ui.card .content:nth-child(2) { padding: 0 !important; }',
+    '.ui.card .content:nth-child(3) { margin-bottom: 0 !important; }',
+    'footer > section { padding: 1rem 0 0 !important; }',
+    'footer .page-footer, footer .site-footer__content { flex-wrap: wrap; }',
+    'footer .page-footer__methodology, footer .page-footer__feedback { flex-basis: 100%; padding: 0; }'
+  ]
+
+  rules.forEach(rule => printStyleSheet.insertRule(rule))
 }
