@@ -21,7 +21,8 @@ export default class Page extends React.Component {
       pageContent,
       title: GetData(page).title,
       open: false,
-      active: null
+      active: null,
+      sort: 'status'
     }
   }
 
@@ -58,6 +59,7 @@ export default class Page extends React.Component {
       sortBy: e.target.dataset.sortBy
     })
 
+    this.setState({ sort: 'status' })
     this.resetControl(e.target, true)
     this.toggle(e.target)
   }
@@ -80,16 +82,13 @@ export default class Page extends React.Component {
   }
   componentDidUpdate() {
     if (!this.props.reforms.length) return
-    Array.from(document.querySelectorAll('.ui.card')).forEach(card => {
-      card.style.height = card.offsetHeight + 'px'
-    })
 
     if (!this.state.cards) {
       this.setState({
         cards: new window.Isotope(document.querySelector('#cards'), {
           itemSelector: '.card',
           layoutMode: 'packery',
-          sortBy: 'status',
+          sortBy: this.state.sort,
 
           getSortData: {
             name: '[data-name]',
@@ -182,7 +181,7 @@ export default class Page extends React.Component {
   }
 
   render() {
-    const { pageContent, page, open, active } = this.state
+    const { pageContent, page, open, active, sort } = this.state
     const { reforms } = this.props
 
     return (
@@ -200,6 +199,7 @@ export default class Page extends React.Component {
                       onClick={this.handleSort}
                       data-sort-by={sortBy.toLowerCase()}
                       key={sortBy}
+                      className={sortBy.toLowerCase() === sort ? 'dark' : ''}
                     >
                       {sortBy}
                     </Button>
