@@ -114,7 +114,7 @@ export default class Page extends React.Component {
   show = (open, d) => () => this.setState({ open: true, active: d })
 
   handlePrint = () => {
-    require('../../assets/scss/print.scss')
+    // require('../../assets/scss/print.scss')
     window.scrollTo({
       top: 0
     })
@@ -125,6 +125,7 @@ export default class Page extends React.Component {
       .from(document.querySelector('#root'))
       .save('csis-india-reforms.pdf')
       .then(function() {
+        // delete require.cache[require.resolve('../../assets/scss/print.scss')]
         window.location.reload()
       })
   }
