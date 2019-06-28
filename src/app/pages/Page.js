@@ -3,7 +3,7 @@ import GetData from '../helpers/GetData'
 import PageHeader from '../layout/PageHeader'
 import ReformCard from '../components/ReformCard'
 import ReformDetail from '../components/ReformDetail'
-import Isotope from 'isotope-layout'
+import ReactDOMServer from 'react-dom/server'
 import jsPDF from 'jspdf'
 import Stickyfill from 'stickyfilljs'
 import { Button, Modal } from 'semantic-ui-react'
@@ -80,13 +80,17 @@ export default class Page extends React.Component {
   }
   componentDidUpdate() {
     if (!this.props.reforms.length) return
+    Array.from(document.querySelectorAll('.ui.card')).forEach(card => {
+      card.style.height = card.offsetHeight + 'px'
+    })
 
     if (!this.state.cards) {
       this.setState({
-        cards: new Isotope(document.querySelector('#cards'), {
+        cards: new window.Isotope(document.querySelector('#cards'), {
           itemSelector: '.card',
-          layoutMode: 'fitRows',
+          layoutMode: 'packery',
           sortBy: 'status',
+
           getSortData: {
             name: '[data-name]',
             status: '[data-status]',
@@ -121,12 +125,14 @@ export default class Page extends React.Component {
         reform =>
           `<article>
           <h2>${reform.name}</h2>
-          <h3>${reform.steps[reform.status].status}</h3>
+          <h3><span>${'status'.toUpperCase()}:</span>${' '}${
+            reform.steps[reform.status].status
+          }</h3>
           <h4>
             <span>${'difficulty'.toUpperCase()}:</span>${' '}
             ${reform.difficulty.toUpperCase()}
           </h4>
-          <p>${reform.steps[reform.status].description}</p>
+          ${ReactDOMServer.renderToString(<ReformDetail active={reform} />)}
         </article><br/><br/>`
       )
       .join('')

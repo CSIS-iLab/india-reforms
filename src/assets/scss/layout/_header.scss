@@ -6,7 +6,12 @@
     rgba($color__gray-dark, 1) 50%
   ),
     url('https://res.cloudinary.com/csisideaslab/image/upload/v1561580579/india-reforms/Indian_Prime_Minister_Narendra_Modi_waves.jpg');
+  background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
+
+  @include breakpoint('medium', 'max-width') {
+    background-position: center center, 25% center;
+  }
 
   h1 {
     padding: 8rem 0;
@@ -100,7 +105,6 @@
         @extend %font-oxygen;
         letter-spacing: 0.82px;
         @include font-size(16px);
-
       }
       @include breakpoint('medium') {
         display: none;

@@ -35,7 +35,7 @@ export default class SocialShare extends React.Component {
           <i
             tabIndex="0"
             className="icon-social icon-mail"
-            href={`mailto:indiareforms@csis.org?subject=${document.title}`}
+            href={`mailto: IndiaChair@csis.org?subject=${document.title}`}
             title="Email"
           >
             <span className="visually-hidden">Email</span>

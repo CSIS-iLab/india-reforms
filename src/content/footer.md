@@ -1,7 +1,7 @@
 ---
 slug: footer
 methodology_title: Methodology
-methodology: To establish this list, CSIS first conducted a literature review, looking for the frequency that individual reforms were listed by business associations, prominent economists, and government agencies. To refine the list, CSIS organized a series of workshops featuring experts from outside the Indian government who further refined the list and helped determine the difficulty of enacting. Feedback is welcome.
+methodology: To establish this list, CSIS first conducted a literature review, looking for the frequency that individual reforms were listed by business associations, prominent economists, and government agencies. To refine the list, CSIS conducted a robust survey of over 50 prominent economics, policymakers, and experts. CSIS also organized a series of workshops in Washington D.C. and New Delhi featuring experts from outside the Indian government who further refined the list and helped determine the difficulty of enacting. Feedback is welcome.
 feedback_title: Send us feedback
 feedback_instruction: We welcome your feedback on this scorecard and on the specific reforms listed. Please fill out the form with your feedback here/on the following page
 feedback_form: Email Us

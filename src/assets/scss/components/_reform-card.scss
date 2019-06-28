@@ -1,6 +1,10 @@
 #cards {
-
   margin: auto;
+
+  @include breakpoint('medium', 'max-width') {
+    margin: 0 24px;
+  }
+
   @media screen and (min-width: 724px) {
     width: $medium-container-width;
   }
@@ -17,7 +21,6 @@
 .ui.card {
   width: 100%;
   max-width: unset;
-  height: 575px;
   background-color: $color__gray-medium;
   border: 0;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.9);
@@ -53,7 +56,6 @@
     flex-wrap: wrap;
     padding: 1em;
     border-top: solid 2px rgba($color__white, 0.1);
-
 
     @include breakpoint('medium') {
       padding: 1em 2em;
@@ -122,8 +124,5 @@
     @include breakpoint('medium') {
       left: calc(-2rem - 1.2em);
     }
-
   }
-
-  
 }
