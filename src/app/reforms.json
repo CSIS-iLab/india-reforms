@@ -1,6 +1,6 @@
 [
   {
-    "name": "Raise ceiling on foreign institutional investment in federal bonds",
+    "name": "Raise the ceiling on foreign institutional investment in government bonds",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "name": "Create outside restructuring process to prevent NCLT bottleneck",
+    "name": "Create an out-of-court restructuring process to prevent a bottleneck of the NCLT",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "name": "Increase the number of NCLT benches and timeline for case resolution to one year",
+    "name": "Improve the functioning of the NCLT by increasing the number of benches and increasing the timeline for resolution of cases to one year",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "name": "Amend or replace the Fair Compensation in Land Acquisition Act to simplify the time and cost required to acquire land",
+    "name": "Amend or replace the Fair Compensation in Land Acquisition Act to reduce time and cost needed to acquire land",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -350,7 +350,7 @@
     ]
   },
   {
-    "name": "Mandate regulatory bodies to issue cost/benefit analyses, as well as a 30-day notice and comment period, for all proposed regulation",
+    "name": "Mandate all regulation be accompanied with cost/benefit analyses and a 30-day notice and comment period",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -525,7 +525,7 @@
     ]
   },
   {
-    "name": "Include electricity, oil and gas, real estate, and alcohol in the ambit of the GST",
+    "name": "Tax electricity, oil and gas, real estate, and alcohol under the GST",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -550,7 +550,7 @@
     ]
   },
   {
-    "name": "Establish a 10-Year Reform Action Plan to privatize central and state-owned public sector enterprises",
+    "name": "Create a 10-Year Reform Action Plan to privatize all public sector enterprises",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -575,7 +575,7 @@
     ]
   },
   {
-    "name": "Privatize India's public sector banks, and create an independent body that decides board appointments to these banks",
+    "name": "Privatize public sector banks, and create an independent body to appoint PSB board members",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -692,7 +692,7 @@
         "link": ""
       }
     },
-    "name": "Ensure that business owners can receive central government permits in 10 days or less",
+    "name": "Ensure business owners receive central government permits in 10 days or less",
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
@@ -717,7 +717,7 @@
         "link": ""
       }
     },
-    "name": "Make it easier to start a business by offering one-stop shopping for central government clearances",
+    "name": "Offer one-stop shopping for central government clearances",
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
@@ -742,7 +742,7 @@
         "link": ""
       }
     },
-    "name": "Remove the requirement for government permission for layoffs in the Industrial Disputes Act",
+    "name": "Remove Industrial Disputes Act's requirement for government permission to layoff workers",
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
