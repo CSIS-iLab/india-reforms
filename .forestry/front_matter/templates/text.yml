@@ -6,6 +6,9 @@ fields:
   name: slug
   label: slug
   hidden: true
+  default: homepage
+  config:
+    required: true
 - type: text
   name: site_title
   label: site_title
