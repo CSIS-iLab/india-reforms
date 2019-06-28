@@ -86,7 +86,7 @@ export default class Page extends React.Component {
       this.setState({
         cards: new window.Isotope(document.querySelector('#cards'), {
           itemSelector: '.card',
-          layoutMode: 'packery',
+          layoutMode: 'fitRows',
           sortBy: this.state.sort,
 
           getSortData: {
