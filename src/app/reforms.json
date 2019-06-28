@@ -350,11 +350,11 @@
     ]
   },
   {
-    "name": "Mandate all proposed regulation include cost/benefit analyses & a 30-day notice & comment period",
+    "name": "Release proposed regulation with cost-benefit analyses and input from stakeholders",
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "Regulations are implemented without a 30-day notice and comment period, and released without a cost-benefit analysis",
+        "description": "Regulations in India are implemented without a 30-day notice and comment period, and released without a cost-benefit analysis, which make the operating environment difficult for businesses",
         "link": ""
       },
       "incomplete": {
