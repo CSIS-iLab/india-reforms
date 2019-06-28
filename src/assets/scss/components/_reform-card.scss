@@ -83,11 +83,12 @@
   }
 
   .meta {
-    align-self: flex-end;
     @extend %meta;
   }
 
   .ui.ribbon.label {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
     @extend %meta;
 
     &.blue {

@@ -225,6 +225,11 @@ export default class Page extends React.Component {
               })
               : ''}
           </section>
+
+          <button onClick={this.handlePrint} className="icon-download-doc">
+            <span>Download</span>
+            <span>All Reform Information</span>
+          </button>
           {active ? (
             <Modal open={open} onClose={this.close} closeIcon>
               <h3>{active.name}</h3>

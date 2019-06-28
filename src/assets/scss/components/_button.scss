@@ -53,19 +53,16 @@ button {
 
   &.icon-download-doc {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: flex-start;
+    width: 212px;
     max-height: 54px;
     padding: 0.5rem 1em;
     background-color: $color__gray-light;
     border-radius: 0.28571429rem;
     @include breakpoint('medium', 'max-width') {
       display: none;
-    }
-
-    @include breakpoint('medium') {
-      flex-direction: column;
-      flex-wrap: wrap;
-      width: 212px;
     }
 
     &::before {
@@ -100,10 +97,14 @@ button {
       &:last-of-type {
         @include font-size(13px);
         color: rgba($color__white, 0.5);
+      }
+    }
 
-        @include breakpoint('medium', 'max-width') {
-          display: none;
-        }
+    #cards + & {
+      display: flex;
+      margin: 4rem auto 0;
+      @include breakpoint('medium') {
+        display: none;
       }
     }
   }

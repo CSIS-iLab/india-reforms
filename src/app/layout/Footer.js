@@ -17,8 +17,7 @@ export default class Footer extends React.Component {
           </section>
           <section className="page-footer__feedback">
             <h3>{footerContent.feedback_title}</h3>
-            {ValueToJSX(footerContent.feedback, 'feedback')}
-            {ValueToJSX(footerContent.feedback_instruction, 'instructions')}
+            <p>{footerContent.feedback_instruction}</p>
             <a
               className="btn"
               href={`mailto: IndiaChair@csis.org?subject=${document.title}`}
