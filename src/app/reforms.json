@@ -125,7 +125,7 @@
     ]
   },
   {
-    "name": "Release an annual report with accurate origins and destinations for incoming FDI",
+    "name": "Release an annual report with accurate origins and destinations for inbound FDI",
     "steps": {
       "not_started": {
         "status": "Not Started",
