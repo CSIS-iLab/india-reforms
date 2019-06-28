@@ -1,6 +1,5 @@
 import React from 'react'
 import htmlContent from '../archive/archive.html'
-import Isotope from 'isotope-layout'
 import Nav from '../layout/Nav'
 
 class Archive extends React.Component {
@@ -8,16 +7,19 @@ class Archive extends React.Component {
     require('../../assets/scss/archive.scss')
 
     // init Isotope
-    var container = new Isotope(document.querySelector('.policycontainer'), {
-      itemSelector: '.policy',
-      layoutMode: 'fitRows',
-      sortBy: 'status',
-      getSortData: {
-        name: '.name',
-        status: '.status',
-        difficulty: '.difficulty'
+    var container = new window.Isotope(
+      document.querySelector('.policycontainer'),
+      {
+        itemSelector: '.policy',
+        layoutMode: 'fitRows',
+        sortBy: 'status',
+        getSortData: {
+          name: '.name',
+          status: '.status',
+          difficulty: '.difficulty'
+        }
       }
-    })
+    )
 
     // filter functions
     var filterFns = {
