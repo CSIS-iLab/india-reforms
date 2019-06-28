@@ -105,6 +105,16 @@
         @extend %font-oxygen;
         letter-spacing: 0.82px;
         @include font-size(16px);
+
+        &:first-of-type {
+          @include font-size(13px);
+        }
+
+        &:last-of-type {
+          font-weight: bold;
+          letter-spacing: 0.82px;
+          @include font-size(14px);
+        }
       }
       @include breakpoint('medium') {
         display: none;
