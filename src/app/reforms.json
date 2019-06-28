@@ -1,6 +1,6 @@
 [
   {
-    "name": "Raise the ceiling on foreign institutional investment in government bonds",
+    "name": "Raise ceiling on foreign institutional investment in federal bonds",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -692,7 +692,7 @@
         "link": ""
       }
     },
-    "name": "Ensure business owners receive central government permits in 10 days or less",
+    "name": "Ensure that business owners can receive central government permits in 10 days or less",
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
@@ -717,7 +717,7 @@
         "link": ""
       }
     },
-    "name": "Offer one-stop shopping for central government clearances",
+    "name": "Make it easier to start a business by offering one-stop shopping for central government clearances",
     "status": "not_started",
     "difficulty": "medium",
     "sectors": [
@@ -742,7 +742,7 @@
         "link": ""
       }
     },
-    "name": "Remove Industrial Disputes Act's requirement for government permission to layoff workers",
+    "name": "Remove the requirement for government permission for layoffs in the Industrial Disputes Act",
     "status": "not_started",
     "difficulty": "high",
     "sectors": [
