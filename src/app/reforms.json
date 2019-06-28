@@ -125,7 +125,7 @@
     ]
   },
   {
-    "name": "Release an annual report with accurate origins and destinations for inbound FDI",
+    "name": "Release annual report for origin countries and destination states of foreign investment",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "name": "Amend or replace the Land Acquisition Act, 2013",
+    "name": "Simplify the land acquisition process by amending or replacing the Land Acquisition Act, 2013",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -350,7 +350,7 @@
     ]
   },
   {
-    "name": "Mandate all proposed regulation include cost/benefit analyses & a 30-day notice and comment period",
+    "name": "Mandate all proposed regulation include cost/benefit analyses & a 30-day notice & comment period",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -617,7 +617,7 @@
         "link": ""
       }
     },
-    "name": "Raise the ceiling on foreign institutional investment in Indian companies",
+    "name": "Raise ceiling on foreign institutional investment in Indian companies",
     "status": "not_started",
     "difficulty": "low",
     "sectors": [
