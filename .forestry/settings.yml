@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/content/homepage.md
   label: Text
-  match: "**/*"
 - type: document
   path: src/app/reforms.json
   label: REFORM DATA
