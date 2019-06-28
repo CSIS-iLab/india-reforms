@@ -8,7 +8,7 @@ export default class ReformDetail extends React.Component {
     return (
       <ul className="ant-timeline">
         {Object.keys(active.steps)
-          .filter(step => active.steps[step].status)
+          .filter(step => active.steps[step].description)
           .map((step, index) => {
             const number = Object.keys(active.steps).indexOf(active.status)
 

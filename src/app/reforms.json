@@ -38,7 +38,7 @@
         "link": ""
       },
       "completed": {
-        "status": "",
+        "status": "Completed",
         "description": "The tender is completed successfully with a winner or group of winners who will assume control of Air India",
         "link": ""
       }
@@ -58,7 +58,7 @@
         "link": ""
       },
       "incomplete": {
-        "status": "",
+        "status": "Incomplete",
         "description": "",
         "link": ""
       },
@@ -133,7 +133,7 @@
         "link": ""
       },
       "incomplete": {
-        "status": "",
+        "status": "Incomplete",
         "description": "",
         "link": ""
       },
@@ -158,7 +158,7 @@
         "link": ""
       },
       "incomplete": {
-        "status": "",
+        "status": "Incomplete",
         "description": "A bill creating a bankruptcy resolution process for financial firms is approved by Parliament, but underlying regulations are not issued or contain critical weaknesses",
         "link": ""
       },
@@ -183,12 +183,12 @@
         "link": ""
       },
       "incomplete": {
-        "status": "",
+        "status": "Incomplete",
         "description": "The center and states reach an agreement to jointly determine pricing of electrical power in India",
         "link": ""
       },
       "completed": {
-        "status": "",
+        "status": "Completed",
         "description": "The center amends the Electricity Act and assumes complete control of pricing of electrical power in India",
         "link": ""
       }
@@ -208,12 +208,12 @@
         "link": ""
       },
       "incomplete": {
-        "status": "",
+        "status": "Incomplete",
         "description": "The Major Port Authorities bill is reintroduced in Parliament",
         "link": ""
       },
       "completed": {
-        "status": "",
+        "status": "Completed",
         "description": "The Major Port Authorities Bill is passed in Parliament and signed into law by the President of India",
         "link": ""
       }
@@ -308,7 +308,7 @@
         "link": ""
       },
       "incomplete": {
-        "status": "",
+        "status": "Incomplete",
         "description": "",
         "link": ""
       },
@@ -333,7 +333,7 @@
         "link": ""
       },
       "incomplete": {
-        "status": "",
+        "status": "Incomplete",
         "description": "The government reintroduces the The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement (Amendment) Bill which simplifies the time needed and the cost required to acquire land in India",
         "link": ""
       },
@@ -363,7 +363,7 @@
         "link": ""
       },
       "completed": {
-        "status": "",
+        "status": "Completed",
         "description": "Parliament passes statutes amending the laws governing India’s financial regulators, mandating a 30-day notice and comment period for proposed regulation and the issuance of a cost-benefit analysis",
         "link": ""
       }
@@ -408,7 +408,7 @@
         "link": ""
       },
       "incomplete": {
-        "status": "",
+        "status": "Incomplete",
         "description": "",
         "link": ""
       },
@@ -458,7 +458,7 @@
         "link": ""
       },
       "incomplete": {
-        "status": "",
+        "status": "Incomplete",
         "description": "",
         "link": ""
       },
@@ -483,7 +483,7 @@
         "link": ""
       },
       "incomplete": {
-        "status": "",
+        "status": "Incomplete",
         "description": "",
         "link": ""
       },
