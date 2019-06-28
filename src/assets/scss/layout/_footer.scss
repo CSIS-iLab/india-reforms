@@ -20,6 +20,11 @@ footer {
       @include breakpoint('medium') {
         flex-basis: 70%;
         padding: 1.5rem 5.75rem 1.5rem 0;
+
+        p {
+          @include font-size(17px);
+          line-height: 1.6;
+        }
       }
     }
 

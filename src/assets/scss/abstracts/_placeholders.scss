@@ -54,7 +54,7 @@
 %btn {
   align-items: center;
   @extend %font-oxygen;
-  padding: 0.35rem 0.85rem;
+  padding: 0.5rem 1rem;
   font-weight: bold;
   @include font-size(13px);
   letter-spacing: 0.5px;

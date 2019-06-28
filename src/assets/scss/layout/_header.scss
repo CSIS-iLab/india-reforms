@@ -98,16 +98,9 @@
         display: block;
         color: rgba($color__white, 0.8);
         @extend %font-oxygen;
+        letter-spacing: 0.82px;
+        @include font-size(16px);
 
-        &:first-of-type {
-          @include font-size(13px);
-        }
-
-        &:last-of-type {
-          font-weight: bold;
-          letter-spacing: 0.82px;
-          @include font-size(14px);
-        }
       }
       @include breakpoint('medium') {
         display: none;
@@ -121,8 +114,9 @@
     }
 
     &__logo-short {
-      height: 21px;
+      height: 18px;
       margin-top: 1rem;
+      opacity: 0.6;
       fill: rgba($color__white, 0.5);
       @include breakpoint('medium') {
         display: none;
