@@ -49,10 +49,6 @@
     margin: 0 $xlarge-column-margin $large-row-margin;
   }
 
-  h2 {
-    margin: 1rem 0;
-  }
-
   .content {
     display: flex;
     flex-grow: unset;
@@ -77,11 +73,6 @@
     &.extra {
       flex-grow: 1;
       margin-bottom: 1.5rem;
-
-      button {
-        align-self: flex-end;
-        margin: 0 auto;
-      }
     }
   }
 
@@ -90,9 +81,20 @@
   }
 
   .ui.ribbon.label {
+    left: calc(-1rem - 0.75em);
     padding-top: 0.8em;
     padding-bottom: 0.8em;
     @extend %meta;
+
+    @include breakpoint('medium') {
+      left: calc(-2rem - 1.2em);
+    }
+
+    &::after {
+      @include breakpoint('medium', 'max-width') {
+        border-right-width: 0.7em;
+      }
+    }
 
     &.blue {
       background-color: $color__blue !important;
@@ -116,17 +118,6 @@
       &::after {
         border-right-color: $color__green-dark;
       }
-    }
-    @include breakpoint('medium', 'max-width') {
-      left: calc(-1rem - 0.75em);
-
-      &::after {
-        border-right-width: 0.7em;
-      }
-    }
-
-    @include breakpoint('medium') {
-      left: calc(-2rem - 1.2em);
     }
   }
 }

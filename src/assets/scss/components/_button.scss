@@ -31,7 +31,11 @@ button {
   &.btn {
     @extend %btn;
     display: flex;
-    margin: auto;
+    margin: 0 auto;
+
+    .content.extra & {
+      align-self: flex-end;
+    }
   }
 
   .ui.basic.buttons &.button {
