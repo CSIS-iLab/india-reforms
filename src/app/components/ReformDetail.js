@@ -29,18 +29,20 @@ export default class ReformDetail extends React.Component {
                 <div className="ant-timeline-item-content">
                   <span className="status">{active.steps[step].status}</span>
                   {ValueToJSX(active.steps[step].description)}
-                  {checked && index !== 0 ? (
-                    <p className="source">
-                      <a
-                        href={active.steps[step].link}
-                        className="icon-link-external"
-                      >
+                  {checked &&
+                  index !== 0 &&
+                  active.steps[step].link.trim().length ? (
+                      <p className="source">
+                        <a
+                          href={active.steps[step].link}
+                          className="icon-link-external"
+                        >
                         Source
-                      </a>
-                    </p>
-                  ) : (
-                    ''
-                  )}
+                        </a>
+                      </p>
+                    ) : (
+                      ''
+                    )}
                 </div>
               </li>
             )
