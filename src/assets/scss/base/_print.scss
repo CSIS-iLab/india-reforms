@@ -122,3 +122,27 @@ footer .page-footer__feedback {
   flex-basis: 100%;
   padding: 0;
 }
+
+.archive .policy,
+.archive .policy div {
+  width: 100% !important;
+  height: unset !important;
+  padding: 0 !important;
+}
+
+.archive #page-container {
+  max-width: unset !important;
+}
+
+.archive .policycontainer {
+  height: unset !important;
+}
+
+.archive .policycontainer > .policy {
+  position: static !important;
+  margin-bottom: 3rem !important;
+}
+
+.archive .portfolioFilter {
+  display: none !important;
+}
