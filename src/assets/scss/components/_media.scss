@@ -27,9 +27,23 @@ iframe {
 }
 
 figure {
-  margin: 0;
+  margin: 0 0 1rem;
 
-  figcaption {
+  &.component-image {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .caption {
     margin: auto;
+
+    margin-top: 0.5rem;
+    @extend %base--faint;
+
+    .caption__source {
+      padding-left: 0.5rem;
+      opacity: 0.5;
+    }
   }
 }
