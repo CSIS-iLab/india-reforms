@@ -114,9 +114,8 @@ export default class Page extends React.Component {
   show = (open, d) => () => this.setState({ open: true, active: d })
 
   handlePrint = () => {
-    // change to cdn later
     fetch(
-      'https://raw.githubusercontent.com/CSIS-iLab/india-reforms/master/src/assets/scss/base/_print.scss'
+      'https://cdn.statically.io/gh/CSIS-iLab/india-reforms/31ed4416/src/assets/scss/base/_print.scss'
     )
       .then(promise => promise.text())
       .then(text => {
@@ -200,7 +199,7 @@ export default class Page extends React.Component {
           <section id="controls" className="sticky">
             <div className="wrapper">
               <div className="icon-sort sort">
-                <span>SORT</span>
+                <span className="icon-sort__text" />
 
                 <Button.Group basic>
                   {['Status', 'Name', 'Difficulty'].map(sortBy => (
