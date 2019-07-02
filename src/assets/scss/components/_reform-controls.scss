@@ -35,9 +35,16 @@
     display: flex;
     align-items: center;
 
-    span {
+    .icon-sort__text::after {
       margin-right: 1rem;
+      margin-left: 0;
+      content: 'SORT';
+      -webkit-font-smoothing: auto;
       @extend %label;
+
+      @include breakpoint('medium', 'max-width') {
+        content: none;
+      }
     }
 
     .buttons,
