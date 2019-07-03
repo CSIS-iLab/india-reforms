@@ -25,31 +25,21 @@ export default class Page extends React.Component {
     }
   }
 
-  toggle = target => {
-    target.classList.contains('dark')
-      ? target.classList.remove('dark')
-      : target.classList.add('dark')
-
-    target.classList.contains('light')
-      ? target.classList.remove('light')
-      : target.classList.add('light')
-  }
-
-  resetControl = (target, all) => {
+  resetControl = target => {
     let buttons = Array.from(target.parentNode.querySelectorAll('button'))
-
-    buttons = all ? buttons : buttons.slice(0, 1)
 
     buttons.forEach(b => {
       b.classList.remove('dark')
-      b.classList.add('light')
     })
+
+    target.classList.add('dark')
+
+    window.scrollTo(0, 900)
   }
 
   handleReset = e => {
     this.state.cards.arrange({ filter: '*' })
-    this.resetControl(e.target, true)
-    this.toggle(e.target)
+    this.resetControl(e.target)
     this.setState({ value: '' })
   }
 
@@ -59,8 +49,7 @@ export default class Page extends React.Component {
     })
 
     this.setState({ sort: 'status' })
-    this.resetControl(e.target, true)
-    this.toggle(e.target)
+    this.resetControl(e.target)
   }
 
   handleFilter = e => {
@@ -70,8 +59,7 @@ export default class Page extends React.Component {
       : this.state.cards.arrange({
         filter: card => card.dataset.sectors.indexOf(value) > -1
       })
-    this.resetControl(e.target, true)
-    this.toggle(e.target)
+    this.resetControl(e.target)
   }
 
   componentDidMount() {
@@ -105,9 +93,7 @@ export default class Page extends React.Component {
   componentWillUnmount() {
     delete require.cache[require.resolve('../../assets/scss/scorecard.scss')]
 
-    window.scrollTo({
-      top: 0
-    })
+    window.scrollTo(0, 0)
   }
 
   close = () => this.setState({ open: false })
@@ -133,9 +119,9 @@ export default class Page extends React.Component {
         rules.forEach(rule =>
           printStyleSheet.insertRule(rule.replace(/([\r\n]+)/g, ''))
         )
-        window.scrollTo({
-          top: 0
-        })
+
+        window.scrollTo(0, 0)
+
         html2pdf()
           .set({
             margin: [15, 0, 15, 0],
