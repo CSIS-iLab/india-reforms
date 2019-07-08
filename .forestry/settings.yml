@@ -5,15 +5,15 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: src/content/homepage.md
+  label: Top Text
+- type: document
   path: src/content/footer.md
-  label: FooterText
+  label: Bottom Text
   match: "**/*"
 - type: document
   path: src/app/reforms.json
   label: REFORM DATA
-- type: document
-  path: src/content/homepage.md
-  label: Text
 - type: document
   path: ".forestry/sector.yml"
   label: Sectors
@@ -33,5 +33,6 @@ build:
   output_directory: _site
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d _site
+  install_dependencies_command: yarn install
   preview_docker_image: node:10
   mount_path: "/srv"
