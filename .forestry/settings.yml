@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: src/content/footer.md
+  label: FooterText
+  match: "**/*"
+- type: document
   path: src/app/reforms.json
   label: REFORM DATA
 - type: document
