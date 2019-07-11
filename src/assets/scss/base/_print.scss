@@ -96,6 +96,10 @@ footer {
   display: block !important;
 }
 
+.ui.card .content .checked.current .status {
+  font-weight: bold;
+}
+
 .ui.card .content > *.description.current {
   display: none !important;
 }
