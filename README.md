@@ -1,6 +1,6 @@
 # india-reforms
 The website for the India Reforms
-It is built using [Create React App Rewired](https://github.com/timarney/react-app-rewired)
+It is built using [Create React App Rewired](https://github.com/timarney/react-app-rewired) and [React Snapshot](https://github.com/geelen/react-snapshot)
 
 Data is connected to a site in the CSIS forestry.io account. When the json file content on forestry.io is saved, a new deploy is triggered runs a build script that grabs the latest data from  src/app/reforms.json
 
@@ -52,6 +52,7 @@ $ serve -s build
   - spread operators
   - imports
   - and [more](https://github.com/facebook/create-react-app)
+- React Snapshot is a zero-configureation pre-renderer that creates static html. This is better SEO for crawlers like Google and Web Archive.
 - Polyfills for older browsers used by our global audience:
   - @babel/polyfill
   - react-app-polyfill
