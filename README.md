@@ -8,7 +8,6 @@ Data is connected to a site in the CSIS forestry.io account. When the json file 
 
 ## Table of Contents
 * [Quick-Start Instructions](#quick-start-instructions)
-* [Usage](#usage)
 * [What's Included](#whats-included)
 * [Project Organization](#project-organization)
 * [Contributing](#contributing)
@@ -20,8 +19,6 @@ $ cd india-reforms
 $ npm install
 $ npm start
 ```
-
-## Usage
 
 ### development
 
