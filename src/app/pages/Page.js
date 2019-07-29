@@ -101,7 +101,7 @@ export default class Page extends React.Component {
 
   handlePrint = () => {
     fetch(
-      'https://cdn.statically.io/gh/CSIS-iLab/india-reforms/3807fa1a/src/assets/scss/base/_print.scss'
+      'https://cdn.statically.io/gh/CSIS-iLab/india-reforms/9f12098/src/assets/scss/base/_print.scss'
     )
       .then(promise => promise.text())
       .then(text => {
