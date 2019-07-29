@@ -26,6 +26,7 @@ html {
 h1 {
   margin: 2rem auto !important;
   padding: 0 !important;
+  font-size: 2.25rem;
 }
 
 .header,
@@ -82,7 +83,7 @@ footer {
   position: static !important;
   height: unset !important;
   margin-right: 0 !important;
-  margin-bottom: 3rem !important;
+  margin-bottom: 1.5rem !important;
   margin-left: 0 !important;
   border-top: 1px solid #ccc !important;
   border-radius: 0 !important;
@@ -102,6 +103,12 @@ footer {
 
 .ui.card .content > *.description.current {
   display: none !important;
+}
+
+header p,
+main p,
+.ui.card .content > *.description p {
+  font-size: 1rem !important;
 }
 
 .ui.card .content:nth-child(2) {
