@@ -20,7 +20,7 @@ export default class Footer extends React.Component {
             <p>{footerContent.feedback_instruction}</p>
             <a
               className="btn"
-              href={`mailto: IndiaChair@csis.org?subject=${document.title}`}
+              href="mailto:IndiaChair@csis.org?subject=India's Economic Reform Agenda"
             >
               {footerContent.feedback_form}
             </a>

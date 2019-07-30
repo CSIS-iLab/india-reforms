@@ -7,7 +7,7 @@ export default class SocialShare extends React.Component {
         <li>
           <a
             className="icon-social icon-twitter"
-            href={`https://twitter.com/intent/tweet?text=Winning at the WTO&amp;url=${
+            href={`https://twitter.com/intent/tweet?text=India's Economic Reform Agenda&amp;url=${
               window.location.href
             }&amp;via=CSIS&amp;related=CSIS`}
             rel="noopener noreferrer"
@@ -32,14 +32,13 @@ export default class SocialShare extends React.Component {
         </li>
 
         <li>
-          <i
-            tabIndex="0"
+          <a
             className="icon-social icon-mail"
-            href={`mailto: IndiaChair@csis.org?subject=${document.title}`}
+            href="mailto:IndiaChair@csis.org?subject=India's Economic Reform Agenda"
             title="Email"
           >
             <span className="visually-hidden">Email</span>
-          </i>
+          </a>
         </li>
       </ul>
     )
