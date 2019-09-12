@@ -4,7 +4,7 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "India's 30 percent corporate tax rate is among the highest in the world.",
+        "description": "India's 30 percent corporate tax rate is among the highest in the world. Test.",
         "link": ""
       },
       "incomplete": {
