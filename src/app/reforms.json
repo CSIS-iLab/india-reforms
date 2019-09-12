@@ -3,7 +3,7 @@
     "name": "Reduce the corporate tax rate from 30 percent to 25 percent",
     "steps": {
       "not_started": {
-        "status": "Not Started",
+        "status": "Incomplete",
         "description": "India's 30 percent corporate tax rate is among the highest in the world. Test.",
         "link": ""
       },
