@@ -1,10 +1,10 @@
 [
   {
-    "name": "Reduce the corporate tax rate from 30 percent to 25 percent",
+    "name": "Reduce the corporate tax rate from 30 percent to 25 percent ",
     "steps": {
       "not_started": {
-        "status": "Not Started",
-        "description": "India's 30 percent corporate tax rate is among the highest in the world. ",
+        "status": "Incomplete",
+        "description": "India's 30 percent corporate tax rate is among the highest in the world.",
         "link": ""
       },
       "incomplete": {
@@ -14,11 +14,11 @@
       },
       "completed": {
         "status": "Completed",
-        "description": "Parliament passes an act reducing the corporate tax rate to 25 percent, and the act is signed into law by the President of India",
-        "link": ""
+        "description": "On September 20, 2019 Parliament passed the Taxation Laws (Amendment) Ordinance 2019, reducing the effective corporate tax rate to 25.17% for domestic companies.",
+        "link": "https://www.prsindia.org/sites/default/files/bill_files/Taxation%20Laws%20(Amendment)%20Ordinance,%202019.pdf"
       }
     },
-    "status": "incomplete",
+    "status": "completed",
     "difficulty": "medium",
     "sectors": [
 
