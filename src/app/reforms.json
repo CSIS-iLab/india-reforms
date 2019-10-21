@@ -78,7 +78,7 @@
     "name": "Create an outside restructuring process to ease the burden on the NCLT",
     "steps": {
       "not_started": {
-        "status": "Not Started",
+        "status": "Incomplete",
         "description": "The NCLT remains the primary mode for companies to adjudicate bankruptcy and insolvency",
         "link": ""
       },
