@@ -79,8 +79,8 @@
     "steps": {
       "not_started": {
         "status": "Incomplete",
-        "description": "The NCLT remains the primary mode for companies to adjudicate bankruptcy and insolvency",
-        "link": ""
+        "description": "The Reserve Bank of India (Prudential Framework for Resolution of Stressed Assets) Directions 2019, gives Indian banks the discretion to refer defaulters to NCLT on a case by case basis.",
+        "link": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/PRUDENTIALB20DA810F3E148B099C113C2457FBF8C.PDF"
       },
       "incomplete": {
         "status": "Incomplete",
