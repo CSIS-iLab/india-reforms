@@ -632,8 +632,8 @@
         "link": ""
       },
       "incomplete": {
-        "status": "Incomplete",
-        "description": "* Reduced to 4 rates\n* Reduced to 3 rates\n",
+        "status": "",
+        "description": "",
         "link": ""
       },
       "completed": {
