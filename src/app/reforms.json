@@ -632,13 +632,13 @@
         "link": ""
       },
       "incomplete": {
-        "status": "",
+        "status": "Not Started",
         "description": "",
         "link": ""
       },
       "completed": {
         "status": "Completed",
-        "description": "The government creates the Rail Development Authority",
+        "description": "The government creates the Rail Development Authority through an Executive Order signed by the President. ",
         "link": ""
       }
     },
