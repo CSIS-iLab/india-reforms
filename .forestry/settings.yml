@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  label: Build Status
+  path: NETLIFY.md
+  read_only: true
+- type: document
   path: src/content/homepage.md
   label: Top Text
 - type: document
