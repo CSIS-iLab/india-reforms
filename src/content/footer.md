@@ -18,9 +18,10 @@ about: <p class="site-footer__content-csis">India Reforms is a product of the An
   the Center for Strategic and International Studies. Established in Washington, D.C.
   nearly 60 years ago, the Center for Strategic and International Studies (CSIS) is
   a bipartisan, nonprofit policy research organization dedicated to advancing practical
-  ideas that address the world’s greatest challenges. To learn more about CSIS, visit
-  <a href="https://www.csis.org" class="icon-link-external" rel="noopener nofollow"
-  target="_blank">www.csis.org</a>.</p>
+  ideas that address the world’s greatest challenges. CSIS is ranked the number one
+  think tank in the United States by the University of Pennsylvania’s annual think
+  tank report. To learn more about CSIS, visit <a href="https://www.csis.org" class="icon-link-external"
+  rel="noopener nofollow" target="_blank">www.csis.org</a>.</p>
 address: "<address>1616 Rhode Island Avenue, NW<br/>Washington, DC 20036</address>"
 copyright: <div class="site-footer__copyright">©2019 by the Center for Strategic and  International
   Studies. All rights reserved. |<a class="privacy-policy" href="https://www.csis.org/privacy-policy"
