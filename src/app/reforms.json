@@ -579,7 +579,7 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "The government continues to hold a majority stake in public sector banks, and the Ministry of Finance makes all appointments to bank boards",
+        "description": "The government continues to hold a majority stake in public sector banks",
         "link": ""
       },
       "incomplete": {
