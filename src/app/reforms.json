@@ -229,7 +229,7 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "Major ports currently face strict regulations from the government on rates, decision-making, and governance",
+        "description": "Major ports currently face strict regulations from the government on rates, decision-making, and governance ",
         "link": ""
       },
       "incomplete": {
