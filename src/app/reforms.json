@@ -479,7 +479,7 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "FDI above 50% in defense is currently subject to approval from the government",
+        "description": "FDI above 50% in defense is currently subject to approval from the government\n\nFor a detailed analysis, [click here](https://www.cogitasia.com/india-should-allow-more-than-50-foreign-investment-in-defense/)",
         "link": ""
       },
       "incomplete": {
