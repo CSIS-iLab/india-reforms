@@ -728,7 +728,7 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "The Industrial Disputes Act sets a floor of 100 employees after which government permission is required to lay off workers.",
+        "description": "The Industrial Disputes Act sets a floor of 100 employees after which government permission is required to lay off workers\n\nFor a detailed analysis, [click here](https://www.cogitasia.com/allow-companies-to-conduct-layoffs-without-government-permission/)",
         "link": ""
       },
       "incomplete": {
