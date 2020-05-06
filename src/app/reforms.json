@@ -504,7 +504,7 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "The current rate structure of four rates, plus a separate tax rate for gold and a 0 percent rate, is overly complicated and should be simplified",
+        "description": "The current rate structure of four rates, plus a separate tax rate for gold and a 0 percent rate, is overly complicated and should be simplified\n\nFor a detailed analysis, [click here](https://www.cogitasia.com/india-should-simplify-the-goods-services-tax-from-five-to-three-rates/)",
         "link": ""
       },
       "incomplete": {
