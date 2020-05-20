@@ -154,7 +154,7 @@
     "steps": {
       "not_started": {
         "status": "Not Started",
-        "description": "India's FDI data currently shows only the last point of departure for FDI (usually Mauritius or Singapore), and the city foreign investment applications are filed in (Delhi or Mumbai).\n\nFor a detailed analysis, [click here](https://www.cogitasia.com/track-foreign-investment-flows-in-india-with-more-detail/)",
+        "description": "India's FDI data currently shows only the last point of departure for FDI (usually Mauritius or Singapore), and the city foreign investment applications are filed in (Delhi or Mumbai).",
         "link": ""
       },
       "incomplete": {
