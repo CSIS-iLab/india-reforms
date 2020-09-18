@@ -425,7 +425,7 @@
     ]
   },
   {
-    "name": "Allow more than 50% foreign investment in insurance",
+    "name": "Allow more than 50 percent foreign investment in insurance",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -434,12 +434,12 @@
       },
       "incomplete": {
         "status": "Incomplete",
-        "description": "The government introduces amendments to Insurance Act that allow foreign investment above 50% but does not lift minority ownership regulations",
+        "description": "The government introduces amendments to Insurance Act that allow foreign investment above 50 percent but does not lift minority ownership regulations",
         "link": ""
       },
       "completed": {
         "status": "Completed",
-        "description": "Parliament passes amendments to the Insurance Act allowing more than 50% investment and lifting minority ownership regulations, which are then signed into law",
+        "description": "Parliament passes amendments to the Insurance Act allowing more than 50 percent investment and lifting minority ownership regulations, which are then signed into law",
         "link": ""
       }
     },
@@ -450,7 +450,7 @@
     ]
   },
   {
-    "name": "Allow more than 50% foreign investment in direct retail e-commerce",
+    "name": "Allow more than 50 percent foreign investment in direct retail e-commerce",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -464,7 +464,7 @@
       },
       "completed": {
         "status": "Completed",
-        "description": "The government issues a Press Note allowing more than 50% FDI in the retail e-commerce, and removes all restrictions on direct retail e-commerce companies",
+        "description": "The government issues a Press Note allowing more than 50 percent FDI in the retail e-commerce, and removes all restrictions on direct retail e-commerce companies",
         "link": ""
       }
     },
@@ -475,7 +475,7 @@
     ]
   },
   {
-    "name": "Allow more than 50% foreign investment in defense",
+    "name": "Allow more than 50 percent foreign investment in defense",
     "steps": {
       "not_started": {
         "status": "Not Started",
@@ -489,7 +489,7 @@
       },
       "completed": {
         "status": "Completed",
-        "description": "Department for Promotion of Industry and Internal Trade's Press Note 4 (2020 series) allows FDI up to 74% under the automatic route",
+        "description": "Department for Promotion of Industry and Internal Trade's Press Note 4 (2020 series) allows FDI up to 74 percent under the automatic route",
         "link": "https://dipp.gov.in/sites/default/files/pn4-2020_0.PDF"
       }
     },
