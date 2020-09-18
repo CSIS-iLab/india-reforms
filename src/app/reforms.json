@@ -489,11 +489,11 @@
       },
       "completed": {
         "status": "Completed",
-        "description": "The government issues a Press Note lifting the cap on FDI in the defense sector",
+        "description": "Department for Promotion of Industry and Internal Trade's Press Note 4 (2020 series) allows FDI up to 74% under the automatic route",
         "link": ""
       }
     },
-    "status": "not_started",
+    "status": "completed",
     "difficulty": "medium",
     "sectors": [
 
