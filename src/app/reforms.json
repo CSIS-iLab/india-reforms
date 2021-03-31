@@ -439,11 +439,11 @@
       },
       "completed": {
         "status": "Completed",
-        "description": "Parliament passes amendments to the Insurance Act allowing more than 50 percent investment and lifting minority ownership regulations, which are then signed into law",
-        "link": ""
+        "description": "On March 25, 2021, The Insurance (Amendment) Act, 2021 was notified allowing up to 74 percent foreign investment into the insurance sector under the automatic route.",
+        "link": "https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_NoYearLayout.aspx?page=PageNo4425"
       }
     },
-    "status": "not_started",
+    "status": "completed",
     "difficulty": "high",
     "sectors": [
 
