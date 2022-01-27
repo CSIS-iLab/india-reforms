@@ -64,11 +64,11 @@
       },
       "completed": {
         "status": "Completed",
-        "description": "The tender is completed successfully with a winner or group of winners who will assume control of Air India",
-        "link": ""
+        "description": "On January 27, 2022, 100 percent shares of Air India and AIXL, and 50 percent shares of AISATS were transferred from the Indian government to Talace Private Limited. ",
+        "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=1792950"
       }
     },
-    "status": "not_started",
+    "status": "completed",
     "difficulty": "high",
     "sectors": [
 
