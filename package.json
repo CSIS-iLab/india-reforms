@@ -19,11 +19,13 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.87.1",
     "smooth-scroll": "^15.0.0",
+    "@tinacms/cli": "^1.5.5",
+    "tinacms": "^1.4.5",
     "stickyfilljs": "^2.1.0"
   },
   "scripts": {
-    "start": "eslint --fix src && react-app-rewired start",
-    "build": "react-app-rewired build && react-snapshot",
+    "start": "npx tinacms dev -c \"react-app-rewired start\"",
+    "build": "npx tinacms build && react-app-rewired build && react-snapshot",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
     "precommit": "eslint --fix src"
