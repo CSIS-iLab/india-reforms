@@ -7,7 +7,7 @@
     "url": "https://github.com/CSIS-iLab/india-reforms.git"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.4",
+    "@babel/polyfill": "^7.12.1",
     "html2pdf.js": "^0.9.1",
     "react": "^17.0.0",
     "react-app-polyfill": "^1.0.0",
@@ -37,7 +37,7 @@
     "eslint-loader": "^4.0.2",
     "gray-matter": "^4.0.2",
     "html-loader": "^0.5.5",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.14.1",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^2.0.0",
