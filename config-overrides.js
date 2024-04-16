@@ -6,7 +6,7 @@ module.exports = function override(config, env) {
   }
 
   config.module.rules.push({
-    test: /\.(scss|css)$/,
+    test: /\.(scss)$/,
     use: [{ loader: 'postcss-loader' }, { loader: 'sass-loader' }]
   })
 
