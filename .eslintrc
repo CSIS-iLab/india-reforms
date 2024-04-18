@@ -4,6 +4,6 @@
     "indent": ["warn", 2],
     "linebreak-style": ["warn", "unix"],
     "quotes": ["warn", "single"],
-    "semi": ["warn", "never"],
+    "semi": ["warn", "never"]
   }
 }
