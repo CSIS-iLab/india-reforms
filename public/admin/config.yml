@@ -5,12 +5,12 @@ local_backend: true
 backend:
   name: git-gateway
   # branch: main # Branch to update (optional; defaults to master)
-  branch: main # Branch to update. Dev is now selected so we dont override any content that the program is adding.
+  branch: dev # Branch to update. Dev is now selected so we dont override any content that the program is adding.
 
 media_folder: '_uploads'
 public_folder: '/uploads' # The src attribute for uploaded media will begin with /images/uploads
 # publish_mode: 'editorial_workflow'
-display_url: 'https://indianstates.csis.org'
+display_url: 'https://indiareforms.csis.org'
 logo_url: 'https://raw.githubusercontent.com/CSIS-iLab/energy-database/main/public/android-chrome-192x192.png'
 search: false
 collections:
