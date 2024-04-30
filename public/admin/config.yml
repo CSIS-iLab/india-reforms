@@ -1,0 +1,33 @@
+# config.yml
+local_backend: true
+
+# live
+backend:
+  name: git-gateway
+  # branch: main # Branch to update (optional; defaults to master)
+  branch: main # Branch to update. Dev is now selected so we dont override any content that the program is adding.
+
+media_folder: '_uploads'
+public_folder: '/uploads' # The src attribute for uploaded media will begin with /images/uploads
+# publish_mode: 'editorial_workflow'
+display_url: 'https://indianstates.csis.org'
+logo_url: 'https://raw.githubusercontent.com/CSIS-iLab/energy-database/main/public/android-chrome-192x192.png'
+search: false
+collections:
+  - name: 'newsletter'
+    label: 'Newsletters'
+    label_singular: 'Newsletter'
+    folder: '_newsletter/'
+    create: true
+    editor:
+      preview: false
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Exmple of simple slug: '{{slug}}'
+    # sortable_fields: ['title', 'date', 'author', 'states']
+    sortable_fields: []
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Breadcrumbs', name: 'breadcrumbs', widget: 'hidden', default: 'newsletter' }
+      - { label: 'Is newsletter', name: 'is_newsletter', widget: 'hidden', default: true }
+      - { label: 'Content Type', name: 'content_type', widget: 'hidden', default: 'newsletter' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', time_format: false }
