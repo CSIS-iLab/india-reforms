@@ -26,57 +26,21 @@ class App extends Component {
           .includes(value.toLowerCase())
       )
 
-      // filteredCategories = [
-      //   ...new Set(
-      //     filteredSheetData
-      //       .map(data => data.sectors)
-      //       .reduce((a, b) => a.concat(b))
-      //   )
-      // ]
-
       break
 
     case 'clear':
-      // filteredCategories = this.state.categories
       filteredSheetData = this.state.reforms
       break
-
-      // case 'category':
-      //   filteredCategories = this.state.filteredCategories
-
-      //   filteredCategories = filteredCategories.includes(value)
-      //     ? filteredCategories.filter(
-      //       cat => cat.toLowerCase() !== value.toLowerCase()
-      //     )
-      //     : [...filteredCategories, value]
-
-    //   filteredSheetData = this.state.reforms
-    //   this.state.reforms.map(data => {
-    //     data.hide = data.sectors.some(t => filteredCategories.includes(t))
-    //       ? false
-    //       : true
-    //     return data
-    //   })
-    //   break
     default:
     }
     this.setState({ filteredSheetData })
   }
 
   componentDidMount() {
-    console.log(reforms)
-    console.log(reforms.reforms)
-    // const categories = [
-    //   ...new Set(
-    //     reforms.reforms.map(data => data.sectors).reduce((a, b) => a.concat(b))
-    //   )
-    // ]
     this.setState(
       {
         reforms: reforms.reforms,
-        // categories,
         filteredSheetData: reforms.reforms,
-        // filteredCategories: categories
       }
       // () => console.log(this.state)
     )
@@ -99,7 +63,6 @@ class App extends Component {
             <Page
               {...props}
               reforms={reforms}
-              // categories={categories}
               page="homepage"
             />
           )}
