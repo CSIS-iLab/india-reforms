@@ -4,7 +4,8 @@ import Page from './pages/Page'
 import Archive from './pages/Archive'
 import { Route } from 'react-router-dom'
 import SmoothScroll from 'smooth-scroll'
-import reforms from './reforms.json'
+// import reforms from './reforms.json'
+import reforms from './india-reforms.json'
 
 class App extends Component {
   constructor(props) {
@@ -17,7 +18,6 @@ class App extends Component {
 
   updateCharts = (input, value) => {
     let filteredSheetData, filteredCategories
-
     switch (input) {
     case 'search':
       filteredSheetData = this.state.reforms.filter(data =>
@@ -26,55 +26,21 @@ class App extends Component {
           .includes(value.toLowerCase())
       )
 
-      filteredCategories = [
-        ...new Set(
-          filteredSheetData
-            .map(data => data.sectors)
-            .reduce((a, b) => a.concat(b))
-        )
-      ]
-
       break
 
     case 'clear':
-      filteredCategories = this.state.categories
       filteredSheetData = this.state.reforms
-      break
-
-    case 'category':
-      filteredCategories = this.state.filteredCategories
-
-      filteredCategories = filteredCategories.includes(value)
-        ? filteredCategories.filter(
-          cat => cat.toLowerCase() !== value.toLowerCase()
-        )
-        : [...filteredCategories, value]
-
-      filteredSheetData = this.state.reforms
-      this.state.reforms.map(data => {
-        data.hide = data.sectors.some(t => filteredCategories.includes(t))
-          ? false
-          : true
-        return data
-      })
       break
     default:
     }
-    this.setState({ filteredSheetData, filteredCategories })
+    this.setState({ filteredSheetData })
   }
 
   componentDidMount() {
-    const categories = [
-      ...new Set(
-        reforms.map(data => data.sectors).reduce((a, b) => a.concat(b))
-      )
-    ]
     this.setState(
       {
-        reforms,
-        categories,
-        filteredSheetData: reforms,
-        filteredCategories: categories
+        reforms: reforms.reforms,
+        filteredSheetData: reforms.reforms,
       }
       // () => console.log(this.state)
     )
@@ -86,7 +52,7 @@ class App extends Component {
   }
 
   render() {
-    const { reforms, categories } = this.state
+    const { reforms } = this.state
 
     return (
       <React.Fragment>
@@ -97,7 +63,6 @@ class App extends Component {
             <Page
               {...props}
               reforms={reforms}
-              categories={categories}
               page="homepage"
             />
           )}

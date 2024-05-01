@@ -2,7 +2,9 @@
 The website for the India Reforms
 It is built using [Create React App Rewired](https://github.com/timarney/react-app-rewired) and [React Snapshot](https://github.com/geelen/react-snapshot)
 
+Now using [Decap CMS](https://decapcms.org) and this project was updated to use node `v16.20.2`
 Data is connected to a site in the CSIS forestry.io account. When the json file content on forestry.io is saved, a new deploy is triggered runs a build script that grabs the latest data from  src/app/reforms.json
+
 
 
 
