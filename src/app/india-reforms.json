@@ -1,63 +1,6 @@
 {
   "reforms": [
     {
-      "steps": {
-        "not_started": {
-          "status": "Not Started",
-          "description": "asdfmjbnas,mnf a,sndflkjlaksdjf lkajsdf"
-        },
-        "incomplete": {
-          "status": "Incomplete",
-          "description": "the states is working on in",
-          "link": "https://duckduckgo.com"
-        },
-        "completed": {
-          "status": "Completed"
-        }
-      },
-      "status": "not_started",
-      "name": "lets gooo!!!",
-      "difficulty": "high"
-    },
-    {
-      "steps": {
-        "not_started": {
-          "status": "Not Started",
-          "description": "asdfasdf",
-          "link": "https://more testing"
-        },
-        "incomplete": {
-          "status": "Incomplete"
-        },
-        "completed": {
-          "status": "Completed"
-        }
-      },
-      "status": "not_started",
-      "name": "testing a new card",
-      "difficulty": "medium",
-      "sectors": []
-    },
-    {
-      "steps": {
-        "not_started": {
-          "status": "Not Started",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum, ligula ac hendrerit sagittis, purus ligula elementum dui.",
-          "link": "https://testing.com"
-        },
-        "incomplete": {
-          "status": "Incomplete"
-        },
-        "completed": {
-          "status": "Completed"
-        }
-      },
-      "status": "not_started",
-      "name": "Lorem ipsum dolor sit amet",
-      "difficulty": "low",
-      "sectors": []
-    },
-    {
       "name": "Reduce the corporate tax rate from 30 percent to 25 percent ",
       "steps": {
         "not_started": {
