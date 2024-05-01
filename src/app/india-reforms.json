@@ -1,6 +1,23 @@
 {
   "reforms": [
     {
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "hola mundo"
+        },
+        "incomplete": {
+          "status": "Incomplete"
+        },
+        "completed": {
+          "status": "Completed"
+        }
+      },
+      "status": "not_started",
+      "name": "hola mundo",
+      "difficulty": "high"
+    },
+    {
       "name": "Reduce the corporate tax rate from 30 percent to 25 percent ",
       "steps": {
         "not_started": {
