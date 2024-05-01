@@ -3,6 +3,24 @@
     {
       "steps": {
         "not_started": {
+          "status": "Incomplete",
+          "link": "https://klajslkdfklas.test.com",
+          "description": ";laksjhdf;lkaj ;fa;slkdjf a;lkjasdf"
+        },
+        "incomplete": {
+          "status": "Incomplete"
+        },
+        "completed": {
+          "status": "Completed"
+        }
+      },
+      "status": "not_started",
+      "name": "title",
+      "difficulty": "high"
+    },
+    {
+      "steps": {
+        "not_started": {
           "status": "Not Started",
           "description": "hola mundo"
         },
