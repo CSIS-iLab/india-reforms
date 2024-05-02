@@ -3,26 +3,6 @@
     {
       "steps": {
         "not_started": {
-          "status": "Not Started",
-          "description": "Description for not started",
-          "link": "https://www.google.com"
-        },
-        "incomplete": {
-          "status": "Incomplete",
-          "description": "Description for Incomplete"
-        },
-        "completed": {
-          "status": "Completed",
-          "description": "Description for completed"
-        }
-      },
-      "status": "incomplete",
-      "name": "Lindsay's Test",
-      "difficulty": "medium"
-    },
-    {
-      "steps": {
-        "not_started": {
           "status": "Incomplete",
           "link": "https://klajslkdfklas.test.com",
           "description": ";laksjhdf;lkaj ;fa;slkdjf a;lkjasdf"
