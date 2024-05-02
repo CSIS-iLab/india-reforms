@@ -16,7 +16,7 @@
           "description": "Description for completed"
         }
       },
-      "status": "not_started",
+      "status": "completed",
       "name": "Lindsay's Test",
       "difficulty": "medium"
     },
