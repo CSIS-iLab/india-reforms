@@ -9,16 +9,16 @@
         },
         "incomplete": {
           "status": "Incomplete",
-          "link": "",
+          "link": "https://www.google.com",
           "description": "dfg adlkj;iufasdrlfj dflkjdfl;kj fasdlkjsdfgliujerogijdxf vldkjflasdkfj sdflkjdfglkvjsfgkijhg dslfkj dlfgkjads'flkjadf lkfj'aldfkj "
         },
         "completed": {
           "status": "Completed",
-          "link": "",
+          "link": "https://www.google.com",
           "description": " afsdftgh dfh gyh stg serfsfgh ndghjgfu jkrtyearfeargsfgaerfa dd fgadfg sdfg "
         }
       },
-      "status": "not_started",
+      "status": "completed",
       "name": "Lindsay's Test Reform aafsdlkjdslkj",
       "difficulty": "medium"
     },
@@ -26,7 +26,7 @@
       "steps": {
         "not_started": {
           "status": "Incomplete",
-          "link": "https://klajslkdfklas.test.com",
+          "link": "http://klajslkdfklas.test.com",
           "description": ";laksjhdf;lkaj ;fa;slkdjf a;lkjasdf"
         },
         "incomplete": {
@@ -36,25 +36,8 @@
           "status": "Completed"
         }
       },
-      "status": "completed",
-      "name": "title",
-      "difficulty": "high"
-    },
-    {
-      "steps": {
-        "not_started": {
-          "status": "Not Started",
-          "description": "hola mundo"
-        },
-        "incomplete": {
-          "status": "Incomplete"
-        },
-        "completed": {
-          "status": "Completed"
-        }
-      },
       "status": "not_started",
-      "name": "hola mundo",
+      "name": "title",
       "difficulty": "high"
     },
     {

@@ -4,6 +4,7 @@ import ValueToJSX from '../helpers/ValueToJSX'
 export default class ReformDetail extends React.Component {
   render() {
     const { active } = this.props
+    console.log(active)
 
     return (
       <ul className="ant-timeline">
@@ -29,20 +30,18 @@ export default class ReformDetail extends React.Component {
                 <div className="ant-timeline-item-content">
                   <span className="status">{active.steps[step].status}</span>
                   {ValueToJSX(active.steps[step].description)}
-                  {checked &&
-                  index !== 0 &&
-                  active.steps[step].link.trim().length ? (
-                      <p className="source">
-                        <a
-                          href={active.steps[step].link}
-                          className="icon-link-external"
-                        >
+                  {active.steps[step].link.trim().length ? (
+                    <p className="source">
+                      <a
+                        href={active.steps[step].link.trim()}
+                        className="icon-link-external"
+                      >
                         Source
-                        </a>
-                      </p>
-                    ) : (
-                      ''
-                    )}
+                      </a>
+                    </p>
+                  ) : (
+                    ''
+                  )}
                 </div>
               </li>
             )
