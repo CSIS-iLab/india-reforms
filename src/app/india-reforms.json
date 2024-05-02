@@ -14,7 +14,7 @@
           "status": "Completed"
         }
       },
-      "status": "not_started",
+      "status": "incomplete",
       "name": "title",
       "difficulty": "high"
     },
