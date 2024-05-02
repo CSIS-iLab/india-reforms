@@ -3,6 +3,28 @@
     {
       "steps": {
         "not_started": {
+          "status": "Not Started",
+          "link": "https://www.google.com",
+          "description": "asdf adf asdfadf erfrghnjdghj "
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "link": "",
+          "description": "dfg adlkj;iufasdrlfj dflkjdfl;kj fasdlkjsdfgliujerogijdxf vldkjflasdkfj sdflkjdfglkvjsfgkijhg dslfkj dlfgkjads'flkjadf lkfj'aldfkj "
+        },
+        "completed": {
+          "status": "Completed",
+          "link": "",
+          "description": " afsdftgh dfh gyh stg serfsfgh ndghjgfu jkrtyearfeargsfgaerfa dd fgadfg sdfg "
+        }
+      },
+      "status": "not_started",
+      "name": "Lindsay's Test Reform aafsdlkjdslkj",
+      "difficulty": "high"
+    },
+    {
+      "steps": {
+        "not_started": {
           "status": "Incomplete",
           "link": "https://klajslkdfklas.test.com",
           "description": ";laksjhdf;lkaj ;fa;slkdjf a;lkjasdf"
