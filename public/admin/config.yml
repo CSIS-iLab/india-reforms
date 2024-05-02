@@ -47,25 +47,25 @@ collections:
                     widget: 'object'
                     collapse: true
                     fields:
-                      - {label: 'Status', name: 'status', widget: 'select', default: "Not Started", options: ["Not Started", "Incomplete", "Completed"], required: false}
+                      - {label: 'Status', name: 'status', widget: 'hidden', default: "Not Started", options: ["Not Started", "Incomplete", "Completed"], required: false}
                       - {label: 'Description', name: 'description', widget: 'text', required: false }
-                      - {label: 'Link', name: 'link', widget: 'string', pattern: ['^(http|https)://', "Must start with https:// or http://"], required: false }
+                      - {label: 'Link', name: 'link', widget: 'string', default: '', pattern: ['^(http|https)://', "Must start with https:// or http://"], required: false }
                   - label: 'Incomplete'
                     name: 'incomplete'
                     widget: 'object'
                     collapse: true
                     fields:
-                      - {label: 'Status', name: 'status', widget: 'select', default: "Incomplete", options: ["Not Started", "Incomplete", "Completed"], required: false}
+                      - {label: 'Status', name: 'status', widget: 'hidden', default: "Incomplete", options: ["Not Started", "Incomplete", "Completed"], required: false}
                       - {label: 'Description', name: 'description', widget: 'text', required: false}
-                      - {label: 'Link', name: 'link', widget: 'string', pattern: ['^(http|https)://', "Must start with https:// or http://"], required: false}
+                      - {label: 'Link', name: 'link', widget: 'string', default: '', pattern: ['^(http|https)://', "Must start with https:// or http://"], required: false}
                   - label: 'Completed'
                     name: 'completed'
                     widget: 'object'
                     collapse: true
                     fields:
-                      - {label: 'Status', name: 'status', widget: 'select', default: "Completed", options: ["Not Started", "Incomplete", "Completed"], required: false}
+                      - {label: 'Status', name: 'status', widget: 'hidden', default: "Completed", options: ["Not Started", "Incomplete", "Completed"], required: false}
                       - {label: 'Description', name: 'description', widget: 'text', required: false}
-                      - {label: 'Link', name: 'link', widget: 'string', pattern: ['^(http|https)://', "Must start with https:// or http://"], required: false}
+                      - {label: 'Link', name: 'link', widget: 'string', default: '', pattern: ['^(http|https)://', "Must start with https:// or http://"], required: false}
               - label: "Status"
                 name: "status"
                 widget: "select"
