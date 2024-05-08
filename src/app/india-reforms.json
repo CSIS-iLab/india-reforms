@@ -5,17 +5,17 @@
         "not_started": {
           "status": "Not Started",
           "link": "https://duckduckgo.com",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo leo, mollis ac tellus sed, ornare congue turpis. Nunc sit amet ex quis nibh maximus varius. In consectetur pellentesque vehicula. Donec facilisis, orci eu elementum tincidunt, massa eros aliquet diam, vulputate hendrerit erat arcu eu nisi."
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo leo, mollis ac tellus sed, ornare congue turpis. Nunc sit amet ex quis nibh maximus varius. In consectetur pellentesque vehicula."
         },
         "incomplete": {
           "status": "Incomplete",
           "link": "https://duckduckgo.com",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo leo, mollis ac tellus sed, ornare congue turpis. Nunc sit amet ex quis nibh maximus varius. In consectetur pellentesque vehicula. Donec facilisis, orci eu elementum tincidunt, massa eros aliquet diam, vulputate hendrerit erat arcu eu nisi."
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo leo, mollis ac tellus sed, ornare congue turpis. Nunc sit amet ex quis nibh maximus varius. In consectetur pellentesque vehicula."
         },
         "completed": {
           "status": "Completed",
           "link": "https://duckduckgo.com",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo leo, mollis ac tellus sed, ornare congue turpis. Nunc sit amet ex quis nibh maximus varius. In consectetur pellentesque vehicula. Donec facilisis, orci eu elementum tincidunt, massa eros aliquet diam, vulputate hendrerit erat arcu eu nisi."
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo leo, mollis ac tellus sed, ornare congue turpis. Nunc sit amet ex quis nibh maximus varius. In consectetur pellentesque vehicula."
         }
       },
       "status": "incomplete",
@@ -27,7 +27,7 @@
         "not_started": {
           "status": "Not Started",
           "link": "https://duckduckgo.com",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo leo, mollis ac tellus sed, ornare congue turpis. Nunc sit amet ex quis nibh maximus varius. In consectetur pellentesque vehicula. Donec facilisis, orci eu elementum tincidunt, massa eros aliquet diam, vulputate hendrerit erat arcu eu nisi."
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo leo, mollis ac tellus sed, ornare congue turpis. Nunc sit amet ex quis nibh maximus varius. In consectetur pellentesque vehicula."
         },
         "incomplete": {
           "status": "Incomplete",
