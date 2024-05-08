@@ -1,67 +1,6 @@
 {
   "reforms": [
     {
-      "steps": {
-        "not_started": {
-          "status": "Not Started",
-          "link": "https://duckduckgo.com",
-          "description": "blah blah blah"
-        },
-        "incomplete": {
-          "status": "Incomplete",
-          "link": "",
-          "description": "now we are moving this to the incomplete step, for testing purposes."
-        },
-        "completed": {
-          "status": "Completed",
-          "link": ""
-        }
-      },
-      "status": "incomplete",
-      "name": "just another test",
-      "difficulty": "high"
-    },
-    {
-      "steps": {
-        "not_started": {
-          "status": "Not Started",
-          "link": "https://www.google.com",
-          "description": "asdf adf asdfadf erfrghnjdghj "
-        },
-        "incomplete": {
-          "status": "Incomplete",
-          "link": "https://www.google.com",
-          "description": "dfg adlkj;iufasdrlfj dflkjdfl;kj fasdlkjsdfgliujerogijdxf vldkjflasdkfj sdflkjdfglkvjsfgkijhg dslfkj dlfgkjads'flkjadf lkfj'aldfkj "
-        },
-        "completed": {
-          "status": "Completed",
-          "link": "https://www.google.com",
-          "description": " afsdftgh dfh gyh stg serfsfgh ndghjgfu jkrtyearfeargsfgaerfa dd fgadfg sdfg "
-        }
-      },
-      "status": "completed",
-      "name": "Lindsay's Test Reform aafsdlkjdslkj",
-      "difficulty": "medium"
-    },
-    {
-      "steps": {
-        "not_started": {
-          "status": "Incomplete",
-          "link": "http://klajslkdfklas.test.com",
-          "description": ";laksjhdf;lkaj ;fa;slkdjf a;lkjasdf"
-        },
-        "incomplete": {
-          "status": "Incomplete"
-        },
-        "completed": {
-          "status": "Completed"
-        }
-      },
-      "status": "not_started",
-      "name": "title",
-      "difficulty": "high"
-    },
-    {
       "name": "Reduce the corporate tax rate from 30 percent to 25 percent ",
       "steps": {
         "not_started": {
