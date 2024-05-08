@@ -9,6 +9,28 @@
         },
         "incomplete": {
           "status": "Incomplete",
+          "link": "https://duckduckgo.com",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo leo, mollis ac tellus sed, ornare congue turpis. Nunc sit amet ex quis nibh maximus varius. In consectetur pellentesque vehicula. Donec facilisis, orci eu elementum tincidunt, massa eros aliquet diam, vulputate hendrerit erat arcu eu nisi."
+        },
+        "completed": {
+          "status": "Completed",
+          "link": "https://duckduckgo.com",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo leo, mollis ac tellus sed, ornare congue turpis. Nunc sit amet ex quis nibh maximus varius. In consectetur pellentesque vehicula. Donec facilisis, orci eu elementum tincidunt, massa eros aliquet diam, vulputate hendrerit erat arcu eu nisi."
+        }
+      },
+      "status": "incomplete",
+      "name": "Another example. These data must be deleted before going live",
+      "difficulty": "medium"
+    },
+    {
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "link": "https://duckduckgo.com",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo leo, mollis ac tellus sed, ornare congue turpis. Nunc sit amet ex quis nibh maximus varius. In consectetur pellentesque vehicula. Donec facilisis, orci eu elementum tincidunt, massa eros aliquet diam, vulputate hendrerit erat arcu eu nisi."
+        },
+        "incomplete": {
+          "status": "Incomplete",
           "link": ""
         },
         "completed": {
@@ -19,29 +41,6 @@
       "status": "not_started",
       "name": "Data example for the new website",
       "difficulty": "low"
-    },
-    {
-      "steps": {
-        "not_started": {
-          "status": "Not Started",
-          "description": "The Industrial Disputes Act sets a floor of 100 employees after which government permission is required to lay off workers",
-          "link": ""
-        },
-        "incomplete": {
-          "status": "Incomplete",
-          "description": "The parliament on September 23, 2020 passed the Industrial Relations Code, 2019 giving firms with upto 300 employees flexibility in hiring and firing. ",
-          "link": "https://pib.gov.in/PressReleseDetail.aspx?PRID=1658380"
-        },
-        "completed": {
-          "status": "Completed",
-          "description": "An amendment or new law removes the cap entirely, giving firms of all sizes flexibility in hiring and firing. ",
-          "link": ""
-        }
-      },
-      "name": "Allow companies to conduct layoffs without government permission",
-      "status": "incomplete",
-      "difficulty": "high",
-      "sectors": []
     }
   ]
 }
