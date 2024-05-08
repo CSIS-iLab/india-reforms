@@ -4,6 +4,26 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
+          "link": "https://duckduckgo.com",
+          "description": "blah blah blah"
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "name": "just another test",
+      "difficulty": "high"
+    },
+    {
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
           "link": "https://www.google.com",
           "description": "asdf adf asdfadf erfrghnjdghj "
         },
