@@ -9,14 +9,15 @@
         },
         "incomplete": {
           "status": "Incomplete",
-          "link": ""
+          "link": "",
+          "description": "now we are moving this to the incomplete step, for testing purposes."
         },
         "completed": {
           "status": "Completed",
           "link": ""
         }
       },
-      "status": "not_started",
+      "status": "incomplete",
       "name": "just another test",
       "difficulty": "high"
     },
