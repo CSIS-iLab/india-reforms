@@ -28,6 +28,7 @@
     "serve": "npm-run-all --parallel serve:*",
     "start": "npm-run-all --parallel serve",
     "build": "react-app-rewired build && react-snapshot",
+    "npx-sb": "npx serve -s build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
     "precommit": "eslint --fix src"

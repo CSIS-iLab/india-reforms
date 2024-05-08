@@ -1,0 +1,694 @@
+{
+  "reforms": [
+    {
+      "name": "Reduce the corporate tax rate from 30 percent to 25 percent ",
+      "steps": {
+        "not_started": {
+          "status": "Incomplete",
+          "description": "India's 30 percent corporate tax rate is among the highest in the world.",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "In the 2019-20 Budget, application of the 25% tax rate was expanded, but not yet universal. ",
+          "link": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=191301"
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "On September 20, 2019 Parliament passed the Taxation Laws (Amendment) Ordinance 2019, reducing the effective corporate tax rate to 25.17% for domestic companies.",
+          "link": "https://www.prsindia.org/sites/default/files/bill_files/Taxation%20Laws%20(Amendment)%20Ordinance,%202019.pdf"
+        }
+      },
+      "status": "completed",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "name": "Raise ceiling on foreign institutional investment in government bonds",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "For FY 2019-2020, the Reserve Bank of India set the limit on foreign institutional investment in government bonds to 6 percent, far lower than its emerging market counterparts",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The RBI increases the limit on foreign institutional investment in government bonds above 6 percent, but falls short of increasing it to 30 percent",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The government increases the limit on foreign institutional investment in government bonds to 30 percent in line with other emerging markets",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "name": "Fully privatize Air India",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "Air India posted losses of nearly $1.1 billion in FY 2018-2019, and has posted continuous losses since 2007. Privatizing Air India will prevent taxpayer money from being directed to a loss-making enterprise",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The government announces a tender offering a majority stake in Air India, bringing the government's own stake below 49%",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "On January 27, 2022, 100 percent shares of Air India and AIXL, and 50 percent shares of AISATS were transferred from the Indian government to Talace Private Limited. ",
+          "link": "https://pib.gov.in/PressReleasePage.aspx?PRID=1792950"
+        }
+      },
+      "status": "completed",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Create an outside restructuring process to ease the burden on the NCLT",
+      "steps": {
+        "not_started": {
+          "status": "Incomplete",
+          "description": "The NCLT remains the primary mode for companies to adjudicate bankruptcy and insolvency.",
+          "link": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/PRUDENTIALB20DA810F3E148B099C113C2457FBF8C.PDF"
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The Reserve Bank of India (Prudential Framework for Resolution of Stressed Assets) Directions 2019, gives Indian banks the discretion to refer defaulters to NCLT on a case by case basis.",
+          "link": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/PRUDENTIALB20DA810F3E148B099C113C2457FBF8C.PDF"
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The RBI issues an ordinance outlining a time-bound and structured process to conduct out-of-court settlements of bad loan-related disputes",
+          "link": ""
+        }
+      },
+      "status": "incomplete",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "name": "Increase the number of NCLT benches and the case resolution deadline to 1 year",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The NCLT is maintained at 11 benches around India, with a 180-day timeline for resolution of cases",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "On August 5, 2019, the President signed the Insolvency and Bankruptcy Code (Amendment) Act, 2019, and increased the resolution deadline for NCLT cases to 330 days. The Central Government added five more benches between July 2018 and March 2019.",
+          "link": "https://www.cogitasia.com/wp-content/uploads/2019/10/Gazette-Amendment_benches-merged.pdf"
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The number of NCLT benches is increased to 24.",
+          "link": ""
+        }
+      },
+      "status": "incomplete",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Fill all judicial vacancies in India's courts",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "Nearly 26 percent of judgeships in India's subordinate courts remain vacant, while 36 percent of judgeships in India's high courts are vacant.",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The government takes some measures to fill judicial vacancies, bringing the numbers lower, but falling short of filling all vacancies",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "All vacancies in India's judicial system are filled with qualified personnel",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Release annual report detailing origins and destinations for all inbound FDI",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "India's FDI data currently shows only the last point of departure for FDI (usually Mauritius or Singapore), and the city foreign investment applications are filed in (Delhi or Mumbai).",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The Reserve Bank of India and/or Department for Promotion of Industry and Internal Trade releases an annual report providing details on the origin country and destination state of FDI into India",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "low",
+      "sectors": []
+    },
+    {
+      "name": "Create a bankruptcy resolution process for financial firms",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "Financial institutions have been kept out of the Insolvency and Bankruptcy Code's purview",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The Ministry of Corporate Affairs notified the Insolvency and Bankruptcy Rules 2019, allowing an interim framework for Financial Service Providers (excluding banks), to file for insolvency proceedings on a case by case basis, as notified by the Central Government",
+          "link": "http://www.mca.gov.in/Ministry/pdf/InsolvencyBankruptcy_15112019.pdf"
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The law creating a bankruptcy process for financial firms is passed in Parliament and signed into law by the President of India, and related regulations are issued",
+          "link": ""
+        }
+      },
+      "status": "incomplete",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "name": "Place pricing control of electrical power in the central government",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "State-level tariff-setting bodies have been unable to balance political interests and consumer requirements to deliver reasonably-priced power.",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The center and states reach an agreement to jointly determine pricing of electrical power in India",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The center amends the Electricity Act and assumes complete control of pricing of electrical power in India",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Pass the Major Port Authorities Bill",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "Major ports currently face strict regulations from the government on rates, decision-making, and governance",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "",
+          "description": "",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The Major Port Authorities Bill was passed in the 2021 budget session of the parliament and became an act after receiving the president's assent on 17 February, 2021.",
+          "link": "http://egazette.nic.in/WriteReadData/2021/225265.pdf"
+        }
+      },
+      "status": "completed",
+      "difficulty": "low",
+      "sectors": []
+    },
+    {
+      "name": "End retrospective taxation of cross-border investments",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "While the government created a committee under the Central Board of Direct Taxes to block retrospective taxation of cross-border investments, it has not amended the Income Tax Code to repeal the provision entirely",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The Indian Parliament passed the Taxation Laws (Amendment) Act, 2021 in the 2021 monsoon session. Subsequently, the Ministry of Finance notified the Income-tax (31st Amendment) Rules, 2021, ending retrospective taxation of cross-border investments.",
+          "link": "https://www.incometaxindia.gov.in/news/notification_no_118_2021.pdf"
+        }
+      },
+      "status": "completed",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "name": "Stop forcing banks to lend to \"priority sectors\"",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The Reserve Bank of India currently forces bank to allocate 40% of their credit to priority sectors",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The Reserve Bank of India reduces the stipulation to below 40% or allows more flexibility in the discharge of these obligations, but stops short of abolishing the practice entirely",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The Reserve Bank of India removes its stipulation that banks should allocate a certain percentage to priority sectors.",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Reduce restrictions on foreign investment in multi-brand retail",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "Foreign direct investment in multi-brand retail is subject to minimum investment size, sourcing rules and location limitations",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The government issues a Press Note lifting all restrictions on minimum investment size, sourcing rules and location limitation for multi-brand retail",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "name": "Amend or replace the Land Acquisition Act, 2013",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The Fair Compensation in Land Acquisition, Rehabilitation, and Resettlement Act, 2013 requires that states obtain approval from at least 80% of residents before buying land, making it difficult to find plots for industry and infrastructure",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The government reintroduces the The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement (Amendment) Bill which simplifies the time needed and the cost required to acquire land in India",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "Parliament passes the The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement (Amendment) Bill, and is signed into law by the President of India",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Release proposed regulation with cost-benefit analyses & input from stakeholders",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "Regulations in India are implemented without a 30-day notice and comment period, and released without a cost-benefit analysis, which make the operating environment difficult for businesses",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "India's Ministry of Law and Justice or the Indian Cabinet issues note calling on government agencies to honor a 30-day notification period, and issue a cost-benefit analysis",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "Parliament passes statutes amending the laws governing India’s financial regulators, mandating a 30-day notice and comment period for proposed regulation and the issuance of a cost-benefit analysis",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Deregulate Kerosene Pricing",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The government maintains a price cap on public distribution system kerosene, and provides subsidies to compensate for the fixed price, thereby maintaining controls over kerosene pricing",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The government amends price cap on public distribution system kerosene, but falls short of complete deregulation",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The government lifts the price cap on public distribution system kerosene entirely, thereby deregulating kerosene pricing",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Deregulate Natural Gas Pricing",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "While the government has taken steps to introduce profit-sharing in natural gas production, the government has still implemented price ceilings on natural gas, maintaining control of pricing",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The government issues a new Hydrocarbon policy that removes the government from pricing of natural gas, allowing the market to set the price",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "name": "Allow more than 50 percent foreign investment in insurance",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "Only 49% foreign investment is currently allowed, with minority ownership for the foreign firm",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The government introduces amendments to Insurance Act that allow foreign investment above 50 percent but does not lift minority ownership regulations",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "On March 25, 2021, The Insurance (Amendment) Act, 2021 was notified allowing up to 74 percent foreign investment into the insurance sector under the automatic route.",
+          "link": "https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_NoYearLayout.aspx?page=PageNo4425"
+        }
+      },
+      "status": "completed",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Allow more than 50 percent foreign investment in direct retail e-commerce",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "Foreign direct investment in direct business-to-consumer retail e-commerce is not allowed unless items are all being sold under a single brand, meet local-content requirements, and the inventory is not owned or controlled by the foreign company\n\nFor a detailed analysis, [click here](https://www.cogitasia.com/allow-more-than-50-fdi-in-indias-direct-retail-e-commerce/)",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The government issues a Press Note allowing more than 50 percent FDI in the retail e-commerce, and removes all restrictions on direct retail e-commerce companies",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "low",
+      "sectors": []
+    },
+    {
+      "name": "Allow more than 50 percent foreign investment in defense",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "FDI above 50% in defense is currently subject to approval from the government",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "Department for Promotion of Industry and Internal Trade's Press Note 4 (2020 series) allows FDI up to 74 percent under the automatic route",
+          "link": "https://dipp.gov.in/sites/default/files/pn4-2020_0.PDF"
+        }
+      },
+      "status": "completed",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "name": "Simplify the Goods and Services Tax rates to three rates",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The current rate structure of four rates, plus a separate tax rate for gold and a 0 percent rate, is overly complicated and should be simplified",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "* Reduced to 5 rates, including a 0 percent rate\n* Reduced to 4 rates, including a 0 percent rate",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "Reduced to 3 rates, including a 0 percent rate",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Include electricity, oil & gas, real estate, and alcohol in the ambit of the GST",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "While nearly 1300 goods and 500 services are covered by the GST, electricity, oil and gas, real estate, and alcohol are not currently in the ambit of the tax",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "Some of the listed products are added into the ambit of the GST, but not all are included",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "All products listed above are included in the ambit of the GST",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Establish a 10-Year Plan to Privatize All Central Public Sector Enterprises (CPSEs)",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The government continues a piecemeal approach to privatization of CPSEs with no long-term deadline on completion",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The government announces its intent to privatize government-owned companies within 10 years",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The government releases a 10-Year Action Plan to privatize CPSEs",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "high",
+      "sectors": []
+    },
+    {
+      "name": "Privatize public sector banks ",
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The government continues to hold a majority stake in public sector banks",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "",
+          "description": "",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The government reduces its stake in all public sector banks to a minority share",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The long-standing 10% limit on single institutional investors hinders investment in high-growth Indian companies",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The RBI reduces the stipulation to 20% or allows more flexibility in the discharge of these obligations",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "SEBI increases the ceiling on foreign institutional investment in Indian companies to 25%",
+          "link": ""
+        }
+      },
+      "name": "Raise ceiling on foreign institutional investment in Indian companies",
+      "status": "not_started",
+      "difficulty": "low",
+      "sectors": []
+    },
+    {
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The government takes no steps to institute the Rail Development Authority despite cabinet approval",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Not Started",
+          "description": "",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The government creates the Rail Development Authority through an Executive Order signed by the President. ",
+          "link": ""
+        }
+      },
+      "name": "Establish the already-approved Rail Development Authority",
+      "status": "not_started",
+      "difficulty": "low",
+      "sectors": []
+    },
+    {
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The government announced the launch of the Integrated Case Management Information System to digitize India's courts, but has so far been implemented only in the Supreme Court",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The Integrated Case Management Information System is implemented is expanded beyond the Supreme Court, but not all courts",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The Integrated Case Management Information System is implemented in all courts, including the Supreme Court, all High Courts, and all district courts around India to create a truly paperless court system",
+          "link": ""
+        }
+      },
+      "name": "Establish a paperless court system to ensure speedy resolution of cases",
+      "status": "not_started",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "According to the World Bank's Ease of Doing Busines Report 2019, it takes 17 days to start a business in India, more than the average of 13.7 days in South Asia",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The Department for Promotion of Industry and Internal Trade ensures central government permits are issued within 10 days for all sectors",
+          "link": ""
+        }
+      },
+      "name": "Offer business owners central government permits in 10 days or less",
+      "status": "not_started",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The World Bank's Ease of Doing Business Report 2019 notes that it requires 10 procedures to start a business in India, compared to the South Asia regional average of 7.6 procedures",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "As per a review of the National Single Window System on December 5, 2022, the National  Single Window System (NSWS), created by Department for Promotion of Industry and Internal Trade (DPIIT), has onboarded 27 Central Departments and 19 states. Remaining 8 Ministries are expected to onboard by December 31, 2022, and the balance states/UTs by March 31, 2023.",
+          "link": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1880251"
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "The Department for Promotion of Industry and Internal Trade ensures the creation of a single-window clearance entity for central government clearances for all sectors",
+          "link": ""
+        }
+      },
+      "name": "Offer one-stop shopping for central government clearances",
+      "status": "incomplete",
+      "difficulty": "medium",
+      "sectors": []
+    },
+    {
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "description": "The Industrial Disputes Act sets a floor of 100 employees after which government permission is required to lay off workers",
+          "link": ""
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "description": "The parliament on September 23, 2020 passed the Industrial Relations Code, 2019 giving firms with upto 300 employees flexibility in hiring and firing. ",
+          "link": "https://pib.gov.in/PressReleseDetail.aspx?PRID=1658380"
+        },
+        "completed": {
+          "status": "Completed",
+          "description": "An amendment or new law removes the cap entirely, giving firms of all sizes flexibility in hiring and firing. ",
+          "link": ""
+        }
+      },
+      "name": "Allow companies to conduct layoffs without government permission",
+      "status": "incomplete",
+      "difficulty": "high",
+      "sectors": []
+    }
+  ]
+}
