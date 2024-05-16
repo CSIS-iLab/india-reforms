@@ -25,17 +25,18 @@ export default class PageHeader extends React.Component {
               <figure className="component-image__container">
                 <img
                   sizes="(max-width: 320px) 320px,(max-width: 375px) 335px,(max-width: 480px) 440px,(max-width: 675px) 635px,900px"
-                  srcSet="https://res.cloudinary.com/csisideaslab/image/upload/f_auto,q_70,w_320/v1561989507/india-reforms/Prime_Minister_Modi_cabinet_President_Kovind.jpg  320w,https://res.cloudinary.com/csisideaslab/image/upload/f_auto,q_70,w_335/v1561989507/india-reforms/Prime_Minister_Modi_cabinet_President_Kovind.jpg  335w,https://res.cloudinary.com/csisideaslab/image/upload/f_auto,q_70,w_480/v1561989507/india-reforms/Prime_Minister_Modi_cabinet_President_Kovind.jpg  480w,https://res.cloudinary.com/csisideaslab/image/upload/f_auto,q_70,w_635/v1561989507/india-reforms/Prime_Minister_Modi_cabinet_President_Kovind.jpg  635w,https://res.cloudinary.com/csisideaslab/image/upload/f_auto,w_900/v1561989507/india-reforms/Prime_Minister_Modi_cabinet_President_Kovind.jpg  900w"
-                  src="https://res.cloudinary.com/csisideaslab/image/upload/v1561989507/india-reforms/Prime_Minister_Modi_cabinet_President_Kovind.jpg"
-                  alt="Prime Minister Narendra Modi and cabinet ministers stand with President of India Ram Nath Kovind after taking the oath of office at the President house in New Delhi on May 30, 2019."
+                  srcSet="https://res.cloudinary.com/csisideaslab/image/upload/f_auto,q_70,w_320/v1715873262/india-reforms/China-Railway-Rolling-Stock-Corporation-1276x851.jpg  320w,https://res.cloudinary.com/csisideaslab/image/upload/f_auto,q_70,w_335/v1715873262/india-reforms/China-Railway-Rolling-Stock-Corporation-1276x851.jpg  335w,https://res.cloudinary.com/csisideaslab/image/upload/f_auto,q_70,w_480/v1715873262/india-reforms/China-Railway-Rolling-Stock-Corporation-1276x851.jpg  480w,https://res.cloudinary.com/csisideaslab/image/upload/f_auto,q_70,w_635/v1715873262/india-reforms/China-Railway-Rolling-Stock-Corporation-1276x851.jpg  635w,https://res.cloudinary.com/csisideaslab/image/upload/f_auto,w_900/v1715873262/india-reforms/China-Railway-Rolling-Stock-Corporation-1276x851.jpg  900w"
+                  src="https://res.cloudinary.com/csisideaslab/image/upload/v1715873262/india-reforms/China-Railway-Rolling-Stock-Corporation-1276x851.jpg"
+                  alt="China Railway Rolling Stock Corporation (CRRC) workers stand inside a carriage of India's first prototype driverless metro train at the Hebbagodi Bangalore Metro Rail Depot in Bengaluru on March 6, 2024."
                 />
               </figure>
               <figcaption className="caption">
-                Prime Minister Narendra Modi and cabinet ministers stand with
-                President of India Ram Nath Kovind after taking the oath of
-                office at the President house in New Delhi on May 30, 2019.{' '}
+                China Railway Rolling Stock Corporation (CRRC) workers stand
+                inside a carriage of India's first prototype driverless metro
+                train at the Hebbagodi Bangalore Metro Rail Depot in Bengaluru
+                on March 6, 2024.{' '}
                 <span className="caption__source">
-                  Photo: PRAKASH SINGH/AFP/Getty Images
+                  Photo by IDREES MOHAMMED/AFP via Getty Images
                 </span>
               </figcaption>
             </figure>

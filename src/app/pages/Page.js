@@ -1,6 +1,7 @@
 import React from 'react'
 import GetData from '../helpers/GetData'
 import PageHeader from '../layout/PageHeader'
+import PageHeader2019 from '../2019/layout/PageHeader'
 import ReformCard from '../components/ReformCard'
 import ReformDetail from '../components/ReformDetail'
 import html2pdf from 'html2pdf.js'
@@ -177,10 +178,15 @@ export default class Page extends React.Component {
   render() {
     const { pageContent, page, open, active, sort } = this.state
     const { reforms } = this.props
+    // console.log(this.props)
 
     return (
       <React.Fragment>
-        <PageHeader pageContent={pageContent} page={page} />
+        {page === 'homepage' ? (
+          <PageHeader pageContent={pageContent} page={page} />
+        ) : (
+          <PageHeader2019 pageContent={pageContent} page={page} />
+        )}
         <main className={page}>
           <section id="controls" className="sticky">
             <div className="wrapper">
@@ -188,7 +194,7 @@ export default class Page extends React.Component {
                 <span className="icon-sort__text" />
 
                 <Button.Group basic>
-                  {['Status', 'Name', 'Difficulty'].map(sortBy => (
+                  {['Status', 'Name', 'Difficulty'].map((sortBy) => (
                     <Button
                       onClick={this.handleSort}
                       data-sort-by={sortBy.toLowerCase()}
@@ -214,7 +220,7 @@ export default class Page extends React.Component {
           />
           <section id="cards" attached="bottom">
             {reforms && reforms.length
-              ? reforms.map(d => {
+              ? reforms.map((d) => {
                 return <ReformCard reform={d} key={d.name} show={this.show} />
               })
               : ''}

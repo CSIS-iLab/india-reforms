@@ -1,7 +1,7 @@
 import grayMatter from 'gray-matter'
 
 const webpackRequireContext = require.context(
-  '!raw-loader!../../../src/content',
+  '!raw-loader!../../content',
   false,
   /\.md$/
 )

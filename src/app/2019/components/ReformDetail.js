@@ -4,7 +4,7 @@ import ValueToJSX from '../helpers/ValueToJSX'
 export default class ReformDetail extends React.Component {
   render() {
     const { active } = this.props
-    console.log(active)
+    // console.log(active)
 
     return (
       <ul className="ant-timeline">

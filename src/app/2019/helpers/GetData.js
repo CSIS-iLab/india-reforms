@@ -1,6 +1,6 @@
 import grayMatter from 'gray-matter'
 const webpackRequireContext = require.context(
-  '!raw-loader!../../../../src/app/content-2019',
+  '!raw-loader!../../../content',
   false,
   /\.md$/
 )
@@ -14,7 +14,8 @@ webpackRequireContext.keys().forEach(map => {
   files[map] = markdown
 })
 
-export default function GetData(page) {
+export default function GetData2019(page) {
+  console.log('Im here')
   const file = files[`${page}.md`]
   return grayMatter(file).data
 }
