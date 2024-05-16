@@ -13,7 +13,7 @@ text:
     <p>Through the India Reforms Scorecard 3.0, the CSIS India Chair presents a wish list of thirty reforms that the newly elected government should address. The list has been collated after rigorous literature reviews, surveys, and brainstorming sessions involving scholars, economists, and industry leaders. While such a list can never be definitive, we hope this list helps the public understand the choices that are on the table and track the pace of progress on individual reform items.</p>
 
    <p>This scorecard will be updated on a regular basis as we see tangible progress on individual reforms.
-    We welcome feedback at [indiachair@csis.org](mailto:indiachair@csis.org).</p>
+    We welcome feedback at <a href="mailto:indiachair@csis.org">indiachair@csis.org</a>.</p>
 
     <p><a href="/2019reforms" class="icon-link-external">India Reforms Scorecard 2.0 (2019-24)</a></p>
     <p><a href="/2014reforms" class="icon-link-external">India Reforms Scorecard 1.0 (2014-19)</a></p>
