@@ -10,7 +10,7 @@
         "incomplete": {
           "status": "Incomplete",
           "link": "",
-          "description": "Ministry of Finance promulgates, and the Parliament passes bill including through the Annual Budget to address some of the discrepancies arising due to inverted duty structure. "
+          "description": "Ministry of Finance promulgates, and the Parliament passes a bill including through the Annual Budget to address some of the discrepancies arising due to inverted duty structure. "
         },
         "completed": {
           "status": "Completed",
@@ -41,7 +41,7 @@
         }
       },
       "status": "not_started",
-      "name": "Address multiplicity of GST audits for taxpayers registered in different states. ",
+      "name": "Address multiplicity of GST audits for taxpayers registered in different states",
       "difficulty": "high"
     },
     {
@@ -59,7 +59,7 @@
         "completed": {
           "status": "Completed",
           "link": "",
-          "description": "Government regularizes online submission and clearance at all ports, and creates a single window system for importers single window and exporters for all trade related submission and clearances. "
+          "description": "Government regularizes online submission and clearance at all ports, and creates a single window system for importers and exporters for all trade related submission and clearances. "
         }
       },
       "status": "not_started",
@@ -139,7 +139,7 @@
         },
         "incomplete": {
           "status": "Incomplete",
-          "link": "",
+          "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11580&Mode=0",
           "description": "The Reserve Bank of India (Prudential Framework for Resolution of Stressed Assets) Directions 2019, gives Indian banks the discretion to refer defaulters to NCLT on a case by case basis."
         },
         "completed": {
@@ -177,7 +177,7 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
+          "link": "https://www.worldbank.org/content/dam/doingBusiness/media/Annual-Reports/English/DB2019-report_web-version.pdf",
           "description": "According to the World Bank's Ease of Doing Business Report 2019, it takes 17 days to start a business in India, more than the average of 13.7 days in South Asia. In 2020, the government announced plans to slash this to 5 days. "
         },
         "incomplete": {
@@ -199,7 +199,7 @@
         "not_started": {
           "status": "Not Started",
           "link": "",
-          "description": "While nearly 1300 goods and 500 services are covered by the GST, there are notable goods and services such as electricity, oil and gas, real estate, and alcohol, that are exempted from the tax, but should be included under the tax regime. "
+          "description": "While nearly 1300 goods and 500 services are covered by the GST, there are notable goods and services such as electricity, oil & gas, real estate, and alcohol, that are exempted from the tax, but should be included under the tax regime. "
         },
         "incomplete": {
           "status": "Incomplete",
@@ -242,8 +242,8 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
-          "description": "While the government has taken steps to introduce profit-sharing in natural gas production, the government has still implemented price ceilings on natural gas, maintaining control of pricing. Deregulating Natural Gas pricing will encourage the expansion of private hydrocarbon production. "
+          "link": "https://sansad.in/getFile/annex/262/AU959.pdf?source=pqars",
+          "description": "While the government has taken steps to introduce profit-sharing in natural gas production, it still implements price ceilings on natural gas maintaining control of pricing. Deregulating Natural Gas pricing will encourage the expansion of private hydrocarbon production. "
         },
         "incomplete": {
           "status": "Incomplete",
@@ -268,7 +268,7 @@
         },
         "incomplete": {
           "status": "Incomplete",
-          "link": "",
+          "link": "https://ibbi.gov.in//uploads/legalframwork/cb1d53c7fe47f8f22ab36a40f441db2c.pdf",
           "description": "The Ministry of Corporate Affairs notified the Insolvency and Bankruptcy Rules 2019, allowing an interim framework for Financial Service Providers (excluding banks), to file for insolvency proceedings on a case by case basis, as notified by the Central Government. "
         },
         "completed": {
@@ -290,7 +290,7 @@
         },
         "incomplete": {
           "status": "Incomplete",
-          "link": "",
+          "link": "https://loksabhadocs.nic.in/Refinput/New_Reference_Notes/English/30112019_164047_196207102145.pdf",
           "description": "The Parliament on September 23, 2020 passed the Industrial Relations Code, 2019 giving firms with up to 300 employees flexibility in hiring and firing. "
         },
         "completed": {
@@ -328,8 +328,8 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
-          "description": "Indian firms are allowed to raise capital in foreign exchanges through ADRs, and GDRs given that they first make a secondary listing on the domestic equity bourses or first go for a domestic float. Indian startups have a significant opportunity to raise capital from foreign exchanges if the process is simplified`. In 2023, Ministry of Corporate Affairs amended Section 23 of the Companies Act, 2020 to allow \"such class of public companies may issue such class of securities for the purposes of listing on permitted stock exchanges in permissible foreign jurisdictions or such other jurisdictions, as may be prescribed\" with the aim to allow listings through GIFT City's IFSC exchange. However, the Ministry has not yet notified rules governing the same. "
+          "link": "https://ibclaw.in/mca-notification-so-4744e-dated-30-10-2023/",
+          "description": "Indian firms are allowed to raise capital in foreign exchanges through ADRs, and GDRs given that they first make a secondary listing on the domestic equity bourses or first go for a domestic float. Indian startups have a significant opportunity to raise capital from foreign exchanges if the process is simplified. In 2023, the Ministry of Corporate Affairs amended Section 23 of the Companies Act, 2020 to allow \"such class of public companies may issue such class of securities for the purposes of listing on permitted stock exchanges in permissible foreign jurisdictions or such other jurisdictions, as may be prescribed\" with the aim to allow listings through GIFT City's IFSC exchange. However, the Ministry has not yet notified rules governing the same. "
         },
         "incomplete": {
           "status": "Incomplete",
@@ -350,7 +350,7 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
+          "link": "https://www.niti.gov.in/sites/default/files/2023-03/Designing-The-Future-of-Dispute-Resolution-The-ODR-Policy-Plan-for-India.pdf",
           "description": "India currently has over 50 million pending cases across various courts. With about 21 judges per million people, it could take an estimated 300 years to clear the existing backlog. Introducing Online Dispute Resolution will allow for speedier resolution and reduce burden from the judicial infrastructure. In 2021, NITI Aayog released a report framing recommendations for an ODR policy in India. "
         },
         "incomplete": {
@@ -360,7 +360,7 @@
         },
         "completed": {
           "status": "Completed",
-          "link": "",
+          "link": "https://www.indiacode.nic.in/bitstream/123456789/2156/1/a2016-04.pdf",
           "description": "The Parliament amends the Commercial Courts Act, 2015 and Commercial Courts (Pre Institution Mediation and Settlement) Rules, 2018 to introduce an umbrella ODR legislation with a national ODR platform "
         }
       },
@@ -372,7 +372,7 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
+          "link": "https://egazette.gov.in/WriteReadData/2023/248047.pdf",
           "description": "India has a myriad of regulatory compliances at the center and state level, non-adherence for which can lead to imprisonment. This can be a hindrance for businesses, and also take up valuable legal state capacity. The government released the Jan Vishwas Act in 2023 rationalizing 183 provisions in 42 central acts. The government can further rationalize over 26,000 imprisonment clauses that hinder ease of doing business. "
         },
         "incomplete": {
@@ -417,7 +417,7 @@
         "not_started": {
           "status": "Not Started",
           "link": "",
-          "description": "Indian Mutual Funds have over $563 billion assets under management as of August 2023. A fifth of these are debt schemes. Currently, while government bad banks acquire bad assets, Asset Reconstruction Companies (ARC) are not allowed to purchase distressed assets from Mutual Funds or Alternative Investment Funds. Allowing ARCs to operate would accelerate the debt recovery process, and free up tied up capital. "
+          "description": "Indian Mutual Funds have over $563 billion assets under management as of August, 2023. A fifth of these are debt schemes. Currently, while government bad banks acquire bad assets, Asset Reconstruction Companies (ARC) are not allowed to purchase distressed assets from Mutual Funds or Alternative Investment Funds. Allowing ARCs to operate would accelerate the debt recovery process, and free tied up capital. "
         },
         "incomplete": {
           "status": "Incomplete",
@@ -437,7 +437,7 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
+          "link": "https://www.indiacode.nic.in/bitstream/123456789/15394/1/blackmarketing_and_maintenance_of_supplies_of.pdf",
           "description": "India's agricultural market is heavily controlled by the national government, and doesn't allow for effective private competition. The Economic Survey, 2019-20 states that the lack of the private sector’s presence in the agro-commodity market leads to abysmally low long-term investments in procurement, storage and processing of these commodities in the sector. This also impacts food prices, and the government exchequer which incurs additional costs for subsidizing procurement, for items that often goes waste. The government previously introduced the Indian agriculture acts of 2020, however, rolled them back after widespread opposition. The Essential Commodities Act, 1955; and the Prevention of Black marketing and Maintenance of Supplies of Essential Commodities Act, 1980 enable government's tight control over the supply of food items in the marketplace through quota limits, and single-buyer marketplace procurement. "
         },
         "incomplete": {
@@ -459,7 +459,7 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
+          "link": "https://lddashboard.legislative.gov.in/sites/default/files/A2013-30.pdf",
           "description": "Land acquisition in India is a concurrent list subject. The land acquisition process is complicated and requires developers to work with multiple small-holding owners, and navigate varying land use policy. The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation, and Resettlement Act 2013 states that private businesses are responsible for acquiring 80% of land (70% in case of PPPs) on their own before the government steps in to support land acquisition. "
         },
         "incomplete": {
@@ -481,8 +481,8 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
-          "description": "Factories Act, 1948 includes several restrictive measures on labor included limited daily, and weekly hours, overtime hours, and permissible time in factories. Several countries like Vietnam, China, Thailand, and Bangladesh allow for greater flexibility, and therefore can be more competitive in securing manufacturing investments. Since Covid-19, several states like Karnataka, Tamil Nadu, and Uttar Pradesh have released ordinances, and amendments easing labor laws. "
+          "link": "https://labour.gov.in/sites/default/files/factories_act_1948.pdf",
+          "description": "The Factories Act, 1948 has several restrictive measures on labor including limited daily, and weekly hours; overtime hours; and permissible time in factories. Several countries like Vietnam, China, Thailand, and Bangladesh allow for greater flexibility, and therefore can be more competitive in securing manufacturing investments. Since Covid-19, several states like Karnataka, Tamil Nadu, and Uttar Pradesh have released ordinances, and amendments easing labor laws. "
         },
         "incomplete": {
           "status": "Incomplete",
@@ -496,14 +496,14 @@
         }
       },
       "status": "not_started",
-      "name": "Repeal Factories Act, 1948 and replace it with comprehensive laws to industrial  labor employment. ",
+      "name": "Repeal Factories Act, 1948 and replace it with comprehensive laws to support industrial labor employment ",
       "difficulty": "high"
     },
     {
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
+          "link": "https://sansad.in/getFile/rsnew/Committee_site/Committee_File/ReportFile/13/159/172_2022_7_14.pdf?source=rajyasabha",
           "description": "E-commerce exports in India amount to $2 billion as of 2023, and form a small percentage of total merchandise exports. Customs clearance for exports in India can be a long process including processing of shipping bill, inspection of goods at docks, system appraisal of shipping bills, customs examination of export cargo, and loading. Easing e-commerce exports is important to achieve the government's plan of increasing merchandise exports to $1 trillion by 2030. To increase e-commerce exports, the Parliamentary Standing Committee on Commerce report suggests establishing dedicated customs clearance lanes for e-commerce exports. "
         },
         "incomplete": {
@@ -525,7 +525,7 @@
         "not_started": {
           "status": "Not Started",
           "link": "",
-          "description": "India has 12 central public sector banks down from 27 in 2017. Fixing public sector banks, and adequately capitalizing them is crucial for long term growth. While bank mergers offer balance sheet rebalancing, they do not resolve personnel and other institutional problems. Various different governments including the Narasimha II Committee set up by United Front government in 1998, and Yashwant Sinha led Finance Ministry under Vajpayee I government have proposed reducing the government stake in public sector banks to 33%, thereby giving them management control, while opening up corporate participation. In recent years, SEBI guidelines to have 25% publicly listed shares have incentivized government disinvestment from public sector banks. "
+          "description": "India has 12 central public sector banks down from 27 in 2017. Fixing public sector banks and adequately capitalizing them is crucial for long term growth. While bank mergers offer balance sheet rebalancing, they do not resolve personnel and other institutional problems. Various different governments including the Narasimha II Committee set up by United Front government in 1998, and Yashwant Sinha led Finance Ministry under Vajpayee I government, have proposed reducing the government stake in public sector banks to 33%, thereby giving them management control, while opening up corporate participation. In recent years, SEBI guidelines to have 25% publicly listed shares have incentivized government disinvestment from public sector banks. "
         },
         "incomplete": {
           "status": "Incomplete",
@@ -547,7 +547,7 @@
         "not_started": {
           "status": "Not Started",
           "link": "",
-          "description": "Covering over 1300 goods, and 500 services, GST currently has 4 slabs-5%, 12%, 18% and 28%. In practice, there are over a dozed different rates, as well as a zero-rate on certain items. GST rates are further complicated by Central GST (CGST), and State GST (SGST). The government previously constituted a \"Group of Ministers\" on GST rate rationalization with leaders from various states to examine the issue of complicated slabs and propose reforms, however there has been no change. \n"
+          "description": "Covering over 1300 goods and 500 services, GST currently has 4 slabs-5%, 12%, 18% and 28%. In practice, there are over a dozen different rates, as well as a zero-rate on certain items. GST rates are further complicated by Central GST (CGST), and State GST (SGST). The government previously constituted a \"Group of Ministers\" on GST rate rationalization with leaders from various states to examine the issue of complicated slabs and propose reforms, however there has been no change. \n"
         },
         "incomplete": {
           "status": "Incomplete",
@@ -591,7 +591,7 @@
         "not_started": {
           "status": "Not Started",
           "link": "",
-          "description": "According to the Parliamentary Standing Committee report on Performance of Rail Land Development Authority (RLDA), Indian railways owns 62068 hectares of vacant land, out of which 783 hectares has been encroached. "
+          "description": "According to the Parliamentary Standing Committee report on Performance of Rail Land Development Authority (RLDA), the Indian railways owns 62,068 hectares of vacant land, out of which 783 hectares has been encroached. "
         },
         "incomplete": {
           "status": "Incomplete",
@@ -639,7 +639,7 @@
         },
         "incomplete": {
           "status": "Incomplete",
-          "link": "",
+          "link": "https://www.livelaw.in/pdf_upload/bar-council-of-india-rules-for-registration-and-regulation-of-foreign-lawyers-and-foreign-law-firms-in-india-2022-463531.pdf",
           "description": "The Bar Council of India Rules for Registration and Regulation of Foreign Lawyers and Foreign Law Firms in India, 2022 allow foreign firms and lawyers to provide legal advice in non-litigious matters on a reciprocal basis. However, regulatory ambiguity persists, and DPIIT has not included \"legal services\" under the FDI ambit. \n"
         },
         "completed": {
