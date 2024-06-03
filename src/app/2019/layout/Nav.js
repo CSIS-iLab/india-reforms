@@ -1,5 +1,4 @@
 import React from 'react'
-// import { ReactComponent as LogoLong } from '../../../assets/images/csis_logo-long.svg'
 import { ReactComponent as LogoLong } from '../../../assets/images/csis_logo-long.svg'
 import { ReactComponent as LogoShort } from '../../../assets/images/csis_logo-short.svg'
 import SocialShare from '../components/SocialShare'
@@ -17,10 +16,16 @@ export default class Nav extends React.Component {
       ),
       homepage: (
         <React.Fragment>
-          <SocialShare page={page} />
+          <SocialShare />
           <LogoShort className="link-home__logo-short" />
         </React.Fragment>
-      )
+      ),
+      homepage2019: (
+        <React.Fragment>
+          <SocialShare />
+          <LogoShort className="link-home__logo-short" />
+        </React.Fragment>
+      ),
     }
 
     return (
@@ -34,7 +39,7 @@ export default class Nav extends React.Component {
 
         <div className="link-home link-home--mobile nav-link">
           <span>India's Economic Reform Agenda</span>
-          <span>A Scorecard</span>{' '}
+          <span>A Scorecard</span>
         </div>
 
         {headerContent[page]}
