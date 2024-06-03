@@ -61,6 +61,18 @@
     }
 
     > .description {
+      &.trunctate {
+        /* stylelint-disable-next-line value-no-vendor-prefix */
+        display: -webkit-box;
+        -webkit-line-clamp: 4;        /* Number of lines you want to display */
+        /* stylelint-disable-next-line property-no-vendor-prefix */
+        -webkit-box-orient: vertical; /* Orientation needed for line clamp */
+        width: fit-content;         /* Fixed width of container */
+        overflow: hidden;     /* Hide overflow content */
+        // white-space: nowrap;  /* Prevents the text from wrapping */
+        text-overflow: ellipsis; /* Show ellipsis if text overflows */
+      }
+
       p {
         @extend %base;
       }

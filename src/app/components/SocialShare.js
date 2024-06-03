@@ -7,27 +7,23 @@ export default class SocialShare extends React.Component {
         <li>
           <a
             className="icon-social icon-twitter"
-            href={`https://twitter.com/intent/tweet?text=India's Economic Reform Agenda&amp;url=${
-              window.location.href
-            }&amp;via=CSIS&amp;related=CSIS`}
+            href={'https://x.com/CSISIndiaChair'}
             rel="noopener noreferrer"
             target="_blank"
-            title="Share on Twitter"
+            title="Visit us on Twitter"
           >
-            <span className="visually-hidden">Share on Twitter</span>
+            <span className="visually-hidden">Visit us on Twitter</span>
           </a>
         </li>
         <li>
           <a
-            className="icon-social icon-facebook"
-            href={`https://www.facebook.com/sharer.php?u=${
-              window.location.href
-            }`}
+            className="icon-social icon-linkedin-circled"
+            href={'https://www.linkedin.com/company/csis-india-chair'}
             rel="noopener noreferrer"
             target="_blank"
-            title="Share on Facebook"
+            title="Visit us on  Linkedin"
           >
-            <span className="visually-hidden">Share on Facebook</span>
+            <span className="visually-hidden">Visit us on Linkedin</span>
           </a>
         </li>
 
