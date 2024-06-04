@@ -30,14 +30,14 @@ export default class Footer extends React.Component {
           <Logo />
 
           <div className="site-footer__content">
-            {ValueToJSX(footerContent.about, "about")}
+            {ValueToJSX(footerContent.about, 'about')}
 
             <section className="site-footer__content-connect">
               <SocialShare className="footer" />
               {ValueToJSX(footerContent.address)}
             </section>
           </div>
-          {ValueToJSX(footerContent.copyright, "copyright")}
+          {ValueToJSX(footerContent.copyright, 'copyright')}
         </section>
       </footer>
     )
