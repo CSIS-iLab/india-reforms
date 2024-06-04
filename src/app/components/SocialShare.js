@@ -1,7 +1,9 @@
 import React from 'react'
-
+import { ReactComponent as LinkedinIcon } from '../../assets/icons/linkedin-icon.svg'
 export default class SocialShare extends React.Component {
   render() {
+    // Use className from props, defaulting to an empty string if not provided
+    const { className = '' } = this.props
     return (
       <ul className="share">
         <li>
@@ -17,12 +19,17 @@ export default class SocialShare extends React.Component {
         </li>
         <li>
           <a
-            className="icon-social icon-linkedin-circled"
+            className="icon-social"
             href={'https://www.linkedin.com/company/csis-india-chair'}
             rel="noopener noreferrer"
             target="_blank"
             title="Visit us on  Linkedin"
           >
+            <LinkedinIcon
+              className={
+                className === 'header' ? `linkedin--${className}` : 'linkedin--footer'
+              }
+            />
             <span className="visually-hidden">Visit us on Linkedin</span>
           </a>
         </li>

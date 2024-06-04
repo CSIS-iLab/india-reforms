@@ -16,7 +16,7 @@ export default class Nav extends React.Component {
       ),
       homepage: (
         <React.Fragment>
-          <SocialShare page={page} />
+          <SocialShare page={page} className='header' />
           <LogoShort className="link-home__logo-short" />
         </React.Fragment>
       )
