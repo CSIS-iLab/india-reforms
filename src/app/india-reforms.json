@@ -71,12 +71,12 @@
         "not_started": {
           "status": "Not Started",
           "link": "",
-          "description": "Banks are required to direct 40% of loans to \"priority\" sectors, including agriculture, small businesses, education, and housing. This slows growth by reducing capital available for the fastest-growing industries."
+          "description": "Banks are required to direct loans to \"priority\" sectors, including agriculture, small businesses, education, and housing. The RBI has reduced the stipulation to below 40%, but stopped short of abolishing the practice entirely, or allows more flexibility in the discharge of these obligations. This slows growth by reducing capital available for the fastest-growing industries."
         },
         "incomplete": {
           "status": "Incomplete",
           "link": "",
-          "description": "The RBI reduces the stipulation to below 40%, but stops short of abolishing the practice entirely, or allows more flexibility in the discharge of these obligations. "
+          "description": ""
         },
         "completed": {
           "status": "Completed",
@@ -84,7 +84,7 @@
           "description": "The RBI removes its stipulation that banks should allocate a certain percentage to priority sectors. "
         }
       },
-      "status": "incomplete",
+      "status": "not_started",
       "name": "Stop forcing banks to lend to priority sectors",
       "difficulty": "medium"
     },
@@ -134,13 +134,13 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
-          "description": "Sending cases that can be resolved through out-of-court restructuring rather than to the NCLT will ensure the resolution process remains timely and effective. "
+          "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11580&Mode=0",
+          "description": "Sending cases that can be resolved through out-of-court restructuring rather than to the NCLT will ensure the resolution process remains timely and effective. The Reserve Bank of India (Prudential Framework for Resolution of Stressed Assets) Directions 2019, gives Indian banks the discretion to refer defaulters to NCLT on a case by case basis. "
         },
         "incomplete": {
           "status": "Incomplete",
-          "link": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11580&Mode=0",
-          "description": "The Reserve Bank of India (Prudential Framework for Resolution of Stressed Assets) Directions 2019, gives Indian banks the discretion to refer defaulters to NCLT on a case by case basis."
+          "link": "",
+          "description": ""
         },
         "completed": {
           "status": "Completed",
@@ -148,7 +148,7 @@
           "description": "The RBI issues an ordinance outlining a time-bound and structured process to conduct out-of-court settlements of bad loan-related disputes. "
         }
       },
-      "status": "incomplete",
+      "status": "not_started",
       "name": "Reduce bankruptcy case resolution deadline to 1 year",
       "difficulty": "medium"
     },
@@ -235,7 +235,7 @@
         }
       },
       "status": "not_started",
-      "name": "Establish a 10-Year Plan to Privatize All Central Public Sector Enterprises (CPSEs)",
+      "name": "Establish a 10-year plan to privatize all central public sector enterprises (CPSEs)",
       "difficulty": "medium"
     },
     {
@@ -263,13 +263,13 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
-          "description": "The Insolvency and Bankruptcy Code left financial institutions out of the ambit of the law due to the government's own recommendation that a separate law be passed for such bankruptcies. However, no progress has been made on this separate law. "
+          "link": "https://ibbi.gov.in//uploads/legalframwork/cb1d53c7fe47f8f22ab36a40f441db2c.pdf",
+          "description": "The Insolvency and Bankruptcy Code left financial institutions out of the ambit of the law due to the government's own recommendation that a separate law be passed for such bankruptcies. The Ministry of Corporate Affairs notified the Insolvency and Bankruptcy Rules 2019, allowing an interim framework for Financial Service Providers (excluding banks), to file for insolvency proceedings on a case by case basis, as notified by the central government. "
         },
         "incomplete": {
           "status": "Incomplete",
-          "link": "https://ibbi.gov.in//uploads/legalframwork/cb1d53c7fe47f8f22ab36a40f441db2c.pdf",
-          "description": "The Ministry of Corporate Affairs notified the Insolvency and Bankruptcy Rules 2019, allowing an interim framework for Financial Service Providers (excluding banks), to file for insolvency proceedings on a case by case basis, as notified by the Central Government. "
+          "link": "",
+          "description": "The government permits public sector and private banks engaged in secured lending to automatically file for insolvency proceedings or releases the criteria for selection of institutions. "
         },
         "completed": {
           "status": "Completed",
@@ -277,7 +277,7 @@
           "description": "The law is passed in Parliament and signed into law by the President of India, and related regulations are issued. "
         }
       },
-      "status": "incomplete",
+      "status": "not_started",
       "name": "Create a bankruptcy resolution process for financial firms",
       "difficulty": "medium"
     },
@@ -285,13 +285,13 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
-          "description": "India's Industrial Disputes Act sets a floor of 100 employees after which government permission is required to lay off workers. Some firms choose to remain below this level, giving up growth opportunities to retain flexibility. "
+          "link": "https://loksabhadocs.nic.in/Refinput/New_Reference_Notes/English/30112019_164047_196207102145.pdf",
+          "description": "India's Industrial Relations Code, 2019 gives firms with up to 300 employees flexibility in hiring and firing. Industrial Disputes Act also allows firms to hire and fire up to 100 workers without government permission. Some firms choose to remain below this level, giving up growth opportunities to retain flexibility. "
         },
         "incomplete": {
           "status": "Incomplete",
-          "link": "https://loksabhadocs.nic.in/Refinput/New_Reference_Notes/English/30112019_164047_196207102145.pdf",
-          "description": "The Parliament on September 23, 2020 passed the Industrial Relations Code, 2019 giving firms with up to 300 employees flexibility in hiring and firing. "
+          "link": "",
+          "description": ""
         },
         "completed": {
           "status": "Completed",
@@ -299,7 +299,7 @@
           "description": "The government passes an amendment to the Industrial Disputes Act to remove the cap. "
         }
       },
-      "status": "incomplete",
+      "status": "not_started",
       "name": "Amend the Industrial Relations Code to allow retrenchment of up to 1,000 workers without requiring government permission\t",
       "difficulty": "high"
     },
@@ -365,7 +365,7 @@
         }
       },
       "status": "not_started",
-      "name": "Introduce an umbrella ODR legislation which includes a national ODR platform",
+      "name": "Introduce an umbrella online dispute resolution (ODR) legislation which includes a national ODR platform",
       "difficulty": "high"
     },
     {
@@ -409,7 +409,7 @@
         }
       },
       "status": "not_started",
-      "name": "Release the Direct Taxes Code ",
+      "name": "Enact the Direct Taxes Code ",
       "difficulty": "high"
     },
     {
@@ -430,7 +430,7 @@
         }
       },
       "status": "not_started",
-      "name": "Ease asset recovery by involving Asset Reconstruction Companies ",
+      "name": "Allow asset reconstruction companies (ARCs) to buy distressed assets from mutual funds and alternative investment funds  ",
       "difficulty": "medium"
     },
     {
@@ -438,12 +438,12 @@
         "not_started": {
           "status": "Not Started",
           "link": "https://www.indiacode.nic.in/bitstream/123456789/15394/1/blackmarketing_and_maintenance_of_supplies_of.pdf",
-          "description": "India's agricultural market is heavily controlled by the national government, and doesn't allow for effective private competition. The Economic Survey, 2019-20 states that the lack of the private sector’s presence in the agro-commodity market leads to abysmally low long-term investments in procurement, storage and processing of these commodities in the sector. The government previously introduced the Indian agriculture acts of 2020, however, rolled them back after widespread opposition. The Essential Commodities Act, 1955; and the Prevention of Black marketing and Maintenance of Supplies of Essential Commodities Act, 1980 enable government's tight control over the supply of food items in the marketplace through quota limits, and single-buyer marketplace procurement. "
+          "description": "India's agricultural market is heavily controlled by the national government, and doesn't allow for effective private competition. The Economic Survey, 2019-20 states that the lack of the private sector’s presence in the agro-commodity market leads to abysmally low long-term investments in procurement, storage and processing of these commodities in the sector. The government previously introduced the Indian agriculture acts of 2020, however, rolled them back after widespread opposition. The Essential Commodities Act, 1955 (ECA); and the Prevention of Black Marketing and Maintenance of Supplies of Essential Commodities Act, 1980 (PBMMSECA) enable government's tight control over the supply of food items in the marketplace through quota limits, and single-buyer marketplace procurement. "
         },
         "incomplete": {
           "status": "Incomplete",
           "link": "",
-          "description": "The government allows for limited private sector participation in the agricultural market."
+          "description": "The government announces a voluntary freeze on utilizing the Essential Commodities Act, 1955 (ECA); and the Prevention of Black Marketing and Maintenance of Supplies of Essential Commodities Act, 1980 (PBMMSECA). "
         },
         "completed": {
           "status": "Completed",
@@ -452,7 +452,7 @@
         }
       },
       "status": "not_started",
-      "name": "Liberalize the agricultural market ",
+      "name": "Enact agriculture modernization laws ",
       "difficulty": "high"
     },
     {
@@ -474,7 +474,7 @@
         }
       },
       "status": "not_started",
-      "name": "Increase government support in land acquisition ",
+      "name": "Streamline land acquisition ",
       "difficulty": "high"
     },
     {
@@ -634,13 +634,13 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "",
-          "description": "No foreign firms and/or lawyers are allowed to practice law in India. "
+          "link": "https://www.livelaw.in/pdf_upload/bar-council-of-india-rules-for-registration-and-regulation-of-foreign-lawyers-and-foreign-law-firms-in-india-2022-463531.pdf",
+          "description": "The Bar Council of India Rules for Registration and Regulation of Foreign Lawyers and Foreign Law Firms in India, 2022 allow foreign firms and lawyers to provide legal advice in non-litigious matters on a reciprocal basis. However, regulatory ambiguity persists, and DPIIT has not included \"legal services\" under the FDI ambit. \n"
         },
         "incomplete": {
           "status": "Incomplete",
-          "link": "https://www.livelaw.in/pdf_upload/bar-council-of-india-rules-for-registration-and-regulation-of-foreign-lawyers-and-foreign-law-firms-in-india-2022-463531.pdf",
-          "description": "The Bar Council of India Rules for Registration and Regulation of Foreign Lawyers and Foreign Law Firms in India, 2022 allow foreign firms and lawyers to provide legal advice in non-litigious matters on a reciprocal basis. However, regulatory ambiguity persists, and DPIIT has not included \"legal services\" under the FDI ambit. \n"
+          "link": "",
+          "description": ""
         },
         "completed": {
           "status": "Completed",
@@ -648,8 +648,8 @@
           "description": "The Bar Council of India promulgates rules allowing all  foreign firms and/or lawyers to provide legal services in litigious and non-litigious issues. The Department for Promotion of Industry and Internal Trade allows 100% FDI in \"Legal Services\" under the automatic route."
         }
       },
-      "status": "incomplete",
-      "name": "Open Legal Services for FDI  ",
+      "status": "not_started",
+      "name": "Open legal services for FDI  ",
       "difficulty": "medium"
     }
   ]
