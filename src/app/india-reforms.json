@@ -27,7 +27,7 @@
         "not_started": {
           "status": "Not Started",
           "link": "",
-          "description": "Businesses with operations in multiple states are often audited by multiple state agencies creating operational inefficiencies. There are over 11,000 cases of duplicity of audits. Businesses with operations in multiple states are often audited by multiple state agencies creating operational inefficiencies. There are over 11,000 cases of duplicity of audits. "
+          "description": "Businesses with operations in multiple states are often audited by multiple state agencies creating operational inefficiencies. There are over 11,000 cases of duplicity of audits."
         },
         "incomplete": {
           "status": "Incomplete",
@@ -49,7 +49,7 @@
         "not_started": {
           "status": "Not Started",
           "link": "",
-          "description": "Central Board of Excise & Customs launched the Single Window Interface for Facilitating Trade (SWIFT) in 2016 to get online clearances. This does not include exporters. Additionally, different ports, Directorate General for Foreign Trade (DGFT), banks, and shipping companies have separate procedures for document submission, and clearances.  "
+          "description": "Central Board of Excise and Customs launched the Single Window Interface for Facilitating Trade (SWIFT) in 2016 to get online clearances. This does not include exporters. Additionally, different ports, Directorate General for Foreign Trade (DGFT), banks, and shipping companies have separate procedures for document submission, and clearances.  "
         },
         "incomplete": {
           "status": "Incomplete",
@@ -59,7 +59,7 @@
         "completed": {
           "status": "Completed",
           "link": "",
-          "description": "Government regularizes online submission and clearance at all ports, and creates a single window system for importers and exporters for all trade related submission and clearances. "
+          "description": "The government regularizes online submission and clearance at all ports, and creates a single window system for importers and exporters for all trade related submission and clearances. "
         }
       },
       "status": "not_started",
@@ -71,7 +71,7 @@
         "not_started": {
           "status": "Not Started",
           "link": "",
-          "description": "Banks are required to direct loans to \"priority\" sectors, including agriculture, small businesses, education, and housing. The RBI has reduced the stipulation to below 40%, but stopped short of abolishing the practice entirely, or allows more flexibility in the discharge of these obligations. This slows growth by reducing capital available for the fastest-growing industries."
+          "description": "Banks are required to direct loans to \"priority\" sectors, including agriculture, small businesses, education, and housing. The Reserve Bank of India (RBI) has reduced the stipulation to below 40%, but stopped short of abolishing the practice entirely, or allows more flexibility in the discharge of these obligations. This slows growth by reducing capital available for the fastest-growing industries."
         },
         "incomplete": {
           "status": "Incomplete",
@@ -187,7 +187,7 @@
         "completed": {
           "status": "Completed",
           "link": "",
-          "description": "The Department for Promotion of Industry and Internal Trade ensures central government permits are issued within 5 days for all sectors. "
+          "description": "Department for Promotion of Industry and Internal Trade ensures central government permits are issued within 5 days for all sectors. "
         }
       },
       "status": "not_started",
@@ -274,7 +274,7 @@
         "completed": {
           "status": "Completed",
           "link": "",
-          "description": "The law is passed in Parliament and signed into law by the President of India, and related regulations are issued. "
+          "description": "The law is passed in the Parliament and signed into law by the President of India, and related regulations are issued. "
         }
       },
       "status": "not_started",
@@ -417,7 +417,7 @@
         "not_started": {
           "status": "Not Started",
           "link": "",
-          "description": "Indian Mutual Funds have over $563 billion assets under management as of August, 2023. A fifth of these are debt schemes. Currently, while government bad banks acquire bad assets, Asset Reconstruction Companies (ARC) are not allowed to purchase distressed assets from Mutual Funds or Alternative Investment Funds. Allowing ARCs to operate would accelerate the debt recovery process, and free tied up capital. "
+          "description": "Indian Mutual Funds have over $563 billion assets under management as of August, 2023. A fifth of these are debt schemes. Currently, while government bad banks acquire bad assets, Asset Reconstruction Companies (ARC) are not allowed to purchase distressed assets from mutual funds or alternative investment funds. Allowing ARCs to operate would accelerate the debt recovery process, and free tied up capital. "
         },
         "incomplete": {
           "status": "Incomplete",
@@ -426,11 +426,11 @@
         "completed": {
           "status": "Completed",
           "link": "",
-          "description": "Reserve Bank of India or Securities and Exchange Board of India  issues guidelines to allow Asset Reconstruction Companies to acquire bad assets from Mutual Funds and Alternative Investment Funds. "
+          "description": "The Reserve Bank of India or Securities and Exchange Board of India issues guidelines to allow Asset Reconstruction Companies to acquire bad assets from Mutual Funds and Alternative Investment Funds. "
         }
       },
       "status": "not_started",
-      "name": "Allow asset reconstruction companies (ARCs) to buy distressed assets from mutual funds and alternative investment funds  ",
+      "name": "Allow asset reconstruction companies (ARC) to buy distressed assets from mutual funds and alternative investment funds (AIF)",
       "difficulty": "medium"
     },
     {
@@ -443,12 +443,12 @@
         "incomplete": {
           "status": "Incomplete",
           "link": "",
-          "description": "The government announces a voluntary freeze on utilizing the Essential Commodities Act, 1955 (ECA); and the Prevention of Black Marketing and Maintenance of Supplies of Essential Commodities Act, 1980 (PBMMSECA). "
+          "description": "The government announces a voluntary freeze on utilizing the ECA or the PBMMSECA. "
         },
         "completed": {
           "status": "Completed",
           "link": "",
-          "description": "The government repeals the Essential Commodities Act, 1955; and the Prevention of Black marketing and Maintenance of Supplies of Essential Commodities Act, 1980, and replaces it with comprehensive farm laws to enable private sector participation. "
+          "description": "The government repeals the ECA, 1955; and the PBMMSECA, 1980, and replaces it with comprehensive farm laws to enable private sector participation. "
         }
       },
       "status": "not_started",
@@ -487,7 +487,7 @@
         "incomplete": {
           "status": "Incomplete",
           "link": "",
-          "description": "Government repeals Factories Act, 1948 without replacing it with suitable alternative. \n"
+          "description": "The government repeals the Factories Act, 1948 without replacing it with a suitable alternative. \n"
         },
         "completed": {
           "status": "Completed",
@@ -530,12 +530,12 @@
         "incomplete": {
           "status": "Incomplete",
           "link": "",
-          "description": "Government reduces stake in all public sector banks to under 75%, thereby implementing SEBI guidelines on providing 25% shares for public listing. Government reduces equity in some public sector banks to 33%."
+          "description": "The government reduces stake in all public sector banks to under 75%, thereby implementing SEBI guidelines on providing 25% shares for public listing. The government reduces equity in some public sector banks to 33%."
         },
         "completed": {
           "status": "Completed",
           "link": "",
-          "description": " Government reduces equity in all public sector banks to 33%. "
+          "description": "The government reduces equity in all public sector banks to 33%. "
         }
       },
       "status": "not_started",
@@ -623,11 +623,11 @@
         "completed": {
           "status": "Completed",
           "link": "",
-          "description": "Government adopts a Cabinet resolution on mandatory impact assessment. A specialized RIA unit is established in the Prime Minister's Office to oversee government policymaking. "
+          "description": "The government adopts a Cabinet resolution on mandatory impact assessment. A specialized RIA unit is established in the Prime Minister's Office to oversee government policymaking. "
         }
       },
       "status": "not_started",
-      "name": "Mandate “Regulatory Impact Assessment” for government bodies making legislations, policies, executive orders, actions, or regulatory instruments",
+      "name": "Mandate “regulatory impact assessment” (RIA) for government bodies making legislations, policies, executive orders, actions, or regulatory instruments",
       "difficulty": "medium"
     },
     {
