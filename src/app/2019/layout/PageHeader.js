@@ -12,7 +12,7 @@ export default class PageHeader extends React.Component {
         <h1>
           {pageContent.title}
           <br />
-          <span className="subtitle">{pageContent.subtitle}</span>
+          <span className="subtitle"></span>
         </h1>
         <section className="credit">{pageContent.credit}</section>
         <section className="intro">
