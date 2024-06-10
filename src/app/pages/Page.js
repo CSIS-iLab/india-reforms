@@ -7,6 +7,8 @@ import ReformDetail from '../components/ReformDetail'
 import html2pdf from 'html2pdf.js'
 import Stickyfill from 'stickyfilljs'
 import { Button, Modal } from 'semantic-ui-react'
+import {html2canvas} from 'html2canvas'
+import { jsPDF } from 'jspdf'
 
 export default class Page extends React.Component {
   constructor(props) {
@@ -107,7 +109,7 @@ export default class Page extends React.Component {
       .then(promise => promise.text())
       .then(text => {
         let printStyle = Object.assign(document.createElement('style'), {
-          id: 'print-styles'
+          id: 'print-styles',
         })
         document.head.appendChild(printStyle)
 
@@ -115,31 +117,58 @@ export default class Page extends React.Component {
 
         const regEx = new RegExp(/\n\n/)
 
-        const rules = text.split(regEx).filter(rule => rule.trim())
+        const rules = text.split(regEx).filter((rule) => rule.trim())
 
-        rules.forEach(rule =>
+        rules.forEach((rule) =>
           printStyleSheet.insertRule(rule.replace(/([\r\n]+)/g, ''))
         )
 
         window.scrollTo(0, 0)
+        // html2pdf()
+        //   .set({
+        //     margin: [15, 0, 15, 0],
+        //     pagebreak: {
+        //       avoid: [
+        //         '.header',
+        //         '.description.current',
+        //         '.meta',
+        //         'footer section',
+        //         'p',
+        //         'li',
+        //         'h2'
+        //       ]
+        //     }
+        //   })
+        //   .from(document.querySelector('#root'))
+        //   .save('csis-india-reforms.pdf')
+        //   .then(function() {
+        //     window.location.reload()
+        //   })
 
-        html2pdf()
-          .set({
-            margin: [15, 0, 15, 0],
-            pagebreak: {
-              avoid: [
-                '.header',
-                '.description.current',
-                '.meta',
-                'footer section',
-                'p',
-                'li',
-                'h2'
-              ]
-            }
-          })
-          .from(document.querySelector('#root'))
-          .save('csis-india-reforms.pdf')
+        // const pdfRef = document.querySelector('#root')
+        // const input = pdfRef
+        // html2canvas(pdfRef).then(() => {
+        //   const pdf = new jsPDF('p', 'mm', 'a4', true)
+        //   pdf.save('test.pdf')
+        // })
+
+        var doc = new jsPDF()
+
+        // Source HTMLElement or a string containing HTML.
+        var elementHTML = document.querySelector('#root')
+
+        doc.html(elementHTML, {
+          callback: function (doc) {
+            // Save the PDF
+            doc.save('csis-india-reforms.pdf')
+          },
+          margin: [15, 0, 15, 0],
+          autoPaging: 'text',
+          x: 0,
+          y: 0,
+          width: 190, //target width in the PDF document
+          windowWidth: 675, //window width in CSS pixels
+        })
           .then(function() {
             window.location.reload()
           })
