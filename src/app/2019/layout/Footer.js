@@ -1,6 +1,6 @@
 import React from 'react'
 import GetData from '../helpers/GetData'
-import { ReactComponent as Logo } from '../../assets/images/csis_logo-long.svg'
+import { ReactComponent as Logo } from '../../../assets/images/csis_logo-long.svg'
 import ValueToJSX from '../helpers/ValueToJSX'
 import SocialShare from '../components/SocialShare'
 
@@ -33,7 +33,7 @@ export default class Footer extends React.Component {
             {ValueToJSX(footerContent.about, 'about')}
 
             <section className="site-footer__content-connect">
-              <SocialShare className="footer" />
+              <SocialShare />
               {ValueToJSX(footerContent.address)}
             </section>
           </div>

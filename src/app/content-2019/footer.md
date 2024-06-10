@@ -4,7 +4,7 @@ methodology_title: Methodology
 methodology: To establish this list, CSIS first conducted a literature review, looking
   for the frequency that individual reforms were listed by business associations,
   prominent economists, and government agencies. To refine the list, CSIS conducted
-  a robust interview of prominent economists, policymakers, and experts. CSIS
+  a robust survey of over 50 prominent economists, policymakers, and experts. CSIS
   also organized a series of workshops in Washington D.C. and New Delhi featuring
   experts from outside the Indian government who further refined the list and helped
   determine the difficulty of enacting. Feedback is welcome.

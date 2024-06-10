@@ -41,6 +41,10 @@
       }
     }
 
+    &__text p:has(a) {
+      margin-bottom: 8px;
+    }
+
     @include breakpoint('large', 'max-width') {
       flex-wrap: wrap;
     }
