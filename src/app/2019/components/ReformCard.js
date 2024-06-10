@@ -11,9 +11,7 @@ const colorKey = {
 export default class ReformCard extends React.Component {
   render() {
     const { show, reform } = this.props
-    const htmlContent = {
-      __html: reform.steps[reform.status].description
-    }
+
     return (
       <Card
         data-key={reform.name}
@@ -27,18 +25,16 @@ export default class ReformCard extends React.Component {
             <Label as="span" color={colorKey[reform.status]} ribbon>
               {reform.steps[reform.status].status}
             </Label>
-            <h2 className="title">{reform.name}</h2>
+            <h2>{reform.name}</h2>
           </Card.Header>
           <Card.Meta>
-            <span>{'difficulty'.toUpperCase()}:</span>
+            <span>{'difficulty'.toUpperCase()}:</span>{' '}
             {reform.difficulty.toUpperCase()}
           </Card.Meta>
         </Card.Content>
         <Card.Content>
-          <Card.Description className="current trunctate">
-            <p
-              dangerouslySetInnerHTML={htmlContent}
-            />
+          <Card.Description className="current">
+            <p>{reform.steps[reform.status].description}</p>
           </Card.Description>
         </Card.Content>
         <Card.Content extra>

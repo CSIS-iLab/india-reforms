@@ -1,6 +1,7 @@
 import './web.config'
-import 'react-app-polyfill/ie9'
-import '@babel/polyfill'
+// import 'react-app-polyfill/ie9'
+// import '@babel/polyfill'
+import 'react-app-polyfill/stable'
 
 import 'semantic-ui-css/components/button.min.css'
 import 'semantic-ui-css/components/card.min.css'

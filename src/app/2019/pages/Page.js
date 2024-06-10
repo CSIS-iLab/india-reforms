@@ -1,7 +1,6 @@
 import React from 'react'
 import GetData from '../helpers/GetData'
 import PageHeader from '../layout/PageHeader'
-import PageHeader2019 from '../2019/layout/PageHeader'
 import ReformCard from '../components/ReformCard'
 import ReformDetail from '../components/ReformDetail'
 import html2pdf from 'html2pdf.js'
@@ -64,7 +63,7 @@ export default class Page extends React.Component {
   }
 
   componentDidMount() {
-    require('../../assets/scss/scorecard.scss')
+    require('../../../assets/scss/scorecard.scss')
     const elements = document.querySelectorAll('.sticky')
     Stickyfill.add(elements)
   }
@@ -92,7 +91,7 @@ export default class Page extends React.Component {
   }
 
   componentWillUnmount() {
-    delete require.cache[require.resolve('../../assets/scss/scorecard.scss')]
+    delete require.cache[require.resolve('../../../assets/scss/scorecard.scss')]
 
     window.scrollTo(0, 0)
   }
@@ -178,15 +177,10 @@ export default class Page extends React.Component {
   render() {
     const { pageContent, page, open, active, sort } = this.state
     const { reforms } = this.props
-    // console.log(this.props)
 
     return (
       <React.Fragment>
-        {page === 'homepage' ? (
-          <PageHeader pageContent={pageContent} page={page} />
-        ) : (
-          <PageHeader2019 pageContent={pageContent} page={page} />
-        )}
+        <PageHeader pageContent={pageContent} page={page} />
         <main className={page}>
           <section id="controls" className="sticky">
             <div className="wrapper">
@@ -194,7 +188,7 @@ export default class Page extends React.Component {
                 <span className="icon-sort__text" />
 
                 <Button.Group basic>
-                  {['Status', 'Name', 'Difficulty'].map((sortBy) => (
+                  {['Status', 'Name', 'Difficulty'].map(sortBy => (
                     <Button
                       onClick={this.handleSort}
                       data-sort-by={sortBy.toLowerCase()}
@@ -220,7 +214,7 @@ export default class Page extends React.Component {
           />
           <section id="cards" attached="bottom">
             {reforms && reforms.length
-              ? reforms.map((d) => {
+              ? reforms.map(d => {
                 return <ReformCard reform={d} key={d.name} show={this.show} />
               })
               : ''}
