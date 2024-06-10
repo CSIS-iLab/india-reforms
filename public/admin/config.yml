@@ -4,7 +4,8 @@ local_backend: true
 # live
 backend:
   name: git-gateway
-  # branch: main # Branch to update (optional; defaults to master)
+  # branch: master # Branch to update (optional; defaults to master)
+  # branch: staging # Branch to update. Dev is now selected so we dont override any content that the program is adding.
   branch: development # Branch to update. Dev is now selected so we dont override any content that the program is adding.
 
 media_folder: '_uploads'
