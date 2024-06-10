@@ -235,7 +235,16 @@ export default class Page extends React.Component {
                   ))}
                 </Button.Group>
               </div>
-              <button onClick={this.handlePrint} className="icon-download-doc">
+
+              <button
+                onClick={this.handlePrint}
+                className="icon-download-doc hidden"
+                // className={
+                //   page === 'homepage'
+                //     ? 'icon-download-doc hidden'
+                //     : 'icon-download-doc'
+                // }
+              >
                 <span>Download</span>
                 <span>All Reform Information</span>
               </button>

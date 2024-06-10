@@ -1,7 +1,7 @@
 ---
 slug: homepage
 site_title: "India's Economic Reform Agenda | CSIS"
-title: "India's Economic Reform Agenda"
+title: "India Reforms Scorecard 2.0 (2019-24)"
 subtitle: 'A Scorecard'
 credit: 'Photo: PRAKASH SINGH/AFP/Getty Images'
 iframe: <iframe title="Modi Economic Reforms Scorecard" width="100%" height="360" src="https://www.youtube.com/embed/JL5oEXngen4?rel=0" frameborder="0" allowfullscreen=""></iframe>
