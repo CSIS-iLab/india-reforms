@@ -9,7 +9,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "html2canvas": "^1.4.1",
-    "html2pdf.js": "^0.9.1",
+    "html2pdf.js": "^0.10.3",
     "jspdf": "^2.5.1",
     "react": "^17.0.0",
     "react-app-polyfill": "^1.0.0",
