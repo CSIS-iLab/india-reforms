@@ -557,10 +557,10 @@
         "completed": {
           "status": "Completed",
           "link": "",
-          "description": "The government amends the The Central Goods and Services Act, 2017 for slab rationalization introducing three slabs for all goods and services. "
+          "description": "The GST Council adopted Next-Gen GST Reforms during the 56th Meeting of the Council. The revised rates and exemptions will come into effect on September 22, 2025. GST has now been simplified to a two-slab structure (5 percent and 18 percent) with an additional 40 percent slab for items like tobacco, aerated drinks, and luxury goods. "
         }
       },
-      "status": "not_started",
+      "status": "completed",
       "name": "Rationalize GST slabs to merit, demerit, and exempt",
       "difficulty": "high"
     },
