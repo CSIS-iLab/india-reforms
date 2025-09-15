@@ -386,7 +386,7 @@
           "description": "The Parliament passes the Jan Vishwas Bill 2.0 further rationalizing all the imprisonment clauses. "
         }
       },
-      "status": "incomplete",
+      "status": "not_started",
       "name": "Pass the Jan Vishwas Bill 2.0 ",
       "difficulty": "medium"
     },
