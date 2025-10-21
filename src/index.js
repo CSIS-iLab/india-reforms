@@ -16,9 +16,9 @@ import * as serviceWorker from './serviceWorker'
 import React from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
 import App from './app/App'
-import { render } from 'react-snapshot'
+import ReactDOM from 'react-dom'
 
-render(
+ReactDOM.render(
   <Router>
     <App />
   </Router>,
