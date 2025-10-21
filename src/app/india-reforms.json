@@ -556,11 +556,11 @@
         },
         "completed": {
           "status": "Completed",
-          "link": "",
-          "description": "The government amends the The Central Goods and Services Act, 2017 for slab rationalization introducing three slabs for all goods and services. "
+          "link": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=155151&ModuleId=3",
+          "description": "The GST Council adopted Next-Gen GST Reforms during the 56th Meeting of the Council. The revised rates and exemptions will come into effect on September 22, 2025. GST has now been simplified to a two-slab structure (5 percent and 18 percent) with an additional 40 percent slab for items like tobacco, aerated drinks, and luxury goods. "
         }
       },
-      "status": "not_started",
+      "status": "completed",
       "name": "Rationalize GST slabs to merit, demerit, and exempt",
       "difficulty": "high"
     },
@@ -617,8 +617,8 @@
         },
         "incomplete": {
           "status": "Incomplete",
-          "link": "",
-          "description": "The Cabinet introduces a resolution mandating Regulatory Impact Assessment."
+          "link": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/FRAMRWORK07052025BE1CD2043A3A4D998A27B6E38D5AA2E6.PDF",
+          "description": "The \"Framework for Formulation of Regulations\" by the Reserve Bank of India (RBI), released on May 7, 2025, mandates the inclusion of Regulatory Impact Assessment and public consultation to promote transparent and evidence-based regulation-making. Additionally, Securities and Exchange Board of India (SEBI) also released the SEBI (Procedure for making, amending and reviewing of Regulations) Regulations, 2025, mandating public consultation and stakeholder engagement for the process of regulation making."
         },
         "completed": {
           "status": "Completed",
@@ -626,7 +626,7 @@
           "description": "The government adopts a Cabinet resolution on mandatory impact assessment. A specialized RIA unit is established in the Prime Minister's Office to oversee government policymaking. "
         }
       },
-      "status": "not_started",
+      "status": "incomplete",
       "name": "Mandate “regulatory impact assessment” (RIA) for government bodies making legislations, policies, executive orders, actions, or regulatory instruments",
       "difficulty": "medium"
     },
