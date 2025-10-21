@@ -24,8 +24,10 @@
   },
   "scripts": {
     "setup": "npm install",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src",
     "serve:cms": "npx decap-server",
-    "serve:react": "eslint --fix src && react-app-rewired start",
+    "serve:react": "react-app-rewired start",
     "serve": "npm-run-all --parallel serve:*",
     "start": "npm-run-all --parallel serve",
     "build": "react-app-rewired build",
