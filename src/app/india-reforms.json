@@ -5,6 +5,26 @@
         "not_started": {
           "status": "Not Started",
           "link": "",
+          "description": "test"
+        },
+        "incomplete": {
+          "status": "Incomplete",
+          "link": ""
+        },
+        "completed": {
+          "status": "Completed",
+          "link": ""
+        }
+      },
+      "status": "not_started",
+      "name": "test",
+      "difficulty": "low"
+    },
+    {
+      "steps": {
+        "not_started": {
+          "status": "Not Started",
+          "link": "",
           "description": "Inverted duty structure refers to when intermediate goods have higher customs duties than finished goods. This incentivizes import of final goods, and hampers domestic manufacturing competitiveness. The problem is especially pertinent in cases of FTAs. In December, 2023 the Ministry of Commerce and Industry submitted a list of 14 products with inverted duty structures to the Ministry of Finance. \n"
         },
         "incomplete": {
