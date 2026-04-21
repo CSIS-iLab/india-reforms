@@ -373,17 +373,17 @@
         "not_started": {
           "status": "Not Started",
           "link": "https://egazette.gov.in/WriteReadData/2023/248047.pdf",
-          "description": "India has a myriad of regulatory compliances at the center and state level, non-adherence for which can lead to imprisonment. This can be a hindrance for businesses, and also take up valuable legal state capacity. The government released the Jan Vishwas Act in 2023 rationalizing 183 provisions in 42 central acts. The government can further rationalize over 26,000 imprisonment clauses that hinder ease of doing business. "
+          "description": "India has a myriad of regulatory compliances at the center and state level, non-adherence for which can lead to imprisonment. This can be a hindrance for businesses, and also take up valuable legal state capacity. The government released the Jan Vishwas Act in 2023 rationalizing 183 provisions in 42 central acts. The government can further rationalize over 26,000 imprisonment clauses that hinder ease of doing business."
         },
         "incomplete": {
           "status": "Incomplete",
           "link": "",
-          "description": "Ministry of Law and Justice releases a draft bill regularizing imprisonment clauses. \n"
+          "description": "Ministry of Law and Justice releases a draft bill regularizing imprisonment clauses."
         },
         "completed": {
           "status": "Completed",
           "link": "",
-          "description": "The Parliament passes the Jan Vishwas Bill 2.0 further rationalizing all the imprisonment clauses. "
+          "description": "The Parliament passes the Jan Vishwas Bill 2.0 further rationalizing all the imprisonment clauses."
         }
       },
       "status": "completed",
