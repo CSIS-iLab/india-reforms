@@ -59,6 +59,9 @@
     "stylelint-scss": "^3.3.2",
     "stylelint-webpack-plugin": "^0.10.5"
   },
+  "overrides": {
+    "shell-quote": "1.8.3"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
