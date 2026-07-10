@@ -481,22 +481,22 @@
       "steps": {
         "not_started": {
           "status": "Not Started",
-          "link": "https://labour.gov.in/sites/default/files/factories_act_1948.pdf",
-          "description": "The Factories Act, 1948 has several restrictive measures on labor including limited daily, and weekly hours; overtime hours; and permissible time in factories. Several countries like Vietnam, China, Thailand, and Bangladesh allow for greater flexibility, and therefore can be more competitive in securing manufacturing investments. Since Covid-19, several states like Karnataka, Tamil Nadu, and Uttar Pradesh have released ordinances, and amendments easing labor laws. "
+          "link": "https://www.indiacode.nic.in/handle/123456789/1413?sam_handle=123456789/1362",
+          "description": "India’s civil nuclear sector remains almost entirely state-controlled under the Atomic Energy Act, 1962, which reserves plant ownership, operation, and fuel-cycle activities for government entities. The Civil Liability for Nuclear Damage Act, 2010, imposes a strict liability regime on suppliers that many foreign vendors view as commercially prohibitive, stalling international nuclear cooperation agreements signed over the past decade. With India targeting a major expansion of nuclear capacity to meet its net-zero goals, the lack of private capital and foreign technology partnerships is becoming a binding constraint.  "
         },
         "incomplete": {
           "status": "Incomplete",
           "link": "",
-          "description": "The government repeals the Factories Act, 1948 without replacing it with a suitable alternative. \n"
+          "description": "The government introduces legislation to replace the Atomic Energy Act, 1962, and the Civil Liability for Nuclear Damage Act, 2010, and revise the liability framework, allowing private and joint-venture participation in nuclear power generation while retaining state control over sensitive fuel-cycle activities like enrichment and reprocessing. \n"
         },
         "completed": {
           "status": "Completed",
-          "link": "",
-          "description": "Ministry of Labor and Employment releases comprehensive laws increasing the number of permissible working hours; simplifying discrepancies between daily and weekly hours, overtime hours; and facilitating greater female participation. "
+          "link": "https://cdnbbsr.s3waas.gov.in/s35b8e4fd39d9786228649a8a8bec4e008/uploads/2026/06/20260605195774330.pdf",
+          "description": "Parliament passes the legislation, opening India’s civil nuclear sector to private investment.  "
         }
       },
-      "status": "not_started",
-      "name": "Repeal Factories Act, 1948 and replace it with comprehensive laws to support industrial labor employment ",
+      "status": "completed",
+      "name": "Allow private sector participation in India’s nuclear energy framework ",
       "difficulty": "high"
     },
     {
